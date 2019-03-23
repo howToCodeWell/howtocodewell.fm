@@ -11,5 +11,7 @@ GIT_REPO=git@github.com:howToCodeWell/howToCodeWellFM.git
 
 git clone $GIT_REPO $LOCAL_APP
 
-docker-compose -f $DOCKER_COMPOSE_FILE up -d
-docker-compose -f $DOCKER_COMPOSE_FILE exec  jekyll jekyll build -s $TMP_GIT_CLONE
+cd $LOCAL_APP
+
+docker-compose up -d
+docker-compose exec  jekyll jekyll build
