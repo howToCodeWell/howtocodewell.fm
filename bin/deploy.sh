@@ -1,17 +1,12 @@
 #!/bin/bash -l
 
-APP_ROOT=$HOME/app
 REPO_NAME=howToCodeWellFM
-LOCAL_APP=$APP_ROOT/$REPO_NAME
-DOCKER_COMPOSE_FILE=$LOCAL_APP/docker-compose.yml
-
-mkdir -p $APP_ROOT
-
+APP_ROOT=$HOME/$REPO_NAME
 GIT_REPO=git@github.com:howToCodeWell/howToCodeWellFM.git
 
-git clone $GIT_REPO $LOCAL_APP
+git clone $GIT_REPO $APP_ROOT
 
-cd $LOCAL_APP
+cd $APP_ROOT
 
 docker-compose up -d
 docker-compose exec  jekyll jekyll build
