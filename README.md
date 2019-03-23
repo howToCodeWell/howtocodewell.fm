@@ -6,7 +6,7 @@
 - Docker Machine
 - Docker Compose
 
-## Install
+## Install 
 
 Build the Docker machine, image and container
 ```
@@ -22,3 +22,15 @@ $ docker-machine ip howtocodewell.fm
 ```
 Now go to the IP in the browser
 
+## Deployment
+```
+$ cd $HOME
+$ git clone git@github.com:howToCodeWell/howToCodeWellFM.git howToCodeWellFM
+$ chmod u+x $HOME/howToCodeWellFM/bin/deploy.sh
+$ .$HOME/howToCodeWellFM/bin/deploy.sh
+```
+
+## Logs
+```
+$ docker-compose logs -f jekyll
+```
