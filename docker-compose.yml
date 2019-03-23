@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  jekyll:
+    image: jekyll/jekyll:latest
+    command: jekyll serve --watch --force_polling --verbose
+    ports:
+      - 80:4000
+    volumes:
+      - .:/srv/jekyll
+    env_file:
+        - .env
