@@ -1,6 +1,6 @@
 #!/bin/bash -l
 
-APP_ROOT=/app
+APP_ROOT=$HOME/app
 REPO_NAME=howToCodeWellFM
 LOCAL_APP=$APP_ROOT/$REPO_NAME
 DOCKER_COMPOSE_FILE=$LOCAL_APP/docker-compose.yml
