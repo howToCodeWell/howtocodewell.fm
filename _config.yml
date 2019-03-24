@@ -16,8 +16,8 @@
 title: How To Code Well FM - Weekly Web Development Podcast
 email: your-email@example.com
 description: A weekly web development and programming podcast with interviews from the great minds within the web development industry. Hosted by Peter Fisher from How To Code Well
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: ""
+url: "http://howtocodewell.fm"
 twitter_username: howtocodewell
 github_username:  pfwd
 
