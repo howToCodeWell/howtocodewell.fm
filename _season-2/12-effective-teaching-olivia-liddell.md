@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  "Effective Teaching"
-date:   2019-03-22 16:31:50 -0000
-categories: season-1
+date:   2019-03-22
 youtubeId: AlIe4LoRnKo
 guest: Olivia Liddell
 guests_twitter: oliravi
