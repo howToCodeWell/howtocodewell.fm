@@ -3,6 +3,7 @@ layout: post
 title:  "Web Dev Simplified Web Development Soft Skills"
 date:   2019-03-15
 youtubeId: us1aBMEaLCU
+podcast_id: 9020213
 guest: Kyle Cook
 guests_twitter: devsimplified
 ---
