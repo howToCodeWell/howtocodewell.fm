@@ -6,6 +6,7 @@ youtubeId: xI8sQBV26RA
 podcast_id: 8834243
 guest: Antonio Radovcic
 guests_twitter: devlids
+profile_img: jYeKQQdE_400x400.jpg
 ---
 
 I interviewed Antonio Radovcic about his laptop stickers project called [DevLids](http://devlids.com). 

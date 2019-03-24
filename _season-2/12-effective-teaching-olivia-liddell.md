@@ -6,6 +6,7 @@ youtubeId: AlIe4LoRnKo
 podcast_id: 9105707
 guest: Olivia Liddell
 guests_twitter: oliravi
+profile_img: TSlMrGu0_400x400.jpg
 ---
 
 Being able to effectively teach and train members of your web development team is a vital skill to have. Not only do we need to communicate your code changes to other developers but you may also need to help the end users to learn the new features that you have developed. 

@@ -6,7 +6,7 @@ youtubeId: Q7ROMmE1RGU
 podcast_id: 8927141
 guest: Ash Furrow
 guests_twitter: ashfurrow
-
+profile_img: rwLvlp25_400x400.jpg
 ---
 
 Ash Furrow talks about compassionate software development in today's How To Code Well podcast. Ash Furrow is a speaker, author, volunteer and open source contributor. Ash runs a weekly Peer Lab in New York and is a volunteer at Pursuit (Formally known as Coalition for Queens or C4Q)

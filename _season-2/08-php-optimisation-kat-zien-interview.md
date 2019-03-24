@@ -6,6 +6,7 @@ youtubeId: d2-dDXBZB6M
 podcast_id: 8663555
 guest: Kat Zieñ
 guests_twitter: kasiazien
+profile_img: xir0RfsZ_400x400.jpg
 ---
 
 Todays podcast guest is Kat Zieñ who is a Fincrime engineer at Monzo, a co-organiser at PHP South West and London Gophers.

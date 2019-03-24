@@ -6,6 +6,7 @@ youtubeId: Cv_KKuHpsx8
 podcast_id: 8226467
 guest: Peter Fisher
 guests_twitter: pfwd
+profile_img: vNR3QP0D_400x400.jpg
 ---
 PHP 5.6 has reached End Of Life (EOL). There will be many developers who are looking to upgrade to PHP 7 but before the upgrade can be made lots of decisions, testing and adjustments need to be made. At the time of recording the stable version of PHP is 7.3
 
