@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/css/site.css">
+  </head>
+  <body>
+  <div class="outer-container">
+  <div class="grid-container">
+
+    <header class="header">
+      <nav>
+        <a href="/">Home</a>
+        <a href="/schedule/">Schedule</a>
+    </nav>
+    </header>
+      <main class="main">
+        <h1>{{ page.title }}</h1>
+        Published: {{ page.date | date_to_long_string  }}
+        {% include youtubePlayer.html id=page.youtubeId %}
+        Audio
+
+        Guest:
+        {{ page.guest }}
+        <a href="https://twitter.com/{{ page.guests_twitter }}" title="{{ page.guest }}">
+          <img alt="{{ page.guest }}" src="https://twitter.com/{{page.guests_twitter}}/profile_image?size=bigger"/>
+        </a>
+
+        {{ content }}
+        <iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/9105707/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/ffffff/menu/no/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+        <hr/>
+        {% include postLinks.html %}
+
+
+      </main>
+    <footer class="footer">
+      &copy; howtocodewell
+    </footer>
+
+      </div>
+    </div>
+  </body>
+</html>

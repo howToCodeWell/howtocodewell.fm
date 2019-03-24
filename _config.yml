@@ -30,6 +30,18 @@ theme: minima
 plugins:
   - jekyll-feed
 
+defaults:
+  - scope:
+      path: ""
+      type: "season-2"
+    values:
+      layout: post
+
+collections:
+  season-2:
+    output: true
+    permalink: /season-2/:name
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
