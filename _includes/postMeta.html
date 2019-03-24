@@ -1,0 +1,34 @@
+{% assign description = site.description %}
+{% if include.description == '' %}
+    {% assign description = include.description %}
+{% endif %}
+
+{% assign title = site.title %}
+{% if include.title == '' %}
+    {% assign title = include.title %}
+{% endif %}
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name=viewport content="width=device-width, initial-scale=1">
+<meta name="description" content="{{ description }}"/>
+<meta name="twitter:card" content="summary">
+<meta name="twitter:creator" content="@pfwd">
+<meta name="twitter:site" content="@howtocodewell">
+<meta property="og:title" content="{{title}}">
+<meta property="og:description" content="{{description}}">
+
+<meta name="twitter:image" content="https://i.ytimg.com/vi/{{include.youtubeId}}/maxresdefault.jpg">
+<meta name="twitter:player" content="https://www.youtube.com/embed/{{include.youtubeId}}?rel=0">
+<meta name="twitter:player:width" content="480">
+<meta name="twitter:player:height" content="480">
+<meta name="twitter:image:alt" content="{{title}}">
+<meta property="og:site_name" content="How To Code Well Podcast">
+<meta property="og:url" content="http://howtocodewell.fm{{page.url}}">
+<meta property="og:type" content="article">
+<meta property="og:title" content="{{title}}">
+<meta property="og:image" content="https://i.ytimg.com/vi/{{include.youtubeId}}/maxresdefault.jpg">
+<meta property="og:video" content="https://www.youtube.com/embed/{{include.youtubeId}}?rel=0">
+<meta property="og:video:width" content="480">
+<meta property="og:video:height" content="480">
+
+<title>{{title}}</title>
