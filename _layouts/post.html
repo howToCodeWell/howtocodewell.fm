@@ -18,7 +18,7 @@
         Published: {{ page.date | date_to_long_string  }}
         {% include youtubePlayer.html id=page.youtubeId %}
         {{ page.guest }}
-        {% include twitterImage.html alt_text=page.guest handle=page.guests_twitter %}
+        {% include twitterImage.html alt_text=page.guest handle=page.guests_twitter profile_img=page.profile_img %}
 
         {{ content }}
 
