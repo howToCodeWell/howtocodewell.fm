@@ -15,7 +15,8 @@ In today's podcast episode I am joined by Olivia Liddell cloud training speciali
 
 Olivia is a former Chicago Public Schools teacher who now specialises in technology training and change management. She is passionate about teaching, mentoring, and distance running.
 
-- [Follow Olivia Liddell on Twitter](https://twitter.com/oliravi)
+### Follow Olivia Liddell
+- [Twitter: oliravi](https://twitter.com/oliravi)
 - [Slides from Sunshine PHP 2019 talk](https://www.slideshare.net/OliviaLiddell/olivia-liddell-sunshine-php-2019-think-like-a-trainer-improving-your-communication-skills)
 
 -------------------------------

@@ -1,0 +1,70 @@
+{
+    "list": [
+      {
+        "guest": "William A. Ibarra",
+        "date": "2019-03-29",
+        "twitter_handle": "aviatorservices",
+        "topic": "PHP + Bitcoin + On demand Air Travel"
+      },
+      {
+        "guest": "Jeremy Onion",
+        "date": "2019-04-05",
+        "twitter_handle": "balther74",
+        "topic": "Recuritment, CV writing and interviews"
+      },
+      {
+        "guest": "Oliver Davies",
+        "date": "2019-04-12",
+        "twitter_handle": "opdavies",
+        "topic": "Drupal 7 vs Drupal 8"
+      },
+      {
+        "guest": "Matt Trask",
+        "date": "2019-04-19",
+        "twitter_handle": "matthewtrask",
+        "topic": "Mental health in web development"
+      },
+      {
+        "guest": "Code Bar",
+        "date": "2019-04-26",
+        "twitter_handle": "codebar",
+        "topic": "Learning to code at Codebar"
+      },
+      {
+        "guest": "Tom Vorel",
+        "date": "2019-05-03",
+        "twitter_handle": "tomasvorel13",
+        "topic": "Best self taught developer resources"
+      },
+      {
+        "guest": "John Jacob",
+        "date": "2019-05-10",
+        "twitter_handle": "johnsalzarulo",
+        "topic": "Iteration Podcast"
+      },
+      {
+        "guest": "Rob Waller",
+        "date": "",
+        "twitter_handle": "RobDWaller",
+        "topic": ""
+      },
+      {
+        "guest": "Rob Wilson",
+        "date": "",
+        "twitter_handle": "devtoolboxuk",
+        "topic": ""
+      },
+      {
+        "guest": "Drew McLellan",
+        "date": "",
+        "twitter_handle": "drewm",
+        "topic": ""
+      },
+      {
+        "guest": "Jacques Woodcock",
+        "date": "",
+        "twitter_handle": "jacqueswoodcock",
+        "topic": ""
+      },
+    ]
+}
