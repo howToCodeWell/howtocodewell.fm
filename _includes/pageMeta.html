@@ -1,0 +1,28 @@
+{% assign description = site.description %}
+{% if include.description == '' %}
+    {% assign description = include.description %}
+{% endif %}
+
+{% assign title = site.title %}
+{% if include.title == '' %}
+    {% assign title = include.title %}
+{% endif %}
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name=viewport content="width=device-width, initial-scale=1">
+<meta name="description" content="{{ description }}"/>
+<meta property="og:url" content="http://howtocodewell.fm{{page.url}}">
+<meta property="og:title" content="{{title}}">
+<meta property="og:description" content="{{description}}">
+<meta property="og:image" content="http://howtocodewell.fm/assets/images/logos/howtocodewell_logo_1200x1200.jpg">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:creator" content="@pfwd">
+<meta name="twitter:site" content="@howtocodewell">
+<meta name="twitter:title" content="{{title}}">
+<meta name="twitter:description" content="{{description}}">
+<meta name="twitter:image" content="http://howtocodewell.fm/assets/images/logos/howtocodewell_logo_800x418.jpg">
+
+<meta name="twitter:image:alt" content="How To Code Well - Weekly podcast for web developers">
+
+<title>{{title}}</title>
