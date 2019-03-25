@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/css/site.css">
+  </head>
+  <body>
+  <div class="outer-container">
+  <div class="grid-container">
+
+    <header class="header">
+      {% include pageNav.html %}
+    </header>
+      <main class="main">
+        {{ content }}
+      </main>
+    <footer class="footer">
+     {% include pageFooter.html %}
+    </footer>
+
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: season
 ---
 
 ## Season 2 
