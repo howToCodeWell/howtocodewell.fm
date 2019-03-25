@@ -1,27 +1,6 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    {% include pageMeta.html description=page.description title=page.title %}
-    <link rel="stylesheet" href="/css/site.css">
-  </head>
-  <body>
-  <div class="outer-container">
-  <div class="grid-container">
-
-    <header class="header">
-      {% include pageNav.html %}
-    </header>
-      <main class="main">
-        <h1>{{ page.title }}</h1>
-        {{ content }}
-
-
-      </main>
-    <footer class="footer">
-     {% include pageFooter.html %}
-    </footer>
-
-      </div>
-    </div>
-  </body>
-</html>
+{% include header.html %}
+    <main class="main">
+      <h1>{{ page.title }}</h1>
+      {{ content }}
+    </main>
+{% include footer.html %}

@@ -1,36 +1,15 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    {% include postMeta.html description=page.description title=page.title youtubeId=page.youtubeId%}
-    <link rel="stylesheet" href="/css/site.css">
-  </head>
-  <body>
-  <div class="outer-container">
-  <div class="grid-container">
-    <header class="header">
-      {% include pageNav.html %}
-    </header>
+{% include header.html %}
+<main class="main">
+  <h1>{{ page.title }}</h1>
+  Published: {{ page.date | date_to_long_string  }}
+  {% include youtubePlayer.html id=page.youtubeId %}
+  {{ page.guest }}
+  {% include twitterImage.html alt_text=page.guest handle=page.guests_twitter profile_img=page.profile_img %}
 
-      <main class="main">
-        <h1>{{ page.title }}</h1>
-        Published: {{ page.date | date_to_long_string  }}
-        {% include youtubePlayer.html id=page.youtubeId %}
-        {{ page.guest }}
-        {% include twitterImage.html alt_text=page.guest handle=page.guests_twitter profile_img=page.profile_img %}
+  {{ content }}
 
-        {{ content }}
-
-        {% include podcastPlayer.html id=page.podcast_id %}
-        <hr/>
-        {% include postLinks.html %}
-
-
-      </main>
-    <footer class="footer">
-     {% include pageFooter.html %}
-    </footer>
-
-      </div>
-    </div>
-  </body>
-</html>
+  {% include podcastPlayer.html id=page.podcast_id %}
+  <hr/>
+  {% include postLinks.html %}
+</main>
+{% include footer.html %}
