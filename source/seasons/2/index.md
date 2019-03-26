@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Season 2 - 2019
 generator: pagination
 pagination:
     provider: data.season_2
@@ -7,8 +8,9 @@ pagination:
 use:
   - season_2
 ---
+
 {% for episode in page.pagination.items %}
-{% if episode.title != 'Season 2 - 2019' %}
+{% if episode.title is not empty %}
 <div class="wrapper">
   <div class="box text">{{episode.date | date('jS F Y') }}</div>
       <div class="box">
@@ -18,17 +20,3 @@ use:
 </div>
 {% endif %}
 {% endfor %}
-
-<nav>
-{% if page.pagination.previous_page or page.pagination.next_page %}
-    {% if page.pagination.previous_page %}
-        <a href="{{ site.url }}{{ page.pagination.previous_page.url }}">Newer Items</a>
-    {% endif %}
-    {% if page.pagination.next_page %}
-        <a href="{{ site.url }}{{ page.pagination.next_page.url }}">Older Items</a>
-    {% endif %}
-{% endif %}
-</nav>
-
-
-

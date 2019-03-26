@@ -2,6 +2,7 @@
 layout: post
 title:  "Open Source Recruitment"
 date:   2019-02-01
+season: 2
 youtubeId: pQqd60NIjpk
 podcast_id: 8481542
 guest: Nathaniel Smith

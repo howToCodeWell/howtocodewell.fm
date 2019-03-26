@@ -2,7 +2,7 @@ sculpin_content_types:
     posts:
         enabled: false
     season_2:
-        path: season-2
+        path: seasons/2
         permalink: pretty
         layout: default
         singular_name: episode

@@ -2,6 +2,7 @@
 layout: post
 title:  "From Self Taught Coder to React Developer"
 date:   2019-01-18
+season: 2
 youtubeId: gXtwCIB_1k0
 podcast_id: 8233517
 guest: Tom Vorel

@@ -2,6 +2,7 @@
 layout: post
 title:  "PHP Optimisation"
 date:   2019-02-22
+season: 2
 youtubeId: d2-dDXBZB6M
 podcast_id: 8663555
 guest: Kat Zieñ

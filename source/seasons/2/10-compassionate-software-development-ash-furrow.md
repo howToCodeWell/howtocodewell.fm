@@ -2,6 +2,7 @@
 layout: post
 title:  "Compassionate Software Development "
 date:   2019-03-08
+season: 2
 youtubeId: Q7ROMmE1RGU
 podcast_id: 8927141
 guest: Ash Furrow

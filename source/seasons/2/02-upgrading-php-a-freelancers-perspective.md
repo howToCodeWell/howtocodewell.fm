@@ -2,6 +2,7 @@
 layout: post
 title:  "Upgrading PHP - A Freelancers Perspective"
 date:   2019-01-11
+season: 2
 youtubeId: Cv_KKuHpsx8
 podcast_id: 8226467
 guest: Peter Fisher

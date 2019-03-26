@@ -2,6 +2,7 @@
 layout: post
 title:  "Effective Teaching"
 date:   2019-03-22
+season: 2
 youtubeId: AlIe4LoRnKo
 podcast_id: 9105707
 guest: Olivia Liddell

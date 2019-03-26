@@ -2,6 +2,7 @@
 layout: post
 title:  "2019 Web Development Predictions"
 date:   2019-01-01
+season: 2
 youtubeId: 2VOB32dNUGo
 podcast_id: 8095223
 guest: Peter Fisher

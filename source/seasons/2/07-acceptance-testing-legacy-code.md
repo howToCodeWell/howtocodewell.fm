@@ -2,6 +2,7 @@
 layout: post
 title:  "Acceptance Testing Legacy Code"
 date:   2019-02-09
+season: 2
 youtubeId: dYt-t8mLTB8
 podcast_id: 8534090
 guest: Peter Fisher

@@ -2,6 +2,7 @@
 layout: post
 title:  "Up coming podcast guests, channel announcements and more"
 date:   2019-01-16
+season: 2
 youtubeId: 1pa85KAPNIw
 podcast_id: 8283836
 guest: Peter Fisher

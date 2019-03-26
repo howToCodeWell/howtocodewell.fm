@@ -2,6 +2,7 @@
 layout: post
 title:  "Web Development Laptop Stickers"
 date:   2019-03-01
+season: 2
 youtubeId: xI8sQBV26RA
 podcast_id: 8834243
 guest: Antonio Radovcic
