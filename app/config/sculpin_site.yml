@@ -2,6 +2,13 @@ meta:
     title: How To Code Well A Weekly Web Development Podcast
     description: Weekly web development podcast with discussions from developers and industry leaders from within the industry
 
+featured:
+    youtubeId: AlIe4LoRnKo
+    podcast_id: 9105707
+    guest: Olivia Liddell
+    guests_twitter: oliravi
+    profile_img: TSlMrGu0_400x400.jpg
+
 schedule:
   - 
     "guest": "William A. Ibarra"

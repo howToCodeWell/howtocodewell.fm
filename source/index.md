@@ -5,11 +5,14 @@ pagination:
     provider: data.episodes
     max_per_page: 10
 use:
-  - episodes
+  - episodes 
 meta:
     description: "How To Code Well FM - A weekly podcast with guests from within the web development industry"
     title: "How to Code Well Podcast - Weekly web development discussions" 
 ---
+
+{% include "podcastPlayer.html.twig" with { id: site.featured.podcast_id } %}
+
 {% for episode in page.pagination.items %}
 {% if episode.title != 'Season 2 - 2019' %}
 <div class="wrapper">
