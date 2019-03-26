@@ -1,4 +1,5 @@
 /bin/
+!/bin/deploy.sh
 .idea
 /.sculpin/
 /app/cache/*

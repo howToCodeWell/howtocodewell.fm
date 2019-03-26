@@ -1,0 +1,17 @@
+version: '3.4'
+
+services:
+  howtocodewell_fm:
+
+    build:
+      context: .
+      target: prod-env
+    ports:
+      - 80:80
+    restart: always
+    volumes:
+        - .:/var/www/html
+        - ./apache2/prod/config/sites-available/000-default.conf:/etc/apache2/sites-available/000-default.conf
+        - ./apache2/prod/config/php/php.ini:/usr/local/etc/php/php.ini
+    environment:
+        - APACHE_DOCUMENT_ROOT=/var/www/html/output_prod
