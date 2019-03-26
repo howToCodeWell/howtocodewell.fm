@@ -59,4 +59,4 @@ RUN bin/sculpin generate --env=prod
 # Clean image (No build tools)
 ########################################################################################################################
 FROM webserver-base as prod-env
-COPY --from=prod-builder /var/www/html/output_prod /var/www/html
+COPY --from=prod-builder /var/www/html/output_prod /var/www/html/output_prod

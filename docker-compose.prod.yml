@@ -14,4 +14,4 @@ services:
         - ./apache2/prod/config/sites-available/000-default.conf:/etc/apache2/sites-available/000-default.conf
         - ./apache2/prod/config/php/php.ini:/usr/local/etc/php/php.ini
     environment:
-        - APACHE_DOCUMENT_ROOT=/var/www/html
+        - APACHE_DOCUMENT_ROOT=/var/www/html/output_prod
