@@ -6,6 +6,10 @@ pagination:
     max_per_page: 10
 use:
   - episodes
+
+meta:
+    description: How To Code Well FM - Podcast episodes
+    title: How to Code Well Podcast - Podcast seasons
 ---
 # Episodes
 
