@@ -53,9 +53,10 @@ RUN php /usr/local/bin/composer install
 ########################################################################################################################
 FROM test-env as prod-builder
 RUN php /usr/local/bin/composer install -o --no-dev
+RUN bin/sculpin generate --env=prod
 ########################################################################################################################
 # PROD ENV
 # Clean image (No build tools)
 ########################################################################################################################
 FROM webserver-base as prod-env
-COPY --from=prod-builder /var/www/html /var/www/html
+COPY --from=prod-builder /var/www/html/output_prod /var/www/html

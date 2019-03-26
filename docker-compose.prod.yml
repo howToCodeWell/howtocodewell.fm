@@ -1,8 +1,5 @@
 version: '3.4'
 
-volumes:
-  vendor:
-
 services:
   howtocodewell_fm:
 
@@ -16,6 +13,5 @@ services:
         - .:/var/www/html
         - ./apache2/prod/config/sites-available/000-default.conf:/etc/apache2/sites-available/000-default.conf
         - ./apache2/prod/config/php/php.ini:/usr/local/etc/php/php.ini
-        - vendor:/var/www/html/vendor
     environment:
-        - APACHE_DOCUMENT_ROOT=/var/www/html/output_prod
+        - APACHE_DOCUMENT_ROOT=/var/www/html
