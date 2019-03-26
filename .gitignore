@@ -1,4 +1,4 @@
-/bin/
+/bin/*
 !/bin/deploy.sh
 .idea
 /.sculpin/
