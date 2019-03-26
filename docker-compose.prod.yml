@@ -13,6 +13,7 @@ services:
       - 80:80
     restart: always
     volumes:
+        - .:/var/www/html
         - ./apache2/prod/config/sites-available/000-default.conf:/etc/apache2/sites-available/000-default.conf
         - ./apache2/prod/config/php/php.ini:/usr/local/etc/php/php.ini
         - site:/var/www/html/output_prod
