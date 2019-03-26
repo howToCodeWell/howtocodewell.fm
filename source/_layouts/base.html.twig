@@ -1,24 +1,27 @@
 <!doctype html>
 <html lang="en">
   <head>
-    {% block head_meta %}
+
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name=viewport content="width=device-width, initial-scale=1">
-    <meta name="description" content="{{ description | default ('')}}"/>
+
+    {% block head_meta %}
+    <meta name="description" content="{{ page.description | default(site.meta.description) }}"/>
     <meta property="og:url" content="http://howtocodewell.fm{{page.url | default ('') }}">
-    <meta property="og:title" content="{{title}}">
-    <meta property="og:description" content="{{description}}">
+    <meta property="og:title" content="{{ page.title | default(site.meta.title) }}">
+    <meta property="og:description" content="{{ page.description | default(site.meta.description) }}">
     <meta property="og:image" content="http://howtocodewell.fm/assets/images/logos/howtocodewell_logo_1200x1200.jpg">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:creator" content="@pfwd">
     <meta name="twitter:site" content="@howtocodewell">
-    <meta name="twitter:title" content="{{title | default ('') }}">
-    <meta name="twitter:description" content="{{description | default ('') }}">
+    <meta name="twitter:title" content="{{ page.title | default(site.meta.title) }}">
+    <meta name="twitter:description" content="{{ page.description | default(site.meta.description) }}">
     <meta name="twitter:image" content="http://howtocodewell.fm/assets/images/logos/howtocodewell_logo_800x418.jpg">
     <meta name="twitter:image:alt" content="How To Code Well - Weekly podcast for web developers">
     {% endblock %}
-    <title>{% block title %}{{ page.title }}{% endblock %}</title>
+
+    <title>{% block title %}{{ page.title | default(site.meta.description) }}{% endblock %}</title>
     <link rel="stylesheet" href="/assets/css/site.css">
     {% block head_styles %}{% endblock %}
     {% block head_scripts %}{% endblock %}
