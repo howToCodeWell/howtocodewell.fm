@@ -1,7 +1,7 @@
 # Howtocodewell Podcast
 
 ## Requirements
-- Composer
+- Jeykell
 - Docker
 - Docker Machine
 - Docker Compose

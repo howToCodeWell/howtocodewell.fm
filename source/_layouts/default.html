@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {% block head_meta %}
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ description | default ('')}}"/>
+    <meta property="og:url" content="http://howtocodewell.fm{{page.url | default ('') }}">
+    <meta property="og:title" content="{{title}}">
+    <meta property="og:description" content="{{description}}">
+    <meta property="og:image" content="http://howtocodewell.fm/assets/images/logos/howtocodewell_logo_1200x1200.jpg">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:creator" content="@pfwd">
+    <meta name="twitter:site" content="@howtocodewell">
+    <meta name="twitter:title" content="{{title | default ('') }}">
+    <meta name="twitter:description" content="{{description | default ('') }}">
+    <meta name="twitter:image" content="http://howtocodewell.fm/assets/images/logos/howtocodewell_logo_800x418.jpg">
+    <meta name="twitter:image:alt" content="How To Code Well - Weekly podcast for web developers">
+    {% endblock %}
+    <title>{% block title %}{{ page.title }}{% endblock %}</title>
+    <link rel="stylesheet" href="/assets/css/site.css">
+    {% block head_styles %}{% endblock %}
+    {% block head_scripts %}{% endblock %}
+  </head>
+  <body>
+  <div class="outer-container">
+      <div class="grid-container">
+
+        <header class="header">
+          <a href="/" class="logo">How To Code Well Podcast</a>
+          <input class="menu-btn" type="checkbox" id="menu-btn" />
+          <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+          <ul class="menu">
+            <li><a href="/schedule">Schedule</a></li>
+          </ul>
+        </header>
+    <main class="main">
+      <h1>{{ page.title }}</h1>
+      {% block content_wrapper %}
+          {% block content %}{% endblock %}
+      {% endblock %}
+    </main>
+
+    <footer class="footer">
+     <hr/>
+      Running in Docker, Scripted in Jekyll, Stored in <a href="https://github.com/howToCodeWell/howToCodeWellFM">GitHub</a>
+      <br/>
+      <a href="https://howtocodewell.libsyn.com/rss">RSS Feed</a>
+    </footer>
+
+      </div>
+    </div>
+  </body>
+</html>

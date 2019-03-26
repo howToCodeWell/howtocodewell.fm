@@ -1,0 +1,24 @@
+{
+    "name": "howotocodewell/howtocodewellfm",
+    "description": "How To Code Well Podcast",
+    "type": "project",
+    "keywords": ["sculpin"],
+    "homepage": "https://github.com/howtocodewell/howtocodewellfm",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Peter Fisher",
+            "homepage": "http://peterfisher.me.uk",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "sculpin/sculpin": "^2.1@dev",
+        "dflydev/embedded-composer": "@dev"
+    },
+    "config": {
+          "bin-dir": "bin",
+          "sort-packages": true
+      }
+}
