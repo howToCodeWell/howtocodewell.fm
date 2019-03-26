@@ -1,19 +1,23 @@
 ---
 layout: default
 title: Home
+pagination:
+    max_per_page: 3
 use: [season-2]
 ---
+<ul>
+    {% for item in page.pagination.items %}
+        <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+    {% endfor %}
+</ul>
 
-## Season 2 
-
-{% for episode in page.season-2 %}
-    {% if episode.title != 'Index' %}
-      <div class="wrapper">
-          <div class="box text">{{episode.date | date('jS F Y') }}</div>
-              <div class="box">
-                 {% include 'twitter_profile_img.html' with { handle: episode.twitter_handle, alt_text: episode.guest, profile_img: episode.profile_img }%}
-               </div>
-               <div class="box text"><a href="{{episode.url}}">{{ episode.guest }} {{ episode.title}}</a></div>
-      </div>
-  {% endif %}
-{% endfor %}
+<nav>
+{% if page.pagination.previous_page or page.pagination.next_page %}
+    {% if page.pagination.previous_page %}
+        <a href="{{ site.url }}{{ page.pagination.previous_page.url }}">Newer Items</a>
+    {% endif %}
+    {% if page.pagination.next_page %}
+        <a href="{{ site.url }}{{ page.pagination.next_page.url }}">Older Items</a>
+    {% endif %}
+{% endif %}
+</nav>

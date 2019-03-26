@@ -35,13 +35,14 @@
             <li><a href="/schedule">Schedule</a></li>
           </ul>
         </header>
+          {% block content_wrapper %}
     <main class="main">
       <h1>{{ page.title }}</h1>
-      {% block content_wrapper %}
-          {% block content %}{% endblock %}
-      {% endblock %}
-    </main>
 
+          {% block content %}{% endblock %}
+
+    </main>
+{% endblock %}
     <footer class="footer">
      <hr/>
       Running in Docker, Scripted in Jekyll, Stored in <a href="https://github.com/howToCodeWell/howToCodeWellFM">GitHub</a>
