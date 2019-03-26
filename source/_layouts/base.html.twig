@@ -21,7 +21,7 @@
     <meta name="twitter:image:alt" content="How To Code Well - Weekly podcast for web developers">
     {% endblock %}
 
-    <title>{% block title %}{{ page.title | default(site.meta.description) }}{% endblock %}</title>
+    <title>{% block title %}{{ page.meta.title | default(site.meta.title) }}{% endblock %}</title>
     <link rel="stylesheet" href="/assets/css/site.css">
     {% block head_styles %}{% endblock %}
     {% block head_scripts %}{% endblock %}
@@ -40,13 +40,11 @@
           </ul>
         </header>
           {% block content_wrapper %}
-    <main class="main">
-      <h1>{{ page.title }}</h1>
-
+            <main class="main">
           {% block content %}{% endblock %}
 
-    </main>
-{% endblock %}
+            </main>
+        {% endblock %}
     <footer class="footer">
      <hr/>
       Running in Docker, Scripted in Sculpin, Stored in <a href="https://github.com/howToCodeWell/howToCodeWellFM">GitHub</a>
