@@ -1,0 +1,8 @@
+sculpin_content_types:
+    posts:
+        enabled: false
+    episodes:
+        path: episode
+        permalink: pretty
+        layout: default
+        singular_name: episode

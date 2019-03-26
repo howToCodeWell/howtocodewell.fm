@@ -1,0 +1,23 @@
+{% extends "default" %}
+
+{% block head_meta %}
+    <meta name="robots" content="index, follow">
+{% endblock %}
+
+{% block content_wrapper %}
+    <main class="main">
+      <h1>{{ page.title }}</h1>
+        Published: {{ page.date | date('jS F Y')  }}
+        {% include "youtubePlayer.html.twig" with { id:page.youtubeId } %}
+
+        {{ page.guest }}
+
+        {% include 'twitter_profile_img.html' with { handle: page.twitter_handle, alt_text: page.guest, profile_img: page.profile_img }%}
+
+        {{ page.blocks.content|raw }}
+
+        {% include "podcastPlayer.html.twig" with { id: page.podcast_id } %}
+        <hr/>
+        {% include "postLinks.html.twig" %}
+    </main>
+{% endblock %}

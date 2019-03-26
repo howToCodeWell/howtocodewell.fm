@@ -1,0 +1,38 @@
+---
+layout: post
+title:  "Sunshine PHP Conference - Beach Casts - Public Speaking"
+date:   2019-01-25
+season: 2
+youtubeId: 0IJupJbHQWc
+podcast_id: 8233769
+guest: Adam Culp
+guests_twitter: adamculp
+profile_img: n4Y3CzVa_400x400.png
+---
+Todays podcast guest is Adam Culp. He is the organiser of Sunshine PHP Conference, South Florida PHP user group (SoFloPHP), Author, host of Beach Casts tech videos and PHP consultant at Rogue Wave.
+
+We talk about being a PHP consultant and working on legacy applications.
+
+Adam Culp is an experienced public speaker and has given many talks (300 - 400). He has some great advice to combat nerves and how to give a great talk. Adam also discusses the process behind selecting papers when organising the Sunshine PHP conference.
+
+Adam live streams tech videos on his Twitch channel called Beach Casts. These videos are also on his Beach Casts YouTube channel. He has recently streamed some great tutorials on PHPStorm, Zend Expressive, Doctrine and more.
+
+### Follow Adam Culp
+- [Twitter: adamculp](https://twitter.com/adamculp) 
+
+### Beach Casts
+- [Twitch](https://www.twitch.tv/beachcasts) 
+- [YouTube](https://www.youtube.com/beachcasts)
+- [Twitter](https://twitter.com/BeachCasts)
+- [Website](http://beachcasts.com)
+
+### Sunshine PHP Conference
+Feb 7 - 9th 2019
+- [Twitter](https://twitter.com/sunshinephp)
+- [Website](http://sunshinephp.com)
+
+### Run Geek Radio
+- [Website](https://rungeekradio.com)
+- [Twitter](https://twitter.com/rungeekradio)
+
+-------------------------------
