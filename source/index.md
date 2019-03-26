@@ -2,10 +2,10 @@
 layout: default
 generator: pagination
 pagination:
-    provider: data.season_2
+    provider: data.episodes
     max_per_page: 10
 use:
-  - season_2
+  - episodes
 ---
 {% for episode in page.pagination.items %}
 {% if episode.title != 'Season 2 - 2019' %}
@@ -19,16 +19,5 @@ use:
 {% endif %}
 {% endfor %}
 
-<nav>
-{% if page.pagination.previous_page or page.pagination.next_page %}
-    {% if page.pagination.previous_page %}
-        <a href="{{ site.url }}{{ page.pagination.previous_page.url }}">Newer Items</a>
-    {% endif %}
-    {% if page.pagination.next_page %}
-        <a href="{{ site.url }}{{ page.pagination.next_page.url }}">Older Items</a>
-    {% endif %}
-{% endif %}
-</nav>
-
-
+<a href="/season">View all episodes</a>
 

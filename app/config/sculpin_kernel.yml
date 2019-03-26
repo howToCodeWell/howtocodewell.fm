@@ -1,8 +1,8 @@
 sculpin_content_types:
     posts:
         enabled: false
-    season_2:
-        path: seasons/2
+    episodes:
+        path: episode
         permalink: pretty
         layout: default
         singular_name: episode
