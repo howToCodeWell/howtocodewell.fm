@@ -1,9 +1,15 @@
 <!doctype html>
 <html lang="en">
   <head>
-    {% block head_meta %}
-      {% include "head_meta.html.twig" %}
-    {% endblock %}
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ page.meta.description | default(site.meta.description) }}"/>
+    {%  block head_meta_twitter_cards %}
+        {%  include "head_meta_twitter_cards.html.twig" %}
+    {%  endblock %}
+    {%  block head_meta_facebook_og %}
+        {%  include "head_meta_facebook_og.html.twig" %}
+    {%  endblock %}
     <title>{% block title %}{{ page.title | default(site.meta.title) }}{% endblock %}</title>
     <link rel="stylesheet" href="/assets/css/site.css">
     {% block head_styles %}{% endblock %}
