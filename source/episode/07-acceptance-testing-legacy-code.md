@@ -8,6 +8,8 @@ podcast_id: 8534090
 guest: Peter Fisher
 guests_twitter: pfwd
 profile_img: vNR3QP0D_400x400.jpg
+meta:
+    description: "Legacy code is everywhere. This is how as a freelancer, I go about testing old code."
 ---
 
 Legacy code is everywhere and we cannot escape it. Today I'm going to talk about making legacy code acceptable from a developers perspective.

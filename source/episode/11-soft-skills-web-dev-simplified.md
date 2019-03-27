@@ -8,6 +8,8 @@ podcast_id: 9020213
 guest: Kyle Cook
 guests_twitter: devsimplified
 profile_img: XBSj69e5_400x400.jpg
+meta:
+    description: "Kyle Cook from the YouTube channel Web Dev Simplified joins me to talk about soft skills in web development"
 ---
 Having good soft skills is crucial for every employee and in any industry as they are required when working with and for others. As web developers we work with both technical and non technical team members. We may also communicate with clients or end users who have a set of requirements and needs that we must identify and fulfil.
 

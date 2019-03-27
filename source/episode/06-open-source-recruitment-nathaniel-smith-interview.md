@@ -8,6 +8,8 @@ podcast_id: 8481542
 guest: Nathaniel Smith
 guests_twitter: nathanielPhili4
 profile_img: uLwpVqYf_400x400.jpg
+meta:
+    description: "Nathaniel Smith from Socially Responsible Recruitment (SR2) joins me to talk about web development recruitment"
 ---
 
 Today's podcast guest is Nathaniel Smith from Socially Responsible Recruitment (SR2). Nathaniel is an open source recruiter who specialises in PHP and Javascript recruitment.

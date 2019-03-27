@@ -8,8 +8,10 @@ podcast_id: 8233769
 guest: Adam Culp
 guests_twitter: adamculp
 profile_img: n4Y3CzVa_400x400.png
+meta:
+    description: "Adam Culp joins me to talk about the Sunshine PHP Conference in Miami"
 ---
-Todays podcast guest is Adam Culp. He is the organiser of Sunshine PHP Conference, South Florida PHP user group (SoFloPHP), Author, host of Beach Casts tech videos and PHP consultant at Rogue Wave.
+Today's podcast guest is Adam Culp. He is the organiser of Sunshine PHP Conference, South Florida PHP user group (SoFloPHP), Author, host of Beach Casts tech videos and PHP consultant at Rogue Wave.
 
 We talk about being a PHP consultant and working on legacy applications.
 

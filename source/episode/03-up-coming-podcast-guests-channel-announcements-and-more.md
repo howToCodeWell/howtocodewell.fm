@@ -8,6 +8,8 @@ podcast_id: 8283836
 guest: Peter Fisher
 guests_twitter: pfwd
 profile_img: vNR3QP0D_400x400.jpg
+meta:
+    description: "Some news on up coming podcast episodes"
 ---
 I've got some announcements to make regarding the podcast, conferences and courses!
 
