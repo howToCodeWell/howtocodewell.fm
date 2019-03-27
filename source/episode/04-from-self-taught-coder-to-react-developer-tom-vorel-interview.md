@@ -8,6 +8,8 @@ podcast_id: 8233517
 guest: Tom Vorel
 guests_twitter: tomasvorel13
 profile_img: CMCNNCGx_400x400.jpg
+meta:
+    description: "Tom Vorel joins me to talk about being a self taught react developer. He has just started his web development career and gives lot's of advice to developers learning to code"
 ---
 Today I interview Tom Vorel who has recently had his first week in his first web development job. He is a self taught web developer who studied Javascript, HTML, CSS and other disciplines whilst having another full time job.
 

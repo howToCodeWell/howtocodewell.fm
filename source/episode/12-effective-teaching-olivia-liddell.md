@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Effective Teaching"
+title:  "Olivia Liddell Effective Teaching"
 date:   2019-03-22
 season: 2
 youtubeId: AlIe4LoRnKo
@@ -8,6 +8,8 @@ podcast_id: 9105707
 guest: Olivia Liddell
 guests_twitter: oliravi
 profile_img: TSlMrGu0_400x400.jpg
+meta:
+    description: "Olivia Liddell joins me to talk about effective teaching, communication and more"
 ---
 
 Being able to effectively teach and train members of your web development team is a vital skill to have. Not only do we need to communicate your code changes to other developers but you may also need to help the end users to learn the new features that you have developed. 
