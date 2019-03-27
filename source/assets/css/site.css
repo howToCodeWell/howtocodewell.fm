@@ -59,7 +59,10 @@ nav.icons{
   margin-top:2px;
   background-color:#FFF;
 }
-.subscribe-icon-spotify{
+.subscribe-icon-itunes a:before{
+  background-image: url("/assets/images/icons/itunes.svg");
+}
+.subscribe-icon-spotify a:before{
   background-image: url("/assets/images/icons/spotify.svg");
 }
 .subscribe-icon-google-podcast a:before{
