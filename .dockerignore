@@ -5,3 +5,4 @@ docker-compose.*
 /vendor/
 /bin/
 !/bin/deploy.sh
+.env*

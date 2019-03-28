@@ -1,0 +1,29 @@
+version: '3.4'
+
+services:
+  https-portal:
+    image: steveltn/https-portal:1
+    ports:
+      - '80:80'
+      - '443:443'
+    links:
+      - howtocodewell_fm
+    restart: always
+    volumes:
+      - /data/ssl_certs:/var/lib/https-portal
+    environment:
+      DOMAINS: ${DOMAINS}
+      STAGE: ${SSL_STAGE}
+      FORCE_RENEW: ${FORCE_RENEW}
+
+  howtocodewell_fm:
+    build:
+      context: .
+      target: ${TARGET_ENV}
+    restart: always
+    volumes:
+        - .:/var/www/html
+        - ./apache2/dev/config/sites-available/000-default.conf:/etc/apache2/sites-available/000-default.conf
+        - ./apache2/dev/config/apache2/php.ini:/usr/local/etc/php/php.ini
+    environment:
+        - APACHE_DOCUMENT_ROOT=${APACHE_DOCUMENT_ROOT}
