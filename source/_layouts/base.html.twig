@@ -14,8 +14,14 @@
     <link rel="stylesheet" href="/assets/css/site.css">
     {% block head_styles %}{% endblock %}
     {% block head_scripts %}{% endblock %}
+    {% if site.active_google_tag_manager %}
+        {% include "head_google_tag_manager.html.twig" %}
+    {% endif %}
   </head>
   <body>
+  {% if site.active_google_tag_manager %}
+      {% include "body_google_tag_manager.html.twig" %}
+  {% endif %}
   <div class="outer-container">
       <div class="grid-container">
 
