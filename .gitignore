@@ -10,3 +10,4 @@
 /source/build/
 s3.conf
 /vendor/
+.env

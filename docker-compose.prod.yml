@@ -4,13 +4,25 @@ volumes:
   vendor:
 
 services:
-  howtocodewell_fm:
+  https-portal:
+    image: steveltn/https-portal:1
+    ports:
+    - '80:80'
+    - '443:443'
+    links:
+    - howtocodewell_fm
+    restart: always
+    volumes:
+    - /data/ssl_certs:/var/lib/https-portal
+    environment:
+      DOMAINS: 'howtocodewellfm.com -> http://howtocodewell_fm'
+      STAGE: 'local'
+      FORCE_RENEW: 'false'
 
+  howtocodewell_fm:
     build:
       context: .
       target: prod-env
-    ports:
-      - 80:80
     restart: always
     volumes:
         - .:/var/www/html
