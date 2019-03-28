@@ -14,21 +14,34 @@ Build the Docker machine, image and container
 $ docker-machine create howtocodewell.fm
 $ docker-machine env howtocodewell.fm
 $ eval $(docker-machine env howtocodewell.fm)
-$ docker-compose -f docker-compose.dev.yml exec howtocodewell_fm_dev bin/sculpin generate --watch --server
+```
+### Configure
+Copy .env.dist to .env and update based on environment
+```
+$ cp .env.dist .env
+$ vi .env
+```
+### Build the site 
+```
+$ docker-compose -f docker-compose.yml exec howtocodewell_fm bin/sculpin generate --watch --server
 ```
 
 Get the IP of the Docker Machine
 ```
 $ docker-machine ip howtocodewell.fm
 ```
-Now go to the browse and enter IP
+Add the IP as a local host entry
+```
+$ sudo nano /etc/hosts
+```
+Use howtocodewellfm.com as the hostname or whatever is set in $DOMAINS in .env 
+
+Now go to the browse and `https://howtocodewellfm.com` (This is local dev site)
 
 ## Logs
 ```
-$ docker-compose -f docker-compose.dev.yml logs -f howtocodewell_fm_dev
+$ docker-compose -f docker-compose.yml logs -f howtocodewell_fm
 ```
-
-Now go to the IP in the browser
 
 ## Production
 ### Deployment
