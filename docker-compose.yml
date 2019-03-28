@@ -1,5 +1,7 @@
 version: '3.4'
-
+volumes:
+  site:
+  vendor:
 services:
   https-portal:
     image: steveltn/https-portal:1
@@ -25,5 +27,7 @@ services:
         - .:/var/www/html
         - ./apache2/dev/config/sites-available/000-default.conf:/etc/apache2/sites-available/000-default.conf
         - ./apache2/dev/config/apache2/php.ini:/usr/local/etc/php/php.ini
+        - site:${APACHE_DOCUMENT_ROOT}
+        - vendor:${VENDOR_STORE}
     environment:
         - APACHE_DOCUMENT_ROOT=${APACHE_DOCUMENT_ROOT}
