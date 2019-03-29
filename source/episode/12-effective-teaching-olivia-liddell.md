@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Olivia Liddell Effective Teaching"
+title:  "Effective Teaching"
 date:   2019-03-22
 season: 2
 youtubeId: AlIe4LoRnKo
