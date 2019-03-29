@@ -14,9 +14,9 @@ meta:
 
 In this podcast episode I am joined by William A. Ibarra who runs [Aviation Services](https://twitter.com/aviatorservices). 
 
-This is a website that offers on demand air travel for private hire . 
-The website that runs on PHP and allows for Bitcoin transactions. William is also an air charter operator and has lots of flight experience as a pilot.
-We talk about how Bitcoin is provides on demand services and how Bitcoin is changing the aviation industry.
+This is a website that offers on demand air travel for private hire. The website allows for Bitcoin transactions and William explains how the Bitcoin technology makes the payment process more convenient for his customers.
+PHP and JavaScript is also used throughout the website. William is also an air charter operator and has lots of flight experience.
+We talk about how Bitcoin is being used for on demand services and how Bitcoin is changing the aviation industry.
 
 -------------------------------
 
