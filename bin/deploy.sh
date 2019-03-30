@@ -7,4 +7,4 @@ cd $APP_ROOT
 
 git pull origin master
 
-docker-compose exec howtocodewell_fm bin/sculpin generate --env=prod
+docker-compose docker-compose up -d --build howtocodewell_fm
