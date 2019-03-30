@@ -51,12 +51,6 @@ RUN php /usr/local/bin/composer install
 # Optimises autoloaders
 # Set Prod ENV
 ########################################################################################################################
-FROM test-env as prod-builder
+FROM test-env as prod-env
 RUN php /usr/local/bin/composer install -o --no-dev
 RUN bin/sculpin generate --env=prod
-########################################################################################################################
-# PROD ENV
-# Clean image (No build tools)
-########################################################################################################################
-FROM webserver-base as prod-env
-COPY --from=prod-builder /var/www/html /var/www/html
