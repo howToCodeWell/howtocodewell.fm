@@ -6,7 +6,6 @@
 - Docker Machine
 - Docker Compose
 
-## Development
 ### Install
 
 Build the Docker machine, image and container
@@ -42,12 +41,3 @@ Now go to the browse and `https://howtocodewellfm.com` (This is local dev site)
 ```
 $ docker-compose -f docker-compose.yml logs -f howtocodewell_fm
 ```
-
-## Production
-### Deployment
-```
-$ git clone git@github.com:howToCodeWell/howToCodeWellFM.git howToCodeWellFM
-$ chmod u+x howToCodeWellFM/bin/deploy.sh
-$ ./howToCodeWellFM/bin/deploy.sh
-```
-
