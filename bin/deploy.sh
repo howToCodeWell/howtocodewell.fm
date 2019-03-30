@@ -7,4 +7,4 @@ cd $APP_ROOT
 
 git pull origin master
 
-docker-compose docker-compose up -d --build howtocodewell_fm
+docker-compose up -d --build howtocodewell_fm
