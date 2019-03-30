@@ -4,5 +4,5 @@ docker-compose.*
 /output_dev/
 /vendor/
 /bin/
-!/bin/deploy.sh
+bin/deploy.sh
 .env*
