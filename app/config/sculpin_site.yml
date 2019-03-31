@@ -33,7 +33,7 @@ schedule:
     "twitter_handle": "matthewtrask"
     "profile_img": "CYhzS7dJ_400x400.png"
     "topic": "Mental health in web development"
-    "patreon_link": ""
+    "patreon_link": "https://www.patreon.com/posts/25768492"
   - 
     "guest": "Code Bar"
     "date": "2019-04-26"
@@ -54,14 +54,14 @@ schedule:
     "twitter_handle": "johnsalzarulo"
     "profile_img": "7hw_saAP_400x400.jpg"
     "topic": "Iteration Podcast"
-    "patreon_link": ""
+    "patreon_link": "https://www.patreon.com/posts/25768403"
   - 
     "guest": "Rob Waller"
-    "date": ""
+    "date": "2019-05-17"
     "twitter_handle": "RobDWaller"
     "profile_img": "uCplUZ1P_400x400.jpg"
-    "topic": ""
-    "patreon_link": ""
+    "topic": "Testing To Break - TDD"
+    "patreon_link": "https://www.patreon.com/posts/25768628"
   - 
     "guest": "Rob Wilson"
     "date": ""
