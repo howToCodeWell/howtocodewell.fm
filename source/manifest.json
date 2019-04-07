@@ -1,0 +1,21 @@
+{
+  "short_name": "HowToCodeWell FM",
+  "name": "How To Code Well Podcast",
+  "icons": [
+    {
+      "src": "/images/logos/howtocodewell_logo_192x192.jpg",
+      "type": "image/jpg",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/logos/howtocodewell_logo_512x512.jpg",
+      "type": "image/jpg",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/?source=pwa",
+  "background_color": "#14252c",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#14252c"
+}
