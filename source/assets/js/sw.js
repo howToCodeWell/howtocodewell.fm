@@ -1,21 +1,21 @@
-const filesToCache = [
+const URLS_TO_CACHE = [
   '/',
-  'assets/css/site.css'
+  '/assets/css/site.css'
 ];
 
-const cacheName = 'howtocodewell-v1';
+const CACHE_NAME = 'howtocodewell-v1';
+
 self.addEventListener('install', event => {
   event.waitUntil(
     caches
-      .open(cacheName)
+      .open(CACHE_NAME)
       .then(cache =>
-        cache.addAll(filesToCache)
+        cache.addAll(URLS_TO_CACHE)
       )
   )
 });
 
 self.addEventListener('fetch', event => {
-  console.log('Fetch event for ', event.request.url);
   event.respondWith(
     caches.match(event.request)
     .then(response => {
@@ -28,7 +28,7 @@ self.addEventListener('fetch', event => {
 
       .then(response => {
 
-          return caches.open(cacheName).then(cache => {
+          return caches.open(CACHE_NAME).then(cache => {
             cache.put(event.request.url, response.clone());
             return response;
           });
@@ -45,7 +45,7 @@ self.addEventListener('fetch', event => {
 
 self.addEventListener('activate', event => {
 
-  const cacheWhitelist = [cacheName];
+  const cacheWhitelist = [CACHE_NAME];
 
   event.waitUntil(
     caches.keys().then(cacheNames => {
