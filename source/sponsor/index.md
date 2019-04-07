@@ -12,7 +12,7 @@ Would you like to promote your message and brand to thousands of developers on a
 Hosted by [Peter Fisher]('http://peterfisher.me.uk') the How To Code Well podcast is an interview based audio and video show for web developers and programmers with guests that cover all areas of the web development industry.
 
 ## Audience Interests
-From frontend development skills including JavaScript, css and web design to backend development with a focus on security, devops, cloud technologies and databases to the daily management and running of web applications and development teams, the How To Code Well audience is a diverse mix of web developers, freelancers, designers and managers.
+Our audience has a very diverse set of interests in web development. From backend to frontend development as well as management and devops.
 
 ### Technical interests
 The audience caters for a wide range of technical topics such as:
@@ -27,7 +27,7 @@ The audience caters for a wide range of technical topics such as:
 - Developments, CI, CD and work flows
 
 ### Interests in web development career progression and soft skills
-The audience has a keen interest in career progression, improving their development journey as well as leveling up their soft skills. 
+The audience has a keen interest in career progression, improving their development journey as well as levelling up their soft skills. 
 
 - Recommendations of developer learning resources
 - Industry advice from leaders in the field
@@ -42,11 +42,11 @@ The audience has a keen interest in career progression, improving their developm
 - Each episode gets it's own page on this website and [howtocodewell.net](http://howtocodewell.net)
 
 ## Pricing
-Currently sponsorship is £1000 (GBP) per episode, though this will increase in line with the audience size 
+Please get in touch for pricing and av availability. 
 
 ## What you get in return
 
-Each sponsor will get the following:
+Typically each sponsor will get the following:
 
 - A sponsorship spot at the top of show notes. This is shown in the YouTube video description and episode page on the website. This is great for links to your product or services.
 - A single intro line "This episode is sponsored by ..... " at the start of the show
@@ -55,4 +55,4 @@ Each sponsor will get the following:
 
 # Get in touch
 
-Please send an email if you are interested in sponsoring and working together with How To Code Well
+Please [send an email](mailto:info@howtocodewell) if you are interested in sponsoring and working together with How To Code Well

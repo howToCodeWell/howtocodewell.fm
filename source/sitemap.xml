@@ -28,6 +28,12 @@ permalink: sitemap.xml
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>{{ site.url }}/sponsor/</loc>
+    <lastmod>{{ site.calculated_date | date('Y-m-d') }}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
   {% for episode in data.episodes %}
   <url>
     <loc>{{ site.url }}{{ episode.url }}</loc>
