@@ -45,7 +45,7 @@ nav.icons{
 }
 .subscribe-icons div a{
   display: flex;
-  padding:10px;
+  padding:8px;
 }
 .subscribe-icons div a:hover{
   background-color: #3f3f3f;
