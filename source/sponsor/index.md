@@ -42,7 +42,7 @@ The audience has a keen interest in career progression, improving their developm
 - Each episode gets it's own page on this website and [howtocodewell.net](http://howtocodewell.net)
 
 ## Pricing
-Please get in touch for pricing and av availability. 
+Please get in touch for pricing and availability. 
 
 ## What you get in return
 
