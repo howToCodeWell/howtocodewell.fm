@@ -9,7 +9,7 @@ meta:
 
 Would you like to promote your message and brand to thousands of developers on a weekly basis? If you think that the How To Code Well audience is a good fit for your brand then get in touch.
 
-Hosted by [Peter Fisher]('http://peterfisher.me.uk') the How To Code Well podcast is an interview based audio and video show for web developers and programmers with guests that cover all areas of the web development industry.
+Hosted by [Peter Fisher]('http://peterfisher.me.uk') the How To Code Well podcast is an interview based audio and [video](https://www.youtube.com/playlist?list=PLZdsdjcJ44WUp1B0V-8DE8femEFwXz7al) show for web developers and programmers with guests that cover all areas of the web development industry.
 
 ## Audience Interests
 Our audience has a very diverse set of interests in web development. From backend to frontend development as well as management and devops.
