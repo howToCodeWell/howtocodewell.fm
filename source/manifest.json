@@ -1,21 +1,27 @@
 {
   "short_name": "HowToCodeWell FM",
   "name": "How To Code Well Podcast",
+  "description": "A weekly podcast with guests from within the web development industry",
   "icons": [
     {
-      "src": "/assets/images/logos/howtocodewell_logo_192x192.jpg",
-      "type": "image/jpg",
+      "src": "/assets/images/logos/howtocodewell_logo_192x192.png",
+      "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/assets/images/logos/howtocodewell_logo_512x512.jpg",
-      "type": "image/jpg",
+      "src": "/assets/images/logos/howtocodewell_logo_512x512.png",
+      "type": "image/png",
       "sizes": "512x512"
+    },
+      {
+      "src": "/assets/images/logos/howtocodewell_logo_32x32.png",
+      "type": "image/png",
+      "sizes": "32x32"
     }
   ],
   "start_url": "/?source=pwa",
   "background_color": "#14252c",
-  "display": "standalone",
+  "display": "fullscreen",
   "theme_color": "#14252c",
   "scope": "/"
 }
