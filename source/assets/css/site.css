@@ -1,6 +1,7 @@
 body{
   font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#3f3f3f;
+  background-color: #f4f4f4;
   font-weight: 400;
   font-style: normal;
   font-size: 1.2em;
@@ -19,7 +20,10 @@ a:hover{
     max-width: 1000px;
     margin: 0 auto;
 }
-
+.inner-container{
+  padding:10px;
+  background-color:#FFFFFF;
+}
 nav.icons{
   float:left;
   width:100%;
@@ -291,10 +295,6 @@ nav.icons{
   }
   .header .menu-icon {
     display: none;
-  }
-  .inner-container{
-    padding:10px;
-    background-color: #f4f4f4;
   }
 }
 
