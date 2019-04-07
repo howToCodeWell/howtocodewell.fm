@@ -151,9 +151,7 @@ nav.icons{
   padding:5px;
   display:inline-block;
 }
-.main{
-  background-color:#DDD;
-}
+
 .sponsor-link{
   display:block;
   width:100%;
@@ -294,8 +292,9 @@ nav.icons{
   .header .menu-icon {
     display: none;
   }
-  .main{
+  .inner-container{
     padding:10px;
+    background-color: #f4f4f4;
   }
 }
 
