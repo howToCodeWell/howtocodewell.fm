@@ -1,6 +1,6 @@
 const filesToCache = [
   '/',
-  'assets/css/main.css'
+  'assets/css/site.css'
 ];
 
 const cacheName = 'howtocodewell-v1';
