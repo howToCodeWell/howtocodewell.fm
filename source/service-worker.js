@@ -10,6 +10,7 @@ const URLS_TO_CACHE = [
    OFFLINE_URL
 ];
 
+// Install the PWA and add URLS_TO_CACHE to the cache
 self.addEventListener('install', event => {
   event.waitUntil(
     caches
@@ -20,6 +21,9 @@ self.addEventListener('install', event => {
   )
 });
 
+// Fetch a page. Attempt to pull it out of cache first
+// If the page isn't in the cache and the user in online then add the new page to the cache
+// IF the user is not online then show the offline URL
 self.addEventListener('fetch', event => {
   event.respondWith(
     caches.match(event.request)
@@ -46,7 +50,7 @@ self.addEventListener('fetch', event => {
   );
 });
 
-
+// Activate the PWA and delete the old cache if needed
 self.addEventListener('activate', event => {
 
   const cacheWhitelist = [CACHE_NAME];
