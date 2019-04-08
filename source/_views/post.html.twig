@@ -28,6 +28,7 @@
 
 {% block content_wrapper %}
     <main class="main">
+        <div class="main-contents">
       <h1>{{ page.title }}</h1>
         Published: {{ page.date | date('jS F Y')  }}
         {% include "podcastPlayer.html.twig" with { id: page.podcast_id } %}
@@ -35,7 +36,7 @@
         {% include 'twitter_profile_img.html' with { handle: page.twitter_handle, alt_text: page.guest, profile_img: page.profile_img }%}
         {{ page.blocks.content|raw }}
         {% include "youtubePlayer.html.twig" with { id:page.youtubeId } %}
-        <hr/>
         {% include "postLinks.html.twig" %}
+            </div>
     </main>
 {% endblock %}

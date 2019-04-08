@@ -1,7 +1,7 @@
 body{
   font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#3f3f3f;
-  background-color: #f4f4f4;
+  color:#14252c;
+  background-color: #f2923c;
   font-weight: 400;
   font-style: normal;
   font-size: 1.2em;
@@ -16,18 +16,33 @@ a{
 a:hover{
     text-decoration: underline;
 }
+.btn{
+  background-color:#FFF;
+  color:#f2923c;
+  padding:5px;
+  border-radius: 8px;
+}
+.btn:hover{
+  text-decoration: none;
+  background-color:#3f3f3f;
+  color:#FFF;
+}
 .outer-container{
     max-width: 1000px;
     margin: 0 auto;
 }
-.inner-container{
-  padding:10px;
-  background-color:#FFFFFF;
-}
+
 nav.icons{
   float:left;
   width:100%;
   margin-bottom:20px;
+}
+.main{
+  padding:10px;
+}
+.main-contents{
+  padding:10px;
+  background-color: #f4f4f4;
 }
 .subscribe-icons{
   display: flex;
@@ -122,8 +137,10 @@ nav.icons{
     display: flex;
     flex-direction: row;
     width:100%;
-    background-color:#f4f4f4;
+    margin-bottom:10px;
+    background-color:#FFF;
     border:1px solid #DDD;
+    border-radius: 8px;
 }
 
 .episode-list div{
@@ -145,11 +162,20 @@ nav.icons{
     margin-left:20px;
 }
 .episode-details{
-  background-color:#DDD;
+  background-color:#EEEEEE;
   border:1px solid #DDD;
   width:100%;
   text-align:center;
-
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  margin-top:-15px;
+  margin-bottom: 10px;
+}
+hr {
+  height:1px;
+  border:none;
+  color:#FFF;
+  background-color:#FFF;
 }
 .episode-details .episode-date{
   padding:5px;
@@ -165,12 +191,23 @@ nav.icons{
 
 /* header */
 
-.header {
+.header, .footer {
   position:relative;
   width:100%;
   float:left;
-  border-bottom:1px solid #DDD;
-  margin-bottom:20px;
+  background-color: #14252c;
+  padding: 10px;
+  color: #FFF;
+}
+.header{
+  margin-bottom: 10px;
+}
+.header a, .footer a{
+  color:#999;
+}
+
+.header a{
+  color:#FFF;
 }
 
 .header ul {
@@ -219,7 +256,7 @@ nav.icons{
 }
 
 .header .menu-icon .navicon {
-  background: #333;
+  background: #FFF;
   display: block;
   height: 2px;
   position: relative;
@@ -229,13 +266,17 @@ nav.icons{
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: #333;
+  background: #FFF;
   content: '';
   display: block;
   height: 100%;
   position: absolute;
   transition: all .2s ease-out;
   width: 100%;
+}
+
+.header .menu a {
+color: #000;
 }
 
 .header .menu-icon .navicon:before {

@@ -28,23 +28,22 @@
 </nav>
 <main class="main">
     {% include "podcastPlayer.html.twig" with { id: site.featured.podcast_id } %}
+    <h1>Schedule</h1>
+    {% for event in site.schedule %}
+      <div class="episode-list">
+          <div class="episode-profile-image">
+            {% include 'twitter_profile_img.html' with { handle: event.twitter_handle, alt_text: event.guest, profile_img: event.profile_img }%}
+           </div>
+           <div class="episode-title">{{ event.guest }} {% if event.topic == '' %} TBD {% else %} {{event.topic }} {% endif %}
+           </div>
+      </div>
 
-<h1>Latest Episodes</h1>
-{% for episode in page.pagination.items %}
-{% if episode.title != 'Season 2 - 2019' %}
-<div class="episode-list">
-      <div class="episode-profile-image">
-         {% include 'twitter_profile_img.html' with { handle: episode.twitter_handle, alt_text: episode.guest, profile_img: episode.profile_img }%}
-       </div>
-   <div class="episode-title"><a href="{{episode.url}}">{{ episode.guest }} {{ episode.title}}</a></div>
+        <div class="episode-details">
+            <div class="episode-date">Due Date: {% if event.date == '' %} TBD {% else %} {{event.date | date('jS F Y') }} {% endif %}</div>
+            <div class="episode-patreon-link">{% if event.patreon_link is not empty %}<a href="{{event.patreon_link}}">Get it now</a>{% endif %}</div>
+        </div>
 
-</div>
-<div class="episode-details">
-    <div class="episode-date">{{episode.date | date('jS F Y') }}</div>
-</div>
-
-{% endif %}
-{% endfor %}
+    {% endfor %}
 
 
 {% block content %}

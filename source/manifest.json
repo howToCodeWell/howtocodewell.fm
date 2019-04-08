@@ -20,8 +20,8 @@
     }
   ],
   "start_url": "/?source=pwa",
-  "background_color": "#14252c",
+  "background_color": "#ffa500",
   "display": "fullscreen",
-  "theme_color": "#14252c",
+  "theme_color": "#ffa500",
   "scope": "/"
 }

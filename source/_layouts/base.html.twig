@@ -26,10 +26,9 @@
   {% if site.active_google_tag_manager %}
       {% include "body_google_tag_manager.html.twig" %}
   {% endif %}
-  <div class="outer-container">
+         <header class="header">
+               <div class="outer-container">
       <div class="grid-container inner-container">
-
-        <header class="header">
           <a href="/" class="logo">How To Code Well Podcast</a>
           <input class="menu-btn" type="checkbox" id="menu-btn" />
           <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
@@ -37,24 +36,36 @@
             <li><a href="/schedule">Schedule</a></li>
             <li><a href="/season">Episodes</a></li>
           </ul>
+      </div>
+               </div>
         </header>
+
+
+  <div class="outer-container">
+      <div class="grid-container inner-container">
+
+
           {% block content_wrapper %}
             <main class="main">
           {% block content %}{% endblock %}
 
             </main>
         {% endblock %}
-    <footer class="footer">
-     <hr/>
+
+
+      </div>
+    </div>
+  <footer class="footer">
+                     <div class="outer-container">
+      <div class="grid-container inner-container">
       Running in Docker, Scripted in Sculpin, Stored in <a href="https://github.com/howToCodeWell/howToCodeWellFM">GitHub</a>
       <br/>
       <a target="_blank" rel="noopener noreferrer" href="https://howtocodewell.libsyn.com/rss">RSS Feed</a> | <a target="_blank" rel="noopener noreferrer" href="https://howtocodewell.net">Video courses</a> | <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/howToCodeWell">Follow on Twitter</a> | <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/user/howtocodewell?sub_confirmation=1">Watch on YouTube</a>
         <div class="sponsor-link">
             <a href="/sponsor/">Sponsor the podcast</a>
         </div>
-    </footer>
-
       </div>
-    </div>
+                     </div>
+    </footer>
   </body>
 </html>

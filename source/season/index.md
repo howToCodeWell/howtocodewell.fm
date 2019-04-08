@@ -13,5 +13,4 @@ meta:
 ---
 # Episodes
 
-- [Season 2 2019](/season/2) 
-- Season 1 2018
+<a class="btn" href="/season/2">Season 2</a>
