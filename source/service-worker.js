@@ -5,6 +5,12 @@ const CACHE_NAME = 'howtocodewell-' + CACHE_VERSION;
 const URLS_TO_CACHE = [
   '/',
   '/assets/css/site.css',
+  '/assets/images/icons/google-podcast.svg',
+  '/assets/images/icons/itunes.svg',
+  '/assets/images/icons/overcast.svg',
+  '/assets/images/icons/rss.svg',
+  '/assets/images/icons/spotify.svg',
+  '/assets/images/icons/stitcher.svg',
    OFFLINE_URL
 ];
 
