@@ -196,8 +196,12 @@ hr {
   width:100%;
   float:left;
   background-color: #14252c;
-  padding: 10px;
   color: #FFF;
+}
+.header .outer-container
+.footer .outer-container
+{
+  padding:10px;
 }
 .header{
   margin-bottom: 10px;
