@@ -1,6 +1,5 @@
 ---
 layout: home
-permalink: /sponsor
 meta:
     description: "Sponsor How To Code Well and connect to thousands of web developers, freelancers and programmers"
     title: "How to Code Well Sponsorship" 

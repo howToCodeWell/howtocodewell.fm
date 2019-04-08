@@ -1,0 +1,8 @@
+#### Force HTTPS://WWW and remove trailing / from files ####
+## Turn on rewrite engine
+RewriteEngine on
+
+# Remove trailing slash from non-filepath urls
+RewriteCond %{REQUEST_URI} /(.+)/$
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ https://%{HTTP_HOST}/%1 [R=301,L]
