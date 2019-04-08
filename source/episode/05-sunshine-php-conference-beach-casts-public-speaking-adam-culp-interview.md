@@ -22,7 +22,7 @@ Adam live streams tech videos on his Twitch channel called Beach Casts. These vi
 ### Follow Adam Culp
 - [Twitter: adamculp](https://twitter.com/adamculp) 
 
-### Beach Casts
+### Beachcasts
 - [Twitch](https://www.twitch.tv/beachcasts) 
 - [YouTube](https://www.youtube.com/beachcasts)
 - [Twitter](https://twitter.com/BeachCasts)
