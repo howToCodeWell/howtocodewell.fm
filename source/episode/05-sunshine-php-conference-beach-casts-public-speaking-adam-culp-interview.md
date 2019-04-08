@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Sunshine PHP Conference - Beach Casts - Public Speaking"
+title:  "Sunshine PHP Conference - Beachcasts - Public Speaking"
 date:   2019-01-25
 season: 2
 youtubeId: 0IJupJbHQWc
