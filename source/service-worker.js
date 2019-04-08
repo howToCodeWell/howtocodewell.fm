@@ -1,5 +1,5 @@
-// const OFFLINE_URL = '/offline/';
-const CACHE_VERSION = 7;
+const OFFLINE_URL = '/offline/';
+const CACHE_VERSION = 6;
 const CACHE_NAME = 'howtocodewell-' + CACHE_VERSION;
 
 const URLS_TO_CACHE = [
@@ -16,27 +16,27 @@ const URLS_TO_CACHE = [
     '/assets/images/logos/howtocodewell_logo_192x192.png',
     '/assets/images/logos/howtocodewell_logo_512x512.png',
     '/assets/images/logos/howtocodewell_logo_32x32.png',
-    '/assets/profile/7hw_saAP_400x400.jpg',
-    '/assets/profile/8avDLD-t_400x400.jpg',
-    '/assets/profile/b7b-8Thn_400x400.jpg',
-    '/assets/profile/CMCNNCGx_400x400.jpg',
-    '/assets/profile/CYhzS7dJ_400x400.png',
-    '/assets/profile/eTL5nGaH_400x400.jpg',
-    '/assets/profile/jYeKQQdE_400x400.jpg',
-    '/assets/profile/MwrJuJM__400x400.png',
-    '/assets/profile/n4Y3CzVa_400x400.png',
-    '/assets/profile/NA5jYXmm_400x400.jpg',
-    '/assets/profile/PROx6DC0_400x400.jpeg',
-    '/assets/profile/rwLvlp25_400x400.jpg',
-    '/assets/profile/TSlMrGu0_400x400.jpg',
-    '/assets/profile/uCplUZ1P_400x400.jpg',
-    '/assets/profile/uLwpVqYf_400x400.jpg',
-    '/assets/profile/vNR3QP0D_400x400.jpg',
-    '/assets/profile/xBrKM3Vg_400x400.jpg',
-    '/assets/profile/XBSj69e5_400x400.jpg',
-    '/assets/profile/xir0RfsZ_400x400.jpg',
-    '/assets/profile/mIOWZK8h_400x400.jpg',
-    // OFFLINE_URL
+    '/assets/images/profile/7hw_saAP_400x400.jpg',
+    '/assets/images/profile/8avDLD-t_400x400.jpg',
+    '/assets/images/profile/b7b-8Thn_400x400.jpg',
+    '/assets/images/profile/CMCNNCGx_400x400.jpg',
+    '/assets/images/profile/CYhzS7dJ_400x400.png',
+    '/assets/images/profile/eTL5nGaH_400x400.jpg',
+    '/assets/images/profile/jYeKQQdE_400x400.jpg',
+    '/assets/images/profile/MwrJuJM__400x400.png',
+    '/assets/images/profile/n4Y3CzVa_400x400.png',
+    '/assets/images/profile/NA5jYXmm_400x400.jpg',
+    '/assets/images/profile/PROx6DC0_400x400.jpeg',
+    '/assets/images/profile/rwLvlp25_400x400.jpg',
+    '/assets/images/profile/TSlMrGu0_400x400.jpg',
+    '/assets/images/profile/uCplUZ1P_400x400.jpg',
+    '/assets/images/profile/uLwpVqYf_400x400.jpg',
+    '/assets/images/profile/vNR3QP0D_400x400.jpg',
+    '/assets/images/profile/xBrKM3Vg_400x400.jpg',
+    '/assets/images/profile/XBSj69e5_400x400.jpg',
+    '/assets/images/profile/xir0RfsZ_400x400.jpg',
+    '/assets/images/profile/mIOWZK8h_400x400.jpg',
+    OFFLINE_URL
 ];
 
 // Install the PWA and add URLS_TO_CACHE to the cache

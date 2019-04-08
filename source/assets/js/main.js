@@ -10,8 +10,3 @@ if ('serviceWorker' in navigator) {
     });
   });
 }
-// Remove all profile pics if offline
-if(!navigator.onLine){
-  const elements = document.getElementsByClassName("profile_pic");
-  while (elements.length > 0) elements[0].remove();
-}
