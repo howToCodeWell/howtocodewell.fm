@@ -1,9 +1,13 @@
+const OFFLINE_URL = '/offline.html';
+const CACHE_VERSION = 1;
+const CACHE_NAME = 'howtocodewell-' + CACHE_VERSION;
+
 const URLS_TO_CACHE = [
   '/',
-  '/assets/css/site.css'
-];
+  '/assets/css/site.css',
+   OFFLINE_URL
 
-const CACHE_NAME = 'howtocodewell-v1';
+];
 
 self.addEventListener('install', event => {
   event.waitUntil(
@@ -35,8 +39,8 @@ self.addEventListener('fetch', event => {
     });
 
     }).catch(error => {
-
-
+        // Return offline URL
+        return caches.match(OFFLINE_URL);
 
     })
   );
