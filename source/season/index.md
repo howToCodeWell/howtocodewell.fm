@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: plain
 generator: pagination
 pagination:
     provider: data.episodes
