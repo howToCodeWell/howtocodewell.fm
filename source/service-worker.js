@@ -5,8 +5,8 @@ const CACHE_NAME = 'howtocodewell-' + CACHE_VERSION;
 const URLS_TO_CACHE = [
   '/',
   '/assets/css/site.css',
-  '/schedule',
-   '/sponsor',
+  'schedule',
+   'sponsor',
    OFFLINE_URL
 ];
 
