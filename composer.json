@@ -14,14 +14,14 @@
     ],
     "require": {
         "php": ">=7.2",
-        "sculpin/sculpin": "^2.1@dev",
-        "dflydev/embedded-composer": "@dev"
+        "sculpin/sculpin": "^3.0"
     },
     "config": {
           "bin-dir": "bin",
           "sort-packages": true
-      },
+    },
     "require-dev": {
         "codeception/codeception": "^2.5"
     }
+
 }
