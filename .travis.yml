@@ -6,7 +6,7 @@ cache:
   directories:
     - $HOME/.composer/cache
 
-before_script:
+install:
   - composer self-update
   - composer install --prefer-source --no-interaction
   - bin/sculpin generate --env=prod --server >/dev/null 2>&1 &
