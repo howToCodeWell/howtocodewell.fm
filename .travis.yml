@@ -1,0 +1,14 @@
+language: php
+php:
+  - 7.2.15
+
+cache:
+  directories:
+    - $HOME/.composer/cache
+
+before_script:
+  - composer self-update
+  - composer install --prefer-source --no-interaction
+  - bin/sculpin generate --env=prod --server >/dev/null 2>&1 &
+
+script: bin/codecept run
