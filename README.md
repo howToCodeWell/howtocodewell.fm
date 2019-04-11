@@ -1,4 +1,5 @@
 # Howtocodewell Podcast
+[![Build Status](https://travis-ci.com/howToCodeWell/howToCodeWellFM.svg?branch=master)](https://travis-ci.com/howToCodeWell/howToCodeWellFM)
 
 ## Requirements
 - Composer
