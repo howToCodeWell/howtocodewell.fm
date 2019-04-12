@@ -9,7 +9,7 @@ guest: Oliver Davies
 guests_twitter: opdavies
 profile_img: MwrJuJM__400x400.png
 meta:
-    description: "Oliver Daviews joins me on the How To Code Well podcast to discuss the Drupal PHP framework"
+    description: "Oliver Davies joins me on the How To Code Well podcast to discuss the Drupal PHP framework"
 ---
 
 Oliver Davies from Microserve joins me on today's podcast. We a talk about the differences in Drupal versions, building Drupal content management systems and contributing to the Drupal framework.
