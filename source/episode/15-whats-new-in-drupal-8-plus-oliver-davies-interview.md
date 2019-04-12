@@ -20,13 +20,13 @@ Oliver has given many talks on testing Drupal applications and is writing a book
 [https://testdrivendrupal.com](https://testdrivendrupal.com)
 
 ### Follow Oliver Davies:
-[Twitter: opdavies](https://twitter.com/opdavies) 
-[Website](https://www.oliverdavies.uk)
-[Linkedin](https://www.linkedin.com/in/opdavies)
+- [Twitter: opdavies](https://twitter.com/opdavies) 
+- [Website](https://www.oliverdavies.uk)
+- [Linkedin](https://www.linkedin.com/in/opdavies)
 
 ### Follow Microserve
-[Twitter: microserveltd](https://twitter.com/microserveltd) 
-[Website](https://microserve.io) 
+- [Twitter: microserveltd](https://twitter.com/microserveltd) 
+- [Website](https://microserve.io) 
 
 -------------------------------
 
