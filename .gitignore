@@ -11,3 +11,4 @@
 s3.conf
 /vendor/
 .env
+.DS_Store
