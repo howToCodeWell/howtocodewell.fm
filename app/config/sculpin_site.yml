@@ -13,14 +13,7 @@ featured:
     profile_img: 8avDLD-t_400x400.jpg
 
 schedule:
-  - 
-    "guest": "Oliver Davies"
-    "date": "2019-04-12"
-    "twitter_handle": "opdavies"
-    "profile_img": "MwrJuJM__400x400.png"
-    "topic": "Drupal 7 vs Drupal 8"
-    "patreon_link": "https://www.patreon.com/posts/25715232"
-  - 
+  -
     "guest": "Matt Trask"
     "date": "2019-04-19"
     "twitter_handle": "matthewtrask"
