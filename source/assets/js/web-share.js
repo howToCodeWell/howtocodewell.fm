@@ -8,14 +8,14 @@
         }
         if (navigator.share !== undefined) {
 
-            let container = document.getElementById('share-container');
-            let btn = document.createElement('input');
-            btn.type = 'button';
-            btn.value = 'Share on phone';
-            btn.classList.add('btn');
-            container.appendChild(btn);
-
             document.addEventListener('DOMContentLoaded', function () {
+
+                let container = document.getElementById('share-container');
+                let btn = document.createElement('input');
+                btn.type = 'button';
+                btn.value = 'Share on phone';
+                btn.classList.add('btn');
+
                 // add share button event listener
                 btn.addEventListener('click', function (event) {
                     // web share API
@@ -31,6 +31,7 @@
                         console.error('Error: ', error);
                     })
                 });
+                container.appendChild(btn);
             });
         }
     }
