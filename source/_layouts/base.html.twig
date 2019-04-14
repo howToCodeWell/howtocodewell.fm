@@ -1,5 +1,7 @@
-{% set full_url ? page.url != '/.' : site.url ~ page.url : site.url  %}
-
+{% set full_url = site.url  %}
+{% if  page.url != '/.'%}
+    {% set full_url = site.url ~ page.url  %}
+{% endif %}
 <!doctype html>
 <html lang="en">
   <head>
