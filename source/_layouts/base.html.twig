@@ -1,9 +1,15 @@
+{% set full_url = site.url  %}
+{% if  page.url != '/.'%}
+    {% set full_url = site.url ~ page.url  %}
+{% endif %}
 <!doctype html>
 <html lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#14252c">
+    <link rel="canonical" href="{{ full_url }}" />
+    <link rel="alternate" href="{{ full_url }}"  hreflang="en" />
     <link rel="icon" sizes="192x192" href="/assets/images/logos/howtocodewell_logo_192x192.png">
     <meta name="description" content="{{ page.meta.description | default(site.meta.description) }}"/>
     <link rel="manifest" href="/manifest.json">
