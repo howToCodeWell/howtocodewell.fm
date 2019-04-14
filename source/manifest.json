@@ -19,7 +19,7 @@
       "sizes": "32x32"
     }
   ],
-  "start_url": "/?source=pwa",
+  "start_url": "/?pwa_action=install",
   "background_color": "#ffa500",
   "display": "standalone",
   "theme_color": "#ffa500",
