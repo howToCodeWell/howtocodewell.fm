@@ -29,11 +29,13 @@
 {% block content_wrapper %}
     <main class="main">
         <div class="main-contents">
-      <h1>{{ page.title }}</h1>
+        <h1>{{ page.title }}</h1>
+
         Published: {{ page.date | date('jS F Y')  }}
         {% include "podcastPlayer.html.twig" with { id: page.podcast_id } %}
         {{ page.guest }}
         {% include 'twitter_profile_img.html' with { handle: page.twitter_handle, alt_text: page.guest, profile_img: page.profile_img }%}
+        {% include "share.html.twig" %}
         {{ page.blocks.content|raw }}
         {% include "youtubePlayer.html.twig" with { id:page.youtubeId } %}
         {% include "postLinks.html.twig" %}

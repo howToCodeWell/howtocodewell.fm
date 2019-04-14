@@ -290,7 +290,9 @@ color: #000;
 .header .menu-icon .navicon:after {
   top: -5px;
 }
-
+.btn:hover{
+  cursor: pointer;
+}
 /* menu btn */
 
 .header .menu-btn {
