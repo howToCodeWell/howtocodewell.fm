@@ -1,4 +1,4 @@
-# Howtocodewell Podcast
+# How To Code Well Podcast
 [![Build Status](https://travis-ci.com/howToCodeWell/howToCodeWellFM.svg?branch=master)](https://travis-ci.com/howToCodeWell/howToCodeWellFM)
 
 ## Requirements
