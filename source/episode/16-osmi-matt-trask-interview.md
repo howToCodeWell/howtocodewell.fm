@@ -23,7 +23,7 @@ Happy Coding
 - [Twitter: matthewtrask](http://twitter.com/matthewtrask) 
 - [Website](https://matthewtrask.net)
 
-### Follow Open Sourcing Mental Health
+### Follow Open Sourcing Mental Illness
 - [Twitter: osmihelp](https://twitter.com/osmihelp) 
 - [Website](https://osmihelp.org) 
 
