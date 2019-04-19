@@ -6,20 +6,13 @@ meta:
     description: Weekly web development podcast with discussions from developers and industry leaders from within the industry
 
 featured:
-    youtubeId: EnS99EdsFXs
-    podcast_id: 9373289
-    guest: Oliver Davies
-    guests_twitter: opdavies
-    profile_img: MwrJuJM__400x400.png
+    youtubeId: qbbQp138KOM
+    podcast_id: 9460607
+    guest: Matt Trask
+    guests_twitter: matthewtrask
+    profile_img: CYhzS7dJ_400x400.png
 
 schedule:
-  -
-    "guest": "Matt Trask"
-    "date": "2019-04-19"
-    "twitter_handle": "matthewtrask"
-    "profile_img": "CYhzS7dJ_400x400.png"
-    "topic": "Mental health in web development"
-    "patreon_link": "https://www.patreon.com/posts/25768492"
   - 
     "guest": "Code Bar"
     "date": "2019-04-26"
