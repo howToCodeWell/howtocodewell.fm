@@ -1,8 +1,41 @@
-const OFFLINE_URL = 'offline';
-const CACHE_VERSION = 14;
+const OFFLINE_URL = '/offline/';
+const CACHE_VERSION = 20;
 const CACHE_NAME = 'howtocodewell-' + CACHE_VERSION;
 
 const URLS_TO_CACHE = [
+    // '/',
+    // '/sponsor/',
+    // '/season/',
+    // '/assets/css/site.css',
+    // '/assets/images/icons/google-podcast.svg',
+    // '/assets/images/icons/itunes.svg',
+    // '/assets/images/icons/overcast.svg',
+    // '/assets/images/icons/rss.svg',
+    // '/assets/images/icons/spotify.svg',
+    // '/assets/images/icons/stitcher.svg',
+    // '/assets/images/logos/howtocodewell_logo_192x192.png',
+    // '/assets/images/logos/howtocodewell_logo_512x512.png',
+    // '/assets/images/logos/howtocodewell_logo_32x32.png',
+    // '/assets/images/profile/7hw_saAP_400x400.jpg',
+    // '/assets/images/profile/8avDLD-t_400x400.jpg',
+    // '/assets/images/profile/b7b-8Thn_400x400.jpg',
+    // '/assets/images/profile/CMCNNCGx_400x400.jpg',
+    // '/assets/images/profile/CYhzS7dJ_400x400.png',
+    // '/assets/images/profile/eTL5nGaH_400x400.jpg',
+    // '/assets/images/profile/jYeKQQdE_400x400.jpg',
+    // '/assets/images/profile/MwrJuJM__400x400.png',
+    // '/assets/images/profile/n4Y3CzVa_400x400.png',
+    // '/assets/images/profile/NA5jYXmm_400x400.jpg',
+    // '/assets/images/profile/PROx6DC0_400x400.jpeg',
+    // '/assets/images/profile/rwLvlp25_400x400.jpg',
+    // '/assets/images/profile/TSlMrGu0_400x400.jpg',
+    // '/assets/images/profile/uCplUZ1P_400x400.jpg',
+    // '/assets/images/profile/uLwpVqYf_400x400.jpg',
+    // '/assets/images/profile/vNR3QP0D_400x400.jpg',
+    // '/assets/images/profile/xBrKM3Vg_400x400.jpg',
+    // '/assets/images/profile/XBSj69e5_400x400.jpg',
+    // '/assets/images/profile/xir0RfsZ_400x400.jpg',
+    // '/assets/images/profile/mIOWZK8h_400x400.jpg',
     OFFLINE_URL
 ];
 
