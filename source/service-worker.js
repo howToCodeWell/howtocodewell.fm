@@ -1,5 +1,5 @@
 const OFFLINE_URL = '/offline/';
-const CACHE_VERSION = 20;
+const CACHE_VERSION = 21;
 const CACHE_NAME = 'howtocodewell-' + CACHE_VERSION;
 
 const URLS_TO_CACHE = [
@@ -36,7 +36,7 @@ const URLS_TO_CACHE = [
     // '/assets/images/profile/XBSj69e5_400x400.jpg',
     // '/assets/images/profile/xir0RfsZ_400x400.jpg',
     // '/assets/images/profile/mIOWZK8h_400x400.jpg',
-    OFFLINE_URL
+    // OFFLINE_URL
 ];
 
 // Install the PWA and add URLS_TO_CACHE to the cache
