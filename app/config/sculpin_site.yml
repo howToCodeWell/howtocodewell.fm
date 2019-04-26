@@ -6,20 +6,13 @@ meta:
     description: Weekly web development podcast with discussions from developers and industry leaders from within the industry
 
 featured:
-    youtubeId: qbbQp138KOM
-    podcast_id: 9460607
-    guest: Matt Trask
+    youtubeId: V4tudla_euU
+    podcast_id: 9544310
+    guest: Kimberley Cook - codebar
     guests_twitter: matthewtrask
-    profile_img: CYhzS7dJ_400x400.png
+    profile_img: NA5jYXmm_400x400.jpg
 
 schedule:
-  - 
-    "guest": "Code Bar"
-    "date": "2019-04-26"
-    "twitter_handle": "codebar"
-    "profile_img": "NA5jYXmm_400x400.jpg"
-    "topic": "Learning to code at Codebar"
-    "patreon_link": "https://www.patreon.com/posts/25716536"
   - 
     "guest": "Tom Vorel"
     "date": "2019-05-03"
