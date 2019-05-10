@@ -21,7 +21,7 @@ John Jacob is also the founder of better.dev, a software company that specialise
 ### John Jacob
 - [Twitter: johnjacobdev](https://twitter.com/johnjacobdev) 
 - [Podcast: Iteration](http://iterationpodcast.com)
-- [Website: Better](http://better.dev)
+- [Website: Better](http://www.better.dev)
 
 
 -------------------------------
