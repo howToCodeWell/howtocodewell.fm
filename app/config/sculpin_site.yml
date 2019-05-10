@@ -6,20 +6,13 @@ meta:
     description: Weekly web development podcast with discussions from developers and industry leaders from within the industry
 
 featured:
-    youtubeId: qckZKmEXUj4
-    podcast_id: 9636848
-    guest: Tom Vorel
-    guests_twitter: tomasvorel13
-    profile_img: CMCNNCGx_400x400.jpg
+    youtubeId: 3A6xAG47svo
+    podcast_id: 9737540
+    guest: John Jacob
+    guests_twitter: johnsalzarulo
+    profile_img: 7hw_saAP_400x400.jpg
 
 schedule:
-  - 
-    "guest": "John Jacob"
-    "date": "2019-05-10"
-    "twitter_handle": "johnsalzarulo"
-    "profile_img": "7hw_saAP_400x400.jpg"
-    "topic": "Iteration Podcast"
-    "patreon_link": "https://www.patreon.com/posts/25768403"
   - 
     "guest": "Rob Waller"
     "date": "2019-05-17"
