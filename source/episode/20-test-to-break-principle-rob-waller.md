@@ -15,7 +15,7 @@ Rob Waller is today's guest on the How To Code Well podcast. Rob talks about tes
 
 Rob Waller is a software developer with a background in managing development teams. He is also a speaker and has given many talks on software testing.
 
-We talk about the best way to test legacy code, how to explain the importance of testing code to stakeholders and the difference between testing for failure and testing for expected outcomes
+We discuss the best way to test legacy code, how to explain the importance of testing to stakeholders and the difference between testing for failure and expected outcomes.
 
 We also talk about Rob's interview on CNN. Rob created an application that found fake followers on Twitter. This app was used during a previous US election by many journalists.
 
