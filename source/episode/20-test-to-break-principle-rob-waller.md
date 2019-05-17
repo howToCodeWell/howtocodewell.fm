@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Test To Break Principle Rob Waller Interview"
+title:  "Test To Break Principle"
 date:   2019-05-17
 season: 2
 youtubeId: h4Cd2tiCIxg

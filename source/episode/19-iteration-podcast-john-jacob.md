@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Iteration Podcast John Jacob Interview"
+title:  "Iteration Podcast"
 date:   2019-05-10
 season: 2
 youtubeId: 3A6xAG47svo
