@@ -1,0 +1,46 @@
+{% extends "base.html.twig" %}
+
+{% block content_wrapper %}
+<nav class="icons">
+  <div class="subscribe-icons">
+      <div class="subscribe-icon subscribe-icon-itunes">
+          <a target="_blank" rel="noopener noreferrer" href="https://itunes.apple.com/gb/podcast/how-to-code-well/id1443159438?mt=2">iTunes</a>
+      </div>
+      <div class="subscribe-icon subscribe-icon-spotify">
+          <a target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/show/6zapPUKAuSjEZxrKR5fUxW?si=v6d-wL_VQuibHV8RWxS-Cg">Spotify</a>
+      </div>
+      <div class="subscribe-icon subscribe-icon-google-podcast">
+          <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/podcasts?feed=aHR0cDovL2hvd3RvY29kZXdlbGwubGlic3luLmNvbS9yc3M">Google Podcast</a>
+      </div>
+      <div class="subscribe-icon subscribe-icon-overcast">
+          <a target="_blank" rel="noopener noreferrer" href="https://overcast.fm/itunes1443159438/how-to-code-well">Overcast</a>
+      </div>
+      <div class="subscribe-icon subscribe-icon-stitcher">
+          <a target="_blank" rel="noopener noreferrer" href="https://www.stitcher.com/podcast/how-to-code-well">Stitcher</a>
+      </div>
+      <div class="subscribe-icon subscribe-icon-pocketcasts">
+          <a target="_blank" rel="noopener noreferrer" href="https://pca.st/P08X">Pocketcasts</a>
+      </div>
+      <div class="subscribe-icon subscribe-icon-rss">
+          <a target="_blank" rel="noopener noreferrer" href="https://howtocodewell.libsyn.com/rss">RSS</a>
+      </div>
+      <div class="subscribe-icon">
+        {% include "share.html.twig" %}
+      </div>
+  </div>
+</nav>
+<main class="main">
+    {% include "podcastPlayer.html.twig" with { id: site.featured.podcast_id } %}
+
+<h1>Guests</h1>
+
+{% for episode in page.pagination.items %}
+
+{% endfor %}
+
+
+
+{% block content %}
+{% endblock %}
+</main>
+{% endblock %}

@@ -69,3 +69,16 @@ schedule:
     "profile_img": "JvTb_YVy_400x400.jpg"
     "topic": ""
     "patreon_link": ""
+
+
+guests:
+  -
+    "name": ""
+    "profile_image": ""
+    "link": ""
+    "bio": ""
+    "episodes":
+        -
+          "title" : ""
+          "link " : ""
+          "publication_date": ""
