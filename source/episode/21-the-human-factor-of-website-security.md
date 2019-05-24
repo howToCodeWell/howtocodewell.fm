@@ -14,7 +14,7 @@ meta:
 
 Rob Wilson is today's guest on the How To Code Well podcast. Rob is a senior PHP developer at Superdry in Cheltenham and has done many talks on web development security.
 
-In this episode Rob explains the many human factors of web site security, how web developers can follow security best practices and what to do if you find yourself dealing with a security breach.
+In this episode Rob explains the many human factors of website security, how web developers can follow security best practices and what to do if you find yourself dealing with a security breach.
 
 We also talk about what it's like working at Superdry as a PHP developer. Rob mentions the many websites and web applications that Superdry has developed for their e-commerce business.
 ### Rob Wilson
