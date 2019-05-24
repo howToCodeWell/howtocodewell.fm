@@ -18,7 +18,7 @@ In this episode Rob explains the many human factors of web site security, how we
 
 We also talk about what it's like working at Superdry as a PHP developer. Rob mentions the many websites and web applications that Superdry has developed for their e-commerce business.
 ### Rob Wilson
-- [Twitter: RobDWaller](https://twitter.com/devtoolboxuk) 
+- [Twitter: devtoolboxuk](https://twitter.com/devtoolboxuk) 
 
 ### Robs Wilson's talks on website security
 - [PHP South West](https://youtu.be/4c-c8qUWve8) 
