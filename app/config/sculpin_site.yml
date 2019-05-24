@@ -6,20 +6,13 @@ meta:
     description: Weekly web development podcast with discussions from developers and industry leaders from within the industry
 
 featured:
-    youtubeId: h4Cd2tiCIxg
-    podcast_id: 9824336
-    guest: Rob Waller
-    guests_twitter: RobDWaller
-    profile_img: uCplUZ1P_400x400.jpg
+    youtubeId: TWtkRdhxlkA
+    podcast_id: 9913151
+    guest: Rob Wilson
+    guests_twitter: devtoolboxuk
+    profile_img: eTL5nGaH_400x400.jpg
 
 schedule:
-  - 
-    "guest": "Rob Wilson"
-    "date": "2019-05-24"
-    "twitter_handle": "devtoolboxuk"
-    "profile_img": "eTL5nGaH_400x400.jpg"
-    "topic": "The human factor of software security"
-    "patreon_link": ""
   - 
     "guest": "Drew McLellan"
     "date": "2019-05-31"
