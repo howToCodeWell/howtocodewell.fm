@@ -12,7 +12,10 @@ meta:
     description: "Drew McLellan talks about Notist. Your public speaking portfolio"
 ---
 
-[Drew McLellan](https://twitter.com/drewm) is today's guest on the How To Code Well podcast. Drew talks about how and why he helped create Notist ([https://noti.st](https://noti.st)). Notist is a place to build your public speaking portfolio. A place to share your slides, but also to collate feedback, tweets, photos, resources and everything to create a permanent history of your speaking events.
+[Drew McLellan](https://twitter.com/drewm) is today's guest on the How To Code Well podcast. Drew talks about how and why he helped create Notist ([https://noti.st](https://noti.st)). 
+
+Notist is a place to build your public speaking portfolio. A place to share your slides, but also to collate feedback, tweets, photos, resources and everything to create a permanent history of your speaking events.
+
 Drew talks about the technologies behind Notist, the challenges and decisions that were made during development of the site. Drew also lists the upcoming features that Notist will offer in the future and how Notisit is changing the public speaking portfolio space.
 
 ### Follow Drew McLellan
