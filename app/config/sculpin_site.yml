@@ -6,21 +6,21 @@ meta:
     description: Weekly web development podcast with discussions from developers and industry leaders from within the industry
 
 featured:
-    youtubeId: TWtkRdhxlkA
-    podcast_id: 9913151
-    guest: Rob Wilson
-    guests_twitter: devtoolboxuk
-    profile_img: eTL5nGaH_400x400.jpg
+    youtubeId: dQK1frHIpkQ
+    podcast_id: 10000337
+    guest: Drew McLellan
+    guests_twitter: drewm
+    profile_img: xBrKM3Vg_400x400.jpg
 
 schedule:
-  - 
-    "guest": "Drew McLellan"
-    "date": "2019-05-31"
-    "twitter_handle": "drewm"
-    "profile_img": "xBrKM3Vg_400x400.jpg"
-    "topic": "Notist - Your public speaking portfolio"
+  -
+    "guest": "Josh Hudson"
+    "date": "07-06-2019"
+    "twitter_handle": "joshyhud"
+    "profile_img": "YlM2119p_400x400.jpg"
+    "topic": "From Call Center To Coder"
     "patreon_link": ""
-  - 
+ -
     "guest": "Jacques Woodcock"
     "date": ""
     "twitter_handle": "jacqueswoodcock"
@@ -39,13 +39,6 @@ schedule:
     "date": ""
     "twitter_handle": "enygma"
     "profile_img": "NbOZ5DIm_200x200.jpg"
-    "topic": ""
-    "patreon_link": ""
-  -
-    "guest": "Josh Hudson"
-    "date": ""
-    "twitter_handle": "joshyhud"
-    "profile_img": "YlM2119p_400x400.jpg"
     "topic": ""
     "patreon_link": ""
   -
