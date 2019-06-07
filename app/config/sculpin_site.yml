@@ -6,19 +6,19 @@ meta:
     description: Weekly web development podcast with discussions from developers and industry leaders from within the industry
 
 featured:
-    youtubeId: dQK1frHIpkQ
-    podcast_id: 10000337
-    guest: Drew McLellan
-    guests_twitter: drewm
-    profile_img: xBrKM3Vg_400x400.jpg
+    youtubeId: 7SULbU03PRY
+    podcast_id: 10092038
+    guest: Josh Hudson
+    guests_twitter: joshyhud
+    profile_img: YlM2119p_400x400.jpg
 
 schedule:
   -
-    "guest": "Josh Hudson"
-    "date": "07-06-2019"
-    "twitter_handle": "joshyhud"
-    "profile_img": "YlM2119p_400x400.jpg"
-    "topic": "From Call Center To Coder"
+    "guest": "Stephanie Hurlburt"
+    "date": ""
+    "twitter_handle": "sehurlburt"
+    "profile_img": "JvTb_YVy_400x400.jpg"
+    "topic": ""
     "patreon_link": ""
   -
     "guest": "Jacques Woodcock"
@@ -46,13 +46,6 @@ schedule:
     "date": ""
     "twitter_handle": "thestemado"
     "profile_img": "cLquJrfv_400x400.jpg"
-    "topic": ""
-    "patreon_link": ""
-  -
-    "guest": "Stephanie Hurlburt"
-    "date": ""
-    "twitter_handle": "sehurlburt"
-    "profile_img": "JvTb_YVy_400x400.jpg"
     "topic": ""
     "patreon_link": ""
 
