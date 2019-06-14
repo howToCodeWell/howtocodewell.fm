@@ -12,9 +12,6 @@ meta:
     description: "Stephanie Hurlburt talks about how Binomial is improving image and texture rending on the web in this How To Code Well podcast"
 ---
 
-The audio version of the show: 
-Get the podcast: https://howtocodewell.fm
-
 Today [Stephanie Hurlburt](https://twitter.com/sehurlburt) is my guest on the How To Code Well podcast.
 
 Stephanie is the co owner of Binomial ([binomial.info](http://binomial.info)) which makes the image and texture compression product called Basis.  
