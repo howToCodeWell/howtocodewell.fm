@@ -1,0 +1,40 @@
+---
+layout: post
+title:  "Binomial Making Better Web VR"
+date:   2019-06-14
+season: 2
+youtubeId: QbZZ8ZaopQg
+podcast_id: 10152176
+guest: Stephanie Hurlburt
+guests_twitter: sehurlburt
+profile_img: JvTb_YVy_400x400.jpg
+meta:
+    description: "Stephanie Hurlburt talks about how Binomial is improving image and texture rending on the web in this How To Code Well podcast"
+---
+
+The audio version of the show: 
+Get the podcast: https://howtocodewell.fm
+
+Today [Stephanie Hurlburt](https://twitter.com/sehurlburt) is my guest on the How To Code Well podcast.
+
+Stephanie is the co owner of Binomial ([binomial.info](http://binomial.info)) which makes the image and texture compression product called Basis.  
+
+Basis is greatly improving compression speed, file size and performance of images and their textures.  This will vastly improve how images are handled on the web, on the desktop, in computer games and within virtual reality.
+
+Find out more at [binomial.info](http://binomial.info)
+
+We also discuss the current state of virtual reality in 2019 and what might be coming in the future of VR. 
+
+Stephanie talks about her background and how she got into coding. She also shares some great advice for junior developers getting into the industry. Other topics we that we cover include freelancing, managing a business, pricing structures and more.
+
+### Follow Stephanie Hurlburt
+- [Twitter: sehurlburt](https://twitter.com/sehurlburt)
+- [Web: stephaniehurlburt.com](http://stephaniehurlburt.com)
+
+### Follow Binomial
+- [Twitter:  _binomial](https://twitter.com/_binomial)
+- [Web: binomial.info](http://binomial.info)
+
+-------------------------------
+
+[Support the channel](https://www.patreon.com/howToCodeWell) and get early access to episodes

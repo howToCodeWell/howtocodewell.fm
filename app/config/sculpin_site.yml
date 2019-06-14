@@ -6,18 +6,18 @@ meta:
     description: Weekly web development podcast with discussions from developers and industry leaders from within the industry
 
 featured:
-    youtubeId: 7SULbU03PRY
-    podcast_id: 10092038
-    guest: Josh Hudson
-    guests_twitter: joshyhud
-    profile_img: YlM2119p_400x400.jpg
+    youtubeId: QbZZ8ZaopQg
+    podcast_id: 10152176
+    guest: Stephanie Hurlburt
+    guests_twitter: sehurlburt
+    profile_img: JvTb_YVy_400x400.jpg
 
 schedule:
   -
-    "guest": "Stephanie Hurlburt"
+    "guest": "Stephen Doherty"
     "date": ""
-    "twitter_handle": "sehurlburt"
-    "profile_img": "JvTb_YVy_400x400.jpg"
+    "twitter_handle": "thestemado"
+    "profile_img": "cLquJrfv_400x400.jpg"
     "topic": ""
     "patreon_link": ""
   -
@@ -41,13 +41,7 @@ schedule:
     "profile_img": "NbOZ5DIm_200x200.jpg"
     "topic": ""
     "patreon_link": ""
-  -
-    "guest": "Stephen Doherty"
-    "date": ""
-    "twitter_handle": "thestemado"
-    "profile_img": "cLquJrfv_400x400.jpg"
-    "topic": ""
-    "patreon_link": ""
+
 
 
 guests:
