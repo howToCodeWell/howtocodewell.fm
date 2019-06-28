@@ -6,26 +6,20 @@ meta:
     description: Weekly web development podcast with discussions from developers and industry leaders from within the industry
 
 featured:
-    youtubeId: ejDKauZZr7o
-    podcast_id: 10239467
-    guest: Stephen Doherty
-    guests_twitter: thestemado
-    profile_img: cLquJrfv_400x400.jpg
+    youtubeId: j9oBzlfex6g
+    podcast_id: 10325870
+    guest: Emma Wedekind
+    guests_twitter: EmmaWedekind
+    profile_img: 91rCpayn_400x400.jpg
 
 schedule:
-  -
-    "guest": "Emma Wedekind"
-    "date": "28-06-19"
-    "twitter_handle": "EmmaWedekind"
-    "profile_img": "mIOWZK8h_400x400.jpg"
-    "topic": ""
-    "patreon_link": ""
+
   -
     "guest": "Jacques Woodcock"
-    "date": ""
+    "date": "05-07-2019"
     "twitter_handle": "jacqueswoodcock"
     "profile_img": "PROx6DC0_400x400.jpeg"
-    "topic": ""
+    "topic": "What It's Like Working At Amazon As A Development Manager"
     "patreon_link": ""
   -
     "guest": "Adam Argyle"
