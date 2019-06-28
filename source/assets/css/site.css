@@ -53,14 +53,14 @@ nav.icons{
 }
 .subscribe-icons div{
   margin: 5px;
-  font-size: 1.2rem;
+  font-size: 1.0rem;
   background-color: #EEE;
   border-radius: 5px;
   flex: 0 0 auto;
 }
 .subscribe-icons div a{
   display: flex;
-  padding:8px;
+  padding:7px;
 }
 .subscribe-icons div a:hover{
   background-color: #3f3f3f;
@@ -73,7 +73,7 @@ nav.icons{
   width: 25px;
   height: 25px;
   content: '';
-  margin-right: 0.7rem;
+  margin-right: 0.5rem;
   background-size: cover;
   border-radius: 5px;
   box-shadow: 0 0 0 2px rgba(0,0,0,0.05);
@@ -100,8 +100,11 @@ nav.icons{
 }
 .subscribe-icon-rss a:before{
   background-image: url("/assets/images/icons/rss.svg");
-
 }
+.subscribe-icon-youtube a:before{
+  background-image: url("/assets/images/icons/youtube.svg");
+}
+
 
 .video-container {
     position: relative;
@@ -331,9 +334,6 @@ color: #000;
   }
   .header li {
     float: left;
-  }
-  .header li a {
-    padding: 20px 30px;
   }
   .header .menu {
     clear: none;
