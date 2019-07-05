@@ -6,20 +6,19 @@ meta:
     description: Weekly web development podcast with discussions from developers and industry leaders from within the industry
 
 featured:
-    youtubeId: j9oBzlfex6g
-    podcast_id: 10325870
-    guest: Emma Wedekind
-    guests_twitter: EmmaWedekind
-    profile_img: 91rCpayn_400x400.jpg
+    youtubeId: m4SsnGAwgSA
+    podcast_id: 10418921
+    guest: Jacques Woodcock
+    guests_twitter: jacqueswoodcock
+    profile_img: PROx6DC0_400x400.jpeg
 
 schedule:
-
   -
-    "guest": "Jacques Woodcock"
-    "date": "05-07-2019"
-    "twitter_handle": "jacqueswoodcock"
-    "profile_img": "PROx6DC0_400x400.jpeg"
-    "topic": "What It's Like Working At Amazon As A Development Manager"
+    "guest": "Ines van Essen"
+    "date": ""
+    "twitter_handle": "motherofcode"
+    "profile_img": "t-MDnclS_400x400.jpg"
+    "topic": "Donate WC (WordPress Camp)"
     "patreon_link": ""
   -
     "guest": "Adam Argyle"
