@@ -6,19 +6,19 @@ meta:
     description: Weekly web development podcast with discussions from developers and industry leaders from within the industry
 
 featured:
-    youtubeId: m4SsnGAwgSA
-    podcast_id: 10418921
-    guest: Jacques Woodcock
-    guests_twitter: jacqueswoodcock
-    profile_img: PROx6DC0_400x400.jpeg
+    youtubeId: ayigDzQ0KKA
+    podcast_id: 10499051
+    guest: Ines van Essen
+    guests_twitter: motherofcode
+    profile_img: t-MDnclS_400x400.jpg
 
 schedule:
   -
-    "guest": "Ines van Essen"
-    "date": ""
-    "twitter_handle": "motherofcode"
-    "profile_img": "t-MDnclS_400x400.jpg"
-    "topic": "Donate WC (WordPress Camp)"
+    "guest": "Oliver Davies"
+    "date": "19-07-19"
+    "twitter_handle": "opdavies"
+    "profile_img": "jGFURuvM_400x400.png"
+    "topic": "What Is A Static Site Generator"
     "patreon_link": ""
   -
     "guest": "Adam Argyle"
