@@ -6,19 +6,19 @@ meta:
     description: Weekly web development podcast with discussions from developers and industry leaders from within the industry
 
 featured:
-    youtubeId: ayigDzQ0KKA
-    podcast_id: 10499051
-    guest: Ines van Essen
-    guests_twitter: motherofcode
-    profile_img: t-MDnclS_400x400.jpg
+    youtubeId: XcFwZo_7Sng
+    podcast_id: 10587986
+    guest: Oliver Davies
+    guests_twitter: opdavies
+    profile_img: jGFURuvM_400x400.png
 
 schedule:
   -
-    "guest": "Oliver Davies"
-    "date": "19-07-19"
-    "twitter_handle": "opdavies"
-    "profile_img": "jGFURuvM_400x400.png"
-    "topic": "What Is A Static Site Generator"
+    "guest": "Scott W. Ambler"
+    "date": "19-07-26"
+    "twitter_handle": "scottwambler"
+    "profile_img": "7WBAnFQz_400x400.jpeg"
+    "topic": "Agile Development"
     "patreon_link": ""
   -
     "guest": "Adam Argyle"
