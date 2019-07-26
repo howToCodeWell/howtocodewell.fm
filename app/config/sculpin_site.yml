@@ -6,20 +6,13 @@ meta:
     description: Weekly web development podcast with discussions from developers and industry leaders from within the industry
 
 featured:
-    youtubeId: XcFwZo_7Sng
-    podcast_id: 10587986
-    guest: Oliver Davies
-    guests_twitter: opdavies
-    profile_img: jGFURuvM_400x400.png
+    youtubeId: ojOSJnMkOFg
+    podcast_id: 10672058
+    guest: Scott W. Ambler
+    guests_twitter: scottwambler
+    profile_img: 7WBAnFQz_400x400.jpeg
 
 schedule:
-  -
-    "guest": "Scott W. Ambler"
-    "date": "19-07-26"
-    "twitter_handle": "scottwambler"
-    "profile_img": "7WBAnFQz_400x400.jpeg"
-    "topic": "Agile Development"
-    "patreon_link": ""
   -
     "guest": "Anna Filina"
     "date": ""
