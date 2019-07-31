@@ -37,7 +37,7 @@
           <div class="episode-profile-image">
             {% include 'twitter_profile_img.html' with { handle: event.twitter_handle, alt_text: event.guest, profile_img: event.profile_img }%}
            </div>
-           <div class="episode-title">{{ event.guest }} {% if event.topic == '' %} TBD {% else %} {{event.topic }} {% endif %}
+          <div class="episode-title"><strong>{{ event.guest }}  </strong> <span>: {% if event.topic == '' %} TBD {% else %} {{event.topic }} {% endif %} </span>
            </div>
       </div>
 

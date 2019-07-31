@@ -14,37 +14,37 @@ featured:
 
 schedule:
   -
+    "guest": "Adam Argyle"
+    "date": "02-08-2019"
+    "twitter_handle": "argyleink"
+    "profile_img": "FBpNyCPZ_400x400.jpg"
+    "topic": "Working in Google Chrome Developer Relations"
+    "patreon_link": ""
+  -
+    "guest": "Jermey Onion"
+    "date": ""
+    "twitter_handle": "balther74"
+    "profile_img": "8avDLD-t_400x400.jpg"
+    "topic": "Personal development and certifications"
+    "patreon_link": ""
+  -
+    "guest": "Matt Brunt"
+    "date": ""
+    "twitter_handle": "Brunty"
+    "profile_img": "TjB9WT83_400x400.jpg"
+    "topic": "Speaking at Web Developer conferences"
+    "patreon_link": ""
+  -
     "guest": "Anna Filina"
     "date": ""
     "twitter_handle": "afilina"
     "profile_img": "GWANUhbt_400x400.jpg"
-    "topic": ""
+    "topic": "Working on legacy code"
     "patreon_link": ""
   -
-    "guest": "Adam Argyle"
+    "guest": "Dave"
     "date": ""
-    "twitter_handle": "argyleink"
-    "profile_img": "FBpNyCPZ_400x400.jpg"
-    "topic": ""
+    "twitter_handle": "DavidDarnes"
+    "profile_img": "sk9aTJWb_400x400.jpg"
+    "topic": "Publishing content with Ghost"
     "patreon_link": ""
-  -
-    "guest": "Chris Cornutt"
-    "date": ""
-    "twitter_handle": "enygma"
-    "profile_img": "NbOZ5DIm_200x200.jpg"
-    "topic": ""
-    "patreon_link": ""
-
-
-
-guests:
-  -
-    "name": ""
-    "profile_image": ""
-    "link": ""
-    "bio": ""
-    "episodes":
-        -
-          "title" : ""
-          "link " : ""
-          "publication_date": ""
