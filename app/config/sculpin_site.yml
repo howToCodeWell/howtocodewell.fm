@@ -6,33 +6,26 @@ meta:
     description: Weekly web development podcast with discussions from developers and industry leaders from within the industry
 
 featured:
-    youtubeId: ojOSJnMkOFg
-    podcast_id: 10672058
-    guest: Scott W. Ambler
-    guests_twitter: scottwambler
-    profile_img: 7WBAnFQz_400x400.jpeg
+    youtubeId: cUFjFqw4a5k
+    podcast_id: 10751729
+    guest: Adam Argyle
+    guests_twitter: argyleink
+    profile_img: FBpNyCPZ_400x400.jpg
 
 schedule:
   -
-    "guest": "Adam Argyle"
-    "date": "02-08-2019"
-    "twitter_handle": "argyleink"
-    "profile_img": "FBpNyCPZ_400x400.jpg"
-    "topic": "Working in Google Chrome Developer Relations"
-    "patreon_link": ""
-  -
-    "guest": "Jermey Onion"
-    "date": ""
-    "twitter_handle": "balther74"
-    "profile_img": "8avDLD-t_400x400.jpg"
-    "topic": "Personal development and certifications"
-    "patreon_link": ""
-  -
     "guest": "Matt Brunt"
-    "date": ""
+    "date": "09-08-2019"
     "twitter_handle": "Brunty"
     "profile_img": "TjB9WT83_400x400.jpg"
     "topic": "Speaking at Web Developer conferences"
+    "patreon_link": ""
+  -
+    "guest": "Jermey Onion"
+    "date": "16-08-2019"
+    "twitter_handle": "balther74"
+    "profile_img": "8avDLD-t_400x400.jpg"
+    "topic": "Personal development and certifications"
     "patreon_link": ""
   -
     "guest": "Anna Filina"

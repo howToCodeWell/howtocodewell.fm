@@ -32,6 +32,28 @@ a:hover{
     margin: 0 auto;
 }
 
+.courses-container{
+  display:flex;
+}
+.course {
+}
+.course h2{
+  margin:0;
+  padding:0;
+  font-size:1em;
+  text-align:center;
+
+}
+.course a h2{
+  text-decoration: none;
+  background-color:#000;
+  color:#FFF;
+  padding:0.2em;
+}
+.course a:hover h2{
+  color:#f2923c;
+  text-decoration: none;
+}
 nav.icons{
   float:left;
   width:100%;
