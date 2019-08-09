@@ -9,7 +9,7 @@ guest: Adam Argyle
 guests_twitter: argyleink
 profile_img: FBpNyCPZ_400x400.jpg
 meta:
-    description: "Adam Argyle joins me to talk about qorking at Google and CSS Developer Relations in today's How To Code Well podcast"
+    description: "Adam Argyle joins me to talk about working at Google and CSS Developer Relations in today's How To Code Well podcast"
 ---
 
 Adam Argyle is my guest on today's How To Code Well podcast and talks about working in CSS developer relations at Google Chrome.
