@@ -6,20 +6,13 @@ meta:
     description: Weekly web development podcast with discussions from developers and industry leaders from within the industry
 
 featured:
-    youtubeId: eevxWUgoxjU
-    podcast_id: 10837238
-    guest: Matt Brunt
-    guests_twitter: Brunty
-    profile_img: TjB9WT83_400x400.jpg
+    youtubeId: 7KleHf4XIPc
+    podcast_id: 10896967
+    guest: Jeremy Onion
+    guests_twitter: balther74
+    profile_img: 8avDLD-t_400x400.jpg
 
 schedule:
-  -
-    "guest": "Jeremy Onion"
-    "date": "16-08-2019"
-    "twitter_handle": "balther74"
-    "profile_img": "8avDLD-t_400x400.jpg"
-    "topic": "Personal development and certifications"
-    "patreon_link": ""
   -
     "guest": "Dave Darnes"
     "date": ""
