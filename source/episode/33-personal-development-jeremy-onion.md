@@ -16,7 +16,7 @@ Jeremy Onion joins me on the How To Code Well podcast to give advice to web deve
 
 Jeremy has recently been on a certified training course with Google Cloud and will soon start an Amazon Web Services (AWS) course. These courses are instructor lead and certificated by training partners. We discuss the differences between instructor lead training and personal training such as self taught Udemy courses.
 
-Jeremy mentions some great techniques for habit tracking, goal setting and planning ahead. We talk about how to apply certain learning styles to the 100 days of code challenge and how to measure progress in a programmers learning journey.
+Jeremy mentions some great techniques for habit tracking, goal setting, [fear setting](https://www.ted.com/talks/tim_ferriss_why_you_should_define_your_fears_instead_of_your_goals?language=en) and planning ahead. We talk about how to apply certain learning styles to the 100 days of code challenge and how to measure progress in a programmers learning journey.
 
 Jeremy Onion is a technical director at the [Torpedo Group](https://torpedogroup.com)
 
