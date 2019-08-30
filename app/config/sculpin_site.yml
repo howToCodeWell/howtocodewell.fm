@@ -6,20 +6,13 @@ meta:
     description: Weekly web development podcast with discussions from developers and industry leaders from within the industry
 
 featured:
-    youtubeId: 2hq7mHSqz5o
-    podcast_id: 10967018
-    guest: Peter Fisher
-    guests_twitter: pfwd
-    profile_img: vNR3QP0D_400x400.jpg
+    youtubeId: 0C9WmpIq3FU
+    podcast_id: 11042168
+    guest: Dave Darnes
+    guests_twitter: DavidDarnes
+    profile_img: sk9aTJWb_400x400.jpg
 
 schedule:
-  -
-    "guest": "Dave Darnes"
-    "date": ""
-    "twitter_handle": "DavidDarnes"
-    "profile_img": "sk9aTJWb_400x400.jpg"
-    "topic": "Publishing content with Ghost"
-    "patreon_link": ""
   -
     "guest": "Anna Filina"
     "date": ""
@@ -28,17 +21,17 @@ schedule:
     "topic": "Working on legacy code"
     "patreon_link": ""
   -
-    "guest": "Gary Hockin"
-    "date": ""
-    "twitter_handle": "GeeH"
-    "profile_img": "MLDDn1Uw_400x400.jpg"
-    "topic": "TBD"
-    "patreon_link": ""
-  -
     "guest": "Jessica Smith"
     "date": ""
     "twitter_handle": "MintopiaUK"
     "profile_img": "oBE-lX7w_400x400.jpg"
+    "topic": "Web Development Side Projects"
+    "patreon_link": ""
+  -
+    "guest": "Gary Hockin"
+    "date": ""
+    "twitter_handle": "GeeH"
+    "profile_img": "MLDDn1Uw_400x400.jpg"
     "topic": "TBD"
     "patreon_link": ""
   -
