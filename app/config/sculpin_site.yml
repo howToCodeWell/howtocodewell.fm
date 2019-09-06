@@ -6,23 +6,16 @@ meta:
     description: Weekly web development podcast with discussions from developers and industry leaders from within the industry
 
 featured:
-    youtubeId: 0C9WmpIq3FU
-    podcast_id: 11042168
-    guest: Dave Darnes
-    guests_twitter: DavidDarnes
-    profile_img: sk9aTJWb_400x400.jpg
+    youtubeId: kn9_cJfASMY
+    podcast_id: 11149400
+    guest: Anna Filina
+    guests_twitter: afilina
+    profile_img: GWANUhbt_400x400.jpg
 
 schedule:
   -
-    "guest": "Anna Filina"
-    "date": ""
-    "twitter_handle": "afilina"
-    "profile_img": "GWANUhbt_400x400.jpg"
-    "topic": "Working on legacy code"
-    "patreon_link": ""
-  -
     "guest": "Jessica Smith"
-    "date": ""
+    "date": "13-09-2019"
     "twitter_handle": "MintopiaUK"
     "profile_img": "oBE-lX7w_400x400.jpg"
     "topic": "Web Development Side Projects"
@@ -37,7 +30,7 @@ schedule:
   -
     "guest": "Lynn Dang"
     "date": ""
-    "twitter_handle": "MintopiaUK"
+    "twitter_handle": "LynnDangAU"
     "profile_img": "xqsAO_4I_400x400.jpg"
     "topic": "TBD"
     "patreon_link": ""
