@@ -12,7 +12,7 @@ meta:
     description: "Jessica Smith joins me on the How To Code Well podcast to talk about web development side projects, working at epic.LAN and more"
 ---
 Jessica Smith joins me on the How To Code Well podcast to talk about side projects in Web Development. Jessica is an old colleague of mine and a great PHP developer. Jessica is a senior developer at Fasthosts where I previously worked for a few years.
-To say that Jessica's side project is epic is quite the understatement as in her spare time Jessica is the technical manager at epic.LAN!
+To say that Jessica's side project is epic is quite the understatement as in her spare time [Jessica is the technical manager at epic.LAN](https://www.epiclan.co.uk)!
 
 epic.LAN is one of the UK's most exciting LAN gaming events featuring a great range of social games and esports tournaments. They run LAN parties across the UK as well as working closely with other gaming industry organisations such as EGX and ESL UK.
 
