@@ -6,19 +6,54 @@ meta:
     description: Weekly web development podcast with discussions from developers and industry leaders from within the industry
 
 featured:
-    youtubeId: gH77f_s_tas
-    podcast_id: 11043158
-    guest: Jessica Smith
-    guests_twitter: MintopiaUK
-    profile_img: oBE-lX7w_400x400.jpg
+    youtubeId: 5E7D_dJcyIY
+    podcast_id: 11326676
+    guest: Gary Hockin
+    guests_twitter: GeeH
+    profile_img: MLDDn1Uw_400x400.jpg
 
 schedule:
   -
-    "guest": "Gary Hockin"
+    "guest": "Kyle Cook"
     "date": ""
-    "twitter_handle": "GeeH"
-    "profile_img": "MLDDn1Uw_400x400.jpg"
-    "topic": "Live Coding on Twitch and working at Twilio"
+    "twitter_handle": "devsimplified"
+    "profile_img": "XBSj69e5_400x400.jpg"
+    "topic": "Learning React"
+    "patreon_link": ""
+  -
+    "guest": "Jenna Charlton"
+    "date": ""
+    "twitter_handle": "shewrestlestest"
+    "profile_img": "7E_KIXO9_400x400.jpg"
+    "topic": "Software Testing"
+    "patreon_link": ""
+  -
+    "guest": "Jeremy Onion"
+    "date": ""
+    "twitter_handle": "balther74"
+    "profile_img": "8avDLD-t_400x400.jpg"
+    "topic": "Podcast Take Over"
+    "patreon_link": ""
+  -
+    "guest": "Matthew Glen"
+    "date": ""
+    "twitter_handle": "mattyggg1"
+    "profile_img": "3A_ttBlz_400x400.jpg"
+    "topic": "Getting Into The Web Development Industry"
+    "patreon_link": ""
+  -
+    "guest": "Adam Culp"
+    "date": ""
+    "twitter_handle": "adamculp"
+    "profile_img": "n4Y3CzVa_400x400.png"
+    "topic": "Beachcasts and YouTube"
+    "patreon_link": ""
+  -
+    "guest": "Drew McLellan"
+    "date": ""
+    "twitter_handle": "drewm"
+    "profile_img": "xBrKM3Vg_400x400.jpg"
+    "topic": "TBD"
     "patreon_link": ""
   -
     "guest": "Lynn Dang"
