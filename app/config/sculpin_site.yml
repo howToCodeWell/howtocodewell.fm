@@ -35,6 +35,13 @@ schedule:
     "topic": "Podcast Take Over"
     "patreon_link": ""
   -
+    "guest": "Ted M. Young"
+    "date": ""
+    "twitter_handle": "jitterted"
+    "profile_img": "XPKUbsRD_400x400.jpg"
+    "topic": "Teaching Java and TDD"
+    "patreon_link": ""
+  -
     "guest": "Matthew Glen"
     "date": ""
     "twitter_handle": "mattyggg1"
