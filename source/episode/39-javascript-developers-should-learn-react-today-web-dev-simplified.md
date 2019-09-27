@@ -13,13 +13,13 @@ meta:
 ---
 Kyle Cook from Web Dev Simplified joins me on the How To Code Well podcast to talk about React and his new course Learn React Today.
 
-You can get the course here: [http://bit.ly/2nFKTRL](http://bit.ly/2nFKTRL)
+You can get the course here: [http://bit.ly/2ndUMpu](http://bit.ly/2ndUMpu)
 
 Kyle talks about what it's like to be a React developer, what JavaScript skills are needed to be a React developer and what benefits there are to learning React. 
 
 We discuss what you can and cannot build with React and Kyle mentions the most common challenges that JavaScript developers face when writing React applications.
 
-Kyle is the creator of the [video course Learn React Today](http://bit.ly/2nFKTRL). He talks about why he built the course, what a JavaScript developer can learn from taking the course and more.
+Kyle is the creator of the [video course Learn React Today](http://bit.ly/2ndUMpu). He talks about why he built the course, what a JavaScript developer can learn from taking the course and more.
 
 Kyle is also the host of the Web Dev Simplified YouTube channel and we talk about what might be happening on that channel in the future.
 
@@ -27,7 +27,8 @@ If you want to hear more about Kyle and his background in web development then c
 
 ### Follow Web Dev Simplified (Kyle Cook)
 - [Twitter: @devsimplified](https://twitter.com/devsimplified)
-- [Learn React Today](http://bit.ly/2nFKTRL)
+- [Learn React Today](http://bit.ly/2ndUMpu)
+- [Website](http://bit.ly/2nFKTRL)
 - [YouTube](https://www.youtube.com/webdevsimplified)
 
 ### Follow How To Code Well
