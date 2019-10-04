@@ -6,13 +6,20 @@ meta:
     description: Weekly web development podcast with discussions from developers and industry leaders from within the industry
 
 featured:
-    youtubeId: yS8qR-XlrqE
-    podcast_id: 11417078
-    guest: Kyle Cook
-    guests_twitter: devsimplified
-    profile_img: XBSj69e5_400x400.jpg
+    youtubeId: N2KoNYg1j8o
+    podcast_id: 11513147
+    guest: Peter Fisher
+    guests_twitter: pfwd
+    profile_img: vNR3QP0D_400x400.jpg
 
 schedule:
+  -
+    "guest": "Matthew Glen"
+    "date": ""
+    "twitter_handle": "mattyggg1"
+    "profile_img": "3A_ttBlz_400x400.jpg"
+    "topic": "Getting Into The Web Development Industry"
+    "patreon_link": ""
   -
     "guest": "Jenna Charlton"
     "date": ""
@@ -33,13 +40,6 @@ schedule:
     "twitter_handle": "jitterted"
     "profile_img": "XPKUbsRD_400x400.jpg"
     "topic": "Teaching Java and TDD"
-    "patreon_link": ""
-  -
-    "guest": "Matthew Glen"
-    "date": ""
-    "twitter_handle": "mattyggg1"
-    "profile_img": "3A_ttBlz_400x400.jpg"
-    "topic": "Getting Into The Web Development Industry"
     "patreon_link": ""
   -
     "guest": "Adam Culp"
