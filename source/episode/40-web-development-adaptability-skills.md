@@ -9,7 +9,7 @@ guest: Peter Fisher
 guests_twitter: pfwd
 profile_img: vNR3QP0D_400x400.jpg
 meta:
-    description: "Today I'm going to discuss the having and improving web development adaptability skills."
+    description: "Today I'm going to discuss having and improving web development adaptability skills."
 ---
 Being able to adapt to different circumstances is very important in a web developers career. In this podcast I discuss certain ways to improve your adaptability skills and how to alter to new situations.
 We talk about accepting inevitable changes and how to cope with uncertainty. 
