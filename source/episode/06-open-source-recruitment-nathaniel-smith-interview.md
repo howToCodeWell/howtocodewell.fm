@@ -20,5 +20,13 @@ Nathaniel discusses the web development trends he sees when recruiting for PHP o
 ### Follow Nathaniel Smith
 - [Twitter: nathanielPhili4](https://twitter.com/nathanielPhili4) 
 
+### Follow How To Code Well
+- [Courses](http://howtocodewell.net)
+- [YouTube](http://youtube.com/howtocodewell)
+- [Twitch](http://twitch.tv/howtocodewell) - Live coding Weekdays at 07:30 and Sundays at 14:30
+- [Twitter](https://twitter.com/howtocodewell)
+- [Instagram](http://instagram.com/howtocodewell/)
+- [Facebook](http://facebook.com/howtocodewell/)
+- [Discord](http://howtocodewell.net/discord)
 
 -------------------------------

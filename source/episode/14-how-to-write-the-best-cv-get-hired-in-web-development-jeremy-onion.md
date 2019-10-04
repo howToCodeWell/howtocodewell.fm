@@ -30,4 +30,13 @@ Torpedo is hiring new developers!
 - [Twitter: balther74](https://twitter.com/balther74)
 - [Linkedin](https://www.linkedin.com/in/balther74/)
 
+### Follow How To Code Well
+- [Courses](http://howtocodewell.net)
+- [YouTube](http://youtube.com/howtocodewell)
+- [Twitch](http://twitch.tv/howtocodewell) - Live coding Weekdays at 07:30 and Sundays at 14:30
+- [Twitter](https://twitter.com/howtocodewell)
+- [Instagram](http://instagram.com/howtocodewell/)
+- [Facebook](http://facebook.com/howtocodewell/)
+- [Discord](http://howtocodewell.net/discord)
+
 -------------------------------

@@ -17,7 +17,13 @@ This is discussion about upgrading PHP from the perspective of a freelance web d
 
 If you would like to be a guest on How To Code Well and talk about your developer journey or a web development topic then please get in touch
 
-### Follow Peter Fisher
-- [Twitter: pfwd](https://twitter.com/pfwd)
+### Follow How To Code Well
+- [Courses](http://howtocodewell.net)
+- [YouTube](http://youtube.com/howtocodewell)
+- [Twitch](http://twitch.tv/howtocodewell) - Live coding Weekdays at 07:30 and Sundays at 14:30
+- [Twitter](https://twitter.com/howtocodewell)
+- [Instagram](http://instagram.com/howtocodewell/)
+- [Facebook](http://facebook.com/howtocodewell/)
+- [Discord](http://howtocodewell.net/discord)
 
 -------------------------------

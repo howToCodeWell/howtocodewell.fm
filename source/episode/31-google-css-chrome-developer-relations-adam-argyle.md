@@ -27,6 +27,14 @@ Adam gives some great examples of the benefits that Houdini will offer to fron
 - [Twitter: argyleink](https://twitter.com/argyleink)
 - [Web: nerdy.dev](https://nerdy.dev)
 
+### Follow How To Code Well
+- [Courses](http://howtocodewell.net)
+- [YouTube](http://youtube.com/howtocodewell)
+- [Twitch](http://twitch.tv/howtocodewell) - Live coding Weekdays at 07:30 and Sundays at 14:30
+- [Twitter](https://twitter.com/howtocodewell)
+- [Instagram](http://instagram.com/howtocodewell/)
+- [Facebook](http://facebook.com/howtocodewell/)
+- [Discord](http://howtocodewell.net/discord)
 
 -------------------------------
 

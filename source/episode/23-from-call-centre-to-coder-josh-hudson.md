@@ -23,6 +23,15 @@ Josh talks about programmer burnout, web developer career progression and gives 
 - [Twitter: joshyhud](https://twitter.com/joshyhud) 
 - [Website: josh-hudson.co.uk](http://josh-hudson.co.uk) 
 
+### Follow How To Code Well
+- [Courses](http://howtocodewell.net)
+- [YouTube](http://youtube.com/howtocodewell)
+- [Twitch](http://twitch.tv/howtocodewell) - Live coding Weekdays at 07:30 and Sundays at 14:30
+- [Twitter](https://twitter.com/howtocodewell)
+- [Instagram](http://instagram.com/howtocodewell/)
+- [Facebook](http://facebook.com/howtocodewell/)
+- [Discord](http://howtocodewell.net/discord)
+
 -------------------------------
 
 [Support the channel](https://www.patreon.com/howToCodeWell) and get early access to episodes

@@ -22,6 +22,15 @@ Stephen talks about how he taught himself how to code whilst working in a totall
 - [Twitter: thestemado](https://twitter.com/thestemado)
 - [Web: Quora](https://www.quora.com/topic/Source-Code)
 
+### Follow How To Code Well
+- [Courses](http://howtocodewell.net)
+- [YouTube](http://youtube.com/howtocodewell)
+- [Twitch](http://twitch.tv/howtocodewell) - Live coding Weekdays at 07:30 and Sundays at 14:30
+- [Twitter](https://twitter.com/howtocodewell)
+- [Instagram](http://instagram.com/howtocodewell/)
+- [Facebook](http://facebook.com/howtocodewell/)
+- [Discord](http://howtocodewell.net/discord)
+
 -------------------------------
 
 [Support the channel](https://www.patreon.com/howToCodeWell) and get early access to episodes

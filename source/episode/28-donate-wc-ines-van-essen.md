@@ -30,6 +30,14 @@ If you want to apply for sponsorship please click [here](https://donatewc.org/sp
 - [Web: donatewc.org](https://donatewc.org)
 - [Twitter: donate_wc](https://twitter.com/donate_wc)
 
+### Follow How To Code Well
+- [Courses](http://howtocodewell.net)
+- [YouTube](http://youtube.com/howtocodewell)
+- [Twitch](http://twitch.tv/howtocodewell) - Live coding Weekdays at 07:30 and Sundays at 14:30
+- [Twitter](https://twitter.com/howtocodewell)
+- [Instagram](http://instagram.com/howtocodewell/)
+- [Facebook](http://facebook.com/howtocodewell/)
+- [Discord](http://howtocodewell.net/discord)
 
 -------------------------------
 

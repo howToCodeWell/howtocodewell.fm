@@ -28,4 +28,13 @@ We talk about how Bitcoin is being used for on demand services and how Bitcoin i
 - [Twitter: aviatorservices](https://twitter.com/aviatorservices)
 - [Aviation Services](https://twitter.com/aviatorservices)
 
+### Follow How To Code Well
+- [Courses](http://howtocodewell.net)
+- [YouTube](http://youtube.com/howtocodewell)
+- [Twitch](http://twitch.tv/howtocodewell) - Live coding Weekdays at 07:30 and Sundays at 14:30
+- [Twitter](https://twitter.com/howtocodewell)
+- [Instagram](http://instagram.com/howtocodewell/)
+- [Facebook](http://facebook.com/howtocodewell/)
+- [Discord](http://howtocodewell.net/discord)
+
 -------------------------------

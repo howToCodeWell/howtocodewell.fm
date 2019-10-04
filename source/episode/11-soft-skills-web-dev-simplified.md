@@ -19,3 +19,11 @@ Follow Kyle Cook and Web Dev Simplified
 - [Web Dev Simplified YouTube Channel](https://www.youtube.com/webdevsimplified)
 - [Web Dev Simplified Twitter](https://twitter.com/devsimplified)
 
+### Follow How To Code Well
+- [Courses](http://howtocodewell.net)
+- [YouTube](http://youtube.com/howtocodewell)
+- [Twitch](http://twitch.tv/howtocodewell) - Live coding Weekdays at 07:30 and Sundays at 14:30
+- [Twitter](https://twitter.com/howtocodewell)
+- [Instagram](http://instagram.com/howtocodewell/)
+- [Facebook](http://facebook.com/howtocodewell/)
+- [Discord](http://howtocodewell.net/discord)

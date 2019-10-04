@@ -24,4 +24,13 @@ Olivia is a former Chicago Public Schools teacher who now specialises in technol
 - [Twitter: oliravi](https://twitter.com/oliravi)
 - [Slides from Sunshine PHP 2019 talk](https://www.slideshare.net/OliviaLiddell/olivia-liddell-sunshine-php-2019-think-like-a-trainer-improving-your-communication-skills)
 
+### Follow How To Code Well
+- [Courses](http://howtocodewell.net)
+- [YouTube](http://youtube.com/howtocodewell)
+- [Twitch](http://twitch.tv/howtocodewell) - Live coding Weekdays at 07:30 and Sundays at 14:30
+- [Twitter](https://twitter.com/howtocodewell)
+- [Instagram](http://instagram.com/howtocodewell/)
+- [Facebook](http://facebook.com/howtocodewell/)
+- [Discord](http://howtocodewell.net/discord)
+
 -------------------------------

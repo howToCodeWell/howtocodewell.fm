@@ -22,6 +22,14 @@ Oliver and I have both built many websites using static site generators and are 
 - [Twitter: opdavies](https://twitter.com/opdavies)
 - [Web: oliverdavies.uk](https://www.oliverdavies.uk/)
 
+### Follow How To Code Well
+- [Courses](http://howtocodewell.net)
+- [YouTube](http://youtube.com/howtocodewell)
+- [Twitch](http://twitch.tv/howtocodewell) - Live coding Weekdays at 07:30 and Sundays at 14:30
+- [Twitter](https://twitter.com/howtocodewell)
+- [Instagram](http://instagram.com/howtocodewell/)
+- [Facebook](http://facebook.com/howtocodewell/)
+- [Discord](http://howtocodewell.net/discord)
 
 -------------------------------
 

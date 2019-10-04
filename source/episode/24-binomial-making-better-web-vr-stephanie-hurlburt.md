@@ -32,6 +32,15 @@ Stephanie talks about her background and how she got into coding. She also share
 - [Twitter:  _binomial](https://twitter.com/_binomial)
 - [Web: binomial.info](http://binomial.info)
 
+### Follow How To Code Well
+- [Courses](http://howtocodewell.net)
+- [YouTube](http://youtube.com/howtocodewell)
+- [Twitch](http://twitch.tv/howtocodewell) - Live coding Weekdays at 07:30 and Sundays at 14:30
+- [Twitter](https://twitter.com/howtocodewell)
+- [Instagram](http://instagram.com/howtocodewell/)
+- [Facebook](http://facebook.com/howtocodewell/)
+- [Discord](http://howtocodewell.net/discord)
+
 -------------------------------
 
 [Support the channel](https://www.patreon.com/howToCodeWell) and get early access to episodes
