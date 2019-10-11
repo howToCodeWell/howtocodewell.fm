@@ -6,19 +6,19 @@ meta:
     description: Weekly web development podcast with discussions from developers and industry leaders from within the industry
 
 featured:
-    youtubeId: N2KoNYg1j8o
-    podcast_id: 11513147
-    guest: Peter Fisher
-    guests_twitter: pfwd
-    profile_img: vNR3QP0D_400x400.jpg
+    youtubeId: -Bk_2XCZXMA
+    podcast_id: 11602976
+    guest: Matthew Glen
+    guests_twitter: Mattyggg1
+    profile_img: 3A_ttBlz_400x400.jpg
 
 schedule:
   -
-    "guest": "Matthew Glen"
+    "guest": "Jeremy Onion"
     "date": ""
-    "twitter_handle": "mattyggg1"
-    "profile_img": "3A_ttBlz_400x400.jpg"
-    "topic": "Getting Into The Web Development Industry"
+    "twitter_handle": "balther74"
+    "profile_img": "8avDLD-t_400x400.jpg"
+    "topic": "Podcast Take Over"
     "patreon_link": ""
   -
     "guest": "Jenna Charlton"
@@ -26,13 +26,6 @@ schedule:
     "twitter_handle": "shewrestlestest"
     "profile_img": "7E_KIXO9_400x400.jpg"
     "topic": "Software Testing"
-    "patreon_link": ""
-  -
-    "guest": "Jeremy Onion"
-    "date": ""
-    "twitter_handle": "balther74"
-    "profile_img": "8avDLD-t_400x400.jpg"
-    "topic": "Podcast Take Over"
     "patreon_link": ""
   -
     "guest": "Ted M. Young"
