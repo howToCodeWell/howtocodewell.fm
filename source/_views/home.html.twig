@@ -29,6 +29,7 @@
       </div>
   </div>
 </nav>
+    <div class="main-contents">
 <main class="main">
     {% include "podcastPlayer.html.twig" with { id: site.featured.podcast_id } %}
 
@@ -52,5 +53,8 @@
 
 {% block content %}
 {% endblock %}
+
 </main>
+        {% include "follow_howtocodewell.html.twig" %}
+    </div>
 {% endblock %}

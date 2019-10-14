@@ -38,7 +38,17 @@
         {% include "share.html.twig" %}
         {{ page.blocks.content|raw }}
         {% include "youtubePlayer.html.twig" with { id:page.youtubeId } %}
+        {% if  page.transcript is not empty %}
+            {% set transcript %}
+                {% include "transcriptions/#{page.transcript}" %}
+            {% endset %}
+            <h2>Transcript</h2>
+            {{ transcript | markdown }}
+        {% endif %}
+
         {% include "postLinks.html.twig" %}
+
+        {% include "follow_howtocodewell.html.twig" %}
             </div>
     </main>
 {% endblock %}

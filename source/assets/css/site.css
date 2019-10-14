@@ -1,7 +1,7 @@
 body{
   font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#14252c;
-  background-color: #f2923c;
+  background-color: #f4f4f4;
   font-weight: 400;
   font-style: normal;
   font-size: 1.2em;
@@ -59,12 +59,32 @@ nav.icons{
   width:100%;
   margin-bottom:20px;
 }
-.main{
-  padding:10px;
-}
 .main-contents{
   padding:10px;
-  background-color: #f4f4f4;
+  background-color: #FFF;
+  box-shadow: 2px 2px 15px 2px #CCC;
+}
+.follow-container{
+  text-align:center;
+}
+.follow-container h4{
+  margin:0;
+}
+.follow-icon-container{
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center;
+  background-color: #FFF;
+}
+.follow-icon-container div{
+  margin: 2em;
+  font-size: 1.0rem;
+  border-radius: 5px;
+  flex: 0 0 auto;
+}
+.follow-icon-container div img{
+  width:50px;
 }
 .subscribe-icons{
   display: flex;

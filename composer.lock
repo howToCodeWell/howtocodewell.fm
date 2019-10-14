@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "296959cc71301e56720dfbc843fc66a8",
+    "content-hash": "ab6c71a3bb05f27393d0f7c1f2a346b2",
     "packages": [
         {
             "name": "dflydev/ant-path-matcher",
@@ -544,6 +544,50 @@
                 "textile"
             ],
             "time": "2019-08-30T18:41:02+00:00"
+        },
+        {
+            "name": "opdavies/sculpin-twig-markdown-bundle",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/opdavies/sculpin-twig-markdown-bundle.git",
+                "reference": "8927ec4707eada3ad9ca8817eb9daeb1d91ae50b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/opdavies/sculpin-twig-markdown-bundle/zipball/8927ec4707eada3ad9ca8817eb9daeb1d91ae50b",
+                "reference": "8927ec4707eada3ad9ca8817eb9daeb1d91ae50b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "sculpin/sculpin": "@stable"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Opdavies\\Sculpin\\Bundle\\TwigMarkdownBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Oliver Davies",
+                    "email": "oliver@oliverdavies.uk",
+                    "homepage": "https://www.oliverdavies.uk"
+                }
+            ],
+            "keywords": [
+                "markdown",
+                "sculpin",
+                "twig"
+            ],
+            "time": "2017-03-18T10:39:19+00:00"
         },
         {
             "name": "psr/container",

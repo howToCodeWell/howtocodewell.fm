@@ -1,6 +1,7 @@
 {% extends "default" %}
 
 {% block content_wrapper %}
+     <div class="main-contents">
     <main class="main">
 {% for episode in page.pagination.items %}
     {% if episode.title is not empty %}
@@ -11,12 +12,6 @@
            </div>
        <div class="box text"><a href="{{episode.url}}"><strong>{{ episode.guest }}</strong>: {{ episode.title}}</a></div>
     </div>
-
-
-
-
-
-
     {% endif %}
 {% endfor %}
 </main>
@@ -30,4 +25,5 @@
     {% endif %}
 {% endif %}
 </nav>
+     </div>
 {% endblock %}
