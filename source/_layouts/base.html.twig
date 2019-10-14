@@ -24,7 +24,7 @@
         {%  include "head_meta_facebook_og.html.twig" %}
     {%  endblock %}
     <title>{% block title %}{{ page.title | default(site.meta.title) }}{% endblock %}</title>
-    <link rel="stylesheet" href="/assets/css/site.css">
+    <link rel="stylesheet" href="/assets/css/site.css?version=1">
     {% block head_styles %}{% endblock %}
     {% block head_scripts %}{% endblock %}
     {% if site.active_google_tag_manager %}

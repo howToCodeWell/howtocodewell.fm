@@ -1,29 +1,29 @@
-{% extends "default" %}
+{% extends "base.html.twig" %}
 
 {% block content_wrapper %}
-     <div class="main-contents">
+ <div class="main-contents">
     <main class="main">
-{% for episode in page.pagination.items %}
-    {% if episode.title is not empty %}
-    <div class="wrapper">
-      <div class="box text">{{episode.date | date('jS F Y') }}</div>
-          <div class="box">
-             {% include 'twitter_profile_img.html' with { handle: episode.twitter_handle, alt_text: episode.guest, profile_img: episode.profile_img } %}
-           </div>
-       <div class="box text"><a href="{{episode.url}}"><strong>{{ episode.guest }}</strong>: {{ episode.title}}</a></div>
-    </div>
+    {% for episode in page.pagination.items %}
+        {% if episode.title is not empty %}
+        <div class="wrapper">
+          <div class="box text">{{episode.date | date('jS F Y') }}</div>
+              <div class="box">
+                 {% include 'twitter_profile_img.html' with { handle: episode.twitter_handle, alt_text: episode.guest, profile_img: episode.profile_img } %}
+               </div>
+           <div class="box text"><a href="{{episode.url}}"><strong>{{ episode.guest }}</strong>: {{ episode.title}}</a></div>
+        </div>
+        {% endif %}
+    {% endfor %}
+    </main>
+    <nav>
+    {% if page.pagination.previous_page or page.pagination.next_page %}
+        {% if page.pagination.previous_page %}
+            <a href="{{ site.url }}{{ page.pagination.previous_page.url }}">Newer Items</a>
+        {% endif %}
+        {% if page.pagination.next_page %}
+            <a href="{{ site.url }}{{ page.pagination.next_page.url }}">Older Items</a>
+        {% endif %}
     {% endif %}
-{% endfor %}
-</main>
-<nav>
-{% if page.pagination.previous_page or page.pagination.next_page %}
-    {% if page.pagination.previous_page %}
-        <a href="{{ site.url }}{{ page.pagination.previous_page.url }}">Newer Items</a>
-    {% endif %}
-    {% if page.pagination.next_page %}
-        <a href="{{ site.url }}{{ page.pagination.next_page.url }}">Older Items</a>
-    {% endif %}
-{% endif %}
-</nav>
-     </div>
+    </nav>
+ </div>
 {% endblock %}
