@@ -9,6 +9,9 @@ body{
   margin:0;
   padding:0;
 }
+h1{
+  font-size:1.4em;
+}
 a{
     text-decoration: none;
     color:#2a7ae2;
@@ -269,10 +272,11 @@ hr {
 
 .header li a {
   display: block;
-  padding: 20px 20px;
+  padding: 10px 10px;
   border-right: 1px solid #f4f4f4;
   text-decoration: none;
 }
+
 
 .header li a:hover,
 .header .menu-btn:hover {
@@ -372,7 +376,7 @@ color: #000;
     text-align: left;
   }
   .header .logo{
-    font-size: 2em;
+    font-size: 1.6em;
   }
   .header li {
     float: left;
