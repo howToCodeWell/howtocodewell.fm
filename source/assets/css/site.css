@@ -17,7 +17,7 @@ a{
     color:#2a7ae2;
 }
 a:hover{
-    text-decoration: none;
+  text-decoration: none;
   border-bottom: 1px solid hotpink;
 }
 a.anchor{
@@ -292,8 +292,10 @@ hr {
 .sponsor-link{
   display:block;
   width:100%;
+  margin-top:0.4em;
+  margin-bottom:0.4em;
   text-align:center;
-  font-size: 0.6em;
+  font-size: 0.8em;
 }
 
 /* header */
@@ -314,7 +316,7 @@ hr {
   margin-bottom: 10px;
 }
 .header a, .footer a{
-  color:#999;
+  color:hotpink;
 }
 
 .header a{
@@ -332,14 +334,16 @@ hr {
 .header li a {
   display: block;
   padding: 10px 10px;
-  border-right: 1px solid #f4f4f4;
+  border-right: 2px solid #f4f4f4;
   text-decoration: none;
+  border-bottom:1px solid #FFF;
 }
 
 
 .header li a:hover,
 .header .menu-btn:hover {
   background-color: #f4f4f4;
+  border-bottom:1px solid hotpink;
 }
 
 .header .logo {

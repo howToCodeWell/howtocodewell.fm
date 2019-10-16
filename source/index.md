@@ -3,7 +3,7 @@ layout: home
 generator: pagination
 pagination:    
     provider: data.episodes
-    max_per_page: 5
+    max_per_page: 10
 use:
   - episodes 
 meta:
