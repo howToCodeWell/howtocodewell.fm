@@ -1,7 +1,7 @@
 {% extends "default" %}
-{% block title %} {{  site.meta.title }} - {{ page.title }}{% endblock %}
+{% block title %} {{ site.meta.title }} - {{ page.title }}{% endblock %}
 
-{%  block head_meta_twitter_cards %}
+{% block head_meta_twitter_cards %}
     <meta name="twitter:card" content="player">
     <meta name="twitter:creator" content="@pfwd">
     <meta name="twitter:site" content="@howtocodewell">
@@ -12,9 +12,9 @@
     <meta name="twitter:player:height" content="480">
     <meta name="twitter:image" content="https://i.ytimg.com/vi/{{ page.youtubeId }}/maxresdefault.jpg">
     <meta name="twitter:image:alt" content="How To Code Well - Weekly podcast for web developers">
-{%  endblock %}
-{%  block head_meta_facebook_og %}
-    <meta property="og:url" content="https://howtocodewell.fm{{page.url | default ('') }}">
+{% endblock %}
+{% block head_meta_facebook_og %}
+    <meta property="og:url" content="https://howtocodewell.fm{{ page.url | default ('') }}">
     <meta property="og:title" content="{{ page.meta.title | default(site.meta.title) }}">
     <meta property="og:description" content="{{ page.meta.description | default(site.meta.description) }}">
     <meta property="og:type" content="video">
@@ -24,31 +24,47 @@
     <meta property="og:video:width" content="398">
     <meta property="og:video:height" content="264">
     <meta property="og:site_name" content="How To Code Well FM">
-{%  endblock %}
+{% endblock %}
 
 {% block content_wrapper %}
     <main class="main">
         <div class="main-contents">
-        <h1>{{ page.title }}</h1>
+            <h1>{{ page.title }}</h1>
 
-        Published: {{ page.date | date('jS F Y')  }}
-        {% include "podcastPlayer.html.twig" with { id: page.podcast_id } %}
-        {{ page.guest }}
-        {% include 'twitter_profile_img.html' with { handle: page.twitter_handle, alt_text: page.guest, profile_img: page.profile_img }%}
-        {% include "share.html.twig" %}
-        {{ page.blocks.content|raw }}
-        {% include "youtubePlayer.html.twig" with { id:page.youtubeId } %}
-        {% if  page.transcript is not empty %}
-            {% set transcript %}
-                {% include "transcriptions/#{page.transcript}" %}
-            {% endset %}
-            <h2>Transcript</h2>
-            {{ transcript | markdown }}
-        {% endif %}
+            Published: {{ page.date | date('jS F Y') }}
 
-        {% include "postLinks.html.twig" %}
-
-        {% include "follow_howtocodewell.html.twig" %}
+            <div class="player-container">
+                <div class="guest-container">
+                    <div class="profile">
+                        {% include 'twitter_profile_img.html' with { handle: page.guests_twitter, alt_text: page.guest, profile_img: page.profile_img } %}
+                    </div>
+                    <h4>{{ page.guest }}</h4>
+                </div>
+                <div class="podcast-player-container">
+                    {% include "podcastPlayer.html.twig" with { id: page.podcast_id } %}
+                </div>
             </div>
+
+
+            {% include "share.html.twig" %}
+            {% include "post_menu.html.twig" %}
+            {{ page.blocks.content|raw }}
+            {% include "youtubePlayer.html.twig" with { id:page.youtubeId } %}
+            {% include "postLinks.html.twig" %}
+
+            {% include "follow_howtocodewell.html.twig" %}
+            <h2><a class="anchor" name="transcript">Transcript</a></h2>
+            {% if  page.transcript is not empty %}
+                {% set transcript %}
+                    {% include "transcriptions/#{page.transcript}" %}
+                {% endset %}
+                {{ transcript | markdown }}
+                {% include "follow_howtocodewell.html.twig" %}
+            {% else %}
+                <p>Transcript coming soon</p>
+            {% endif %}
+
+
+        </div>
     </main>
 {% endblock %}

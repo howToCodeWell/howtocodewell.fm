@@ -17,7 +17,15 @@ a{
     color:#2a7ae2;
 }
 a:hover{
-    text-decoration: underline;
+    text-decoration: none;
+  border-bottom: 1px solid hotpink;
+}
+a.anchor{
+  color:#000;
+}
+a.anchor::before{
+  content: "| ";
+  color:#2a7ae2;
 }
 .btn{
   background-color:#FFF;
@@ -34,7 +42,58 @@ a:hover{
     max-width: 1000px;
     margin: 0 auto;
 }
-
+.player-container{
+  margin-top:2em;
+  margin-bottom: 2em;
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  width:100%;
+}
+.player-container .guest-container h4{
+  font-size: 0.75em;
+  margin-top:0.2em;
+  padding:0;
+  text-align: center;
+}
+.player-container .guest-container .profile{
+display: flex;
+align-items: center;
+align-content: center;
+flex-direction: column;
+}
+.podcast-player-container{
+  width:100%;
+}
+.guest-container{
+  margin-right:1.5em;
+}
+.show-menu{
+  margin-bottom:2em;
+}
+.show-menu ul{
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  background-color: #FFF;
+  margin:0;
+  padding:0;
+  width:100%;
+}
+.show-menu ul li{
+  list-style: none;
+  display: block;
+    width: calc(100% / 3);
+    text-align: center;
+}
+.show-menu ul li a{
+  border-bottom:3px solid #2a7ae2;
+  padding-bottom:10px;
+}
+.show-menu ul li a:hover{
+  border-bottom:3px solid hotpink;
+  text-decoration: none;
+}
 .courses-container{
   display:flex;
 }
