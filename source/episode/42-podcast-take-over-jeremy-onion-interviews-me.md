@@ -11,7 +11,9 @@ profile_img: 8avDLD-t_400x400.jpg
 meta:
     description: "Today's podcast is going to be a bit different as Jeremy Onion interviews me."
 ---
-Jeremy ask's me about my web development journey, my educational background and what programming languages I have learnt.
+Today's podcast is going to be a bit different as Jeremy Onion interviews me.
+
+Jeremy asks me about my web development journey, my educational background and what programming languages I have learnt.
 
 We also discuss my web development career and how I became a freelance web developer and consultant.
 
