@@ -15,17 +15,31 @@ featured:
 schedule:
   -
     "guest": "Adam Culp"
-    "date": "01-09-2019"
+    "date": "01-11-2019"
     "twitter_handle": "adamculp"
     "profile_img": "n4Y3CzVa_400x400.png"
     "topic": "Beachcasts and YouTube"
-    "patreon_link": ""
+    "patreon_link": "https://www.patreon.com/posts/s2-ep44-adam-and-31042766"
   -
     "guest": "Ted M. Young"
-    "date": ""
+    "date": "08-11-2019"
     "twitter_handle": "jitterted"
     "profile_img": "XPKUbsRD_400x400.jpg"
     "topic": "Teaching Java and TDD"
+    "patreon_link": "https://www.patreon.com/posts/s2-ep45-teaching-31055516"
+  -
+    "guest": "Jonan Scheffler"
+    "date": ""
+    "twitter_handle": "thejonanshow"
+    "profile_img": "dnTjMpkg_400x400.jpg"
+    "topic": "TBD"
+    "patreon_link": ""
+  -
+    "guest": "Susanna D. Kline"
+    "date": ""
+    "twitter_handle": "sdk_irl"
+    "profile_img": "2OqiODeC_400x400.jpg"
+    "topic": "TBD"
     "patreon_link": ""
   -
     "guest": "Drew McLellan"
