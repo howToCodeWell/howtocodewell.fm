@@ -36,7 +36,8 @@
             <div class="player-container">
                 <div class="guest-container">
                     <div class="profile">
-                        {% include 'twitter_profile_img.html' with { handle: page.guests_twitter, alt_text: page.guest, profile_img: page.profile_img } %}
+                        {% set twitter_img = 'twitter/' ~ page.guests_twitter ~ '.jpg' %}
+                        {% include 'twitter_profile_img.html' with { handle: page.guests_twitter, alt_text: page.guest, profile_img: twitter_img } %}
                     </div>
                     <h4>{{ page.guest }}</h4>
                 </div>
