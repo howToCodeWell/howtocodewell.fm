@@ -1,0 +1,14 @@
+---
+layout: default
+use: [episodes_guests]
+---
+<h1>Guests Page</h1>
+<ul>
+    {% for guest,episodes in data.episodes_guests %}
+        <li>
+            {% set name = guest|split('-') %}
+
+            <a href="/guests/{{ guest  }}">{{ name[1] | capitalize }} {{ name[2] | capitalize}}</a>
+        </li>
+    {% endfor %}
+</ul>
