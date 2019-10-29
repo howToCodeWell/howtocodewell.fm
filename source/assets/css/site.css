@@ -42,6 +42,40 @@ a.anchor::before{
     max-width: 1000px;
     margin: 0 auto;
 }
+.guests{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-around;
+
+}
+.guest-page{
+  margin-top:5em;
+}
+.guest-card h2{
+  margin:0;
+  font-size: 0.8em;
+  color:#000;
+}
+.guest-card{
+  margin-bottom:2.5em;
+  text-align: center;
+}
+.guest-image {
+  width:100%;
+  text-align: center;
+}
+.guest-image img{
+  max-height:8em;
+  border-radius: 20px;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.guest-card a:hover .guest-image img{
+  box-shadow: 0 4px 8px 0 hotpink;
+}
+.guest-card a:hover h2{
+  color:hotpink;
+}
 .player-container{
   margin-top:2em;
   margin-bottom: 2em;

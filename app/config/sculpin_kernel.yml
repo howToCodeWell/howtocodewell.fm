@@ -2,7 +2,10 @@ sculpin_content_types:
     posts:
         enabled: false
     episodes:
-        path: episode
-        permalink: pretty
+        path: _episodes
+        permalink: episode/:slug_title
         layout: default
         singular_name: episode
+        taxonomies:
+            - guests
+

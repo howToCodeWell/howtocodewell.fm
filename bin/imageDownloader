@@ -2,7 +2,7 @@
 
 LOCAL_IMAGE_DIR='source/assets/images/profile/twitter/'
 EXTERNAL_URL=https://avatars.io/twitter/
-EPISODE_FILES=source/episode/*
+EPISODE_FILES=source/_episodes/*
 
 # Loop over episodes
 for EPISODE_FILE in $EPISODE_FILES

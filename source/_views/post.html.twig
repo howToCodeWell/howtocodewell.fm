@@ -46,6 +46,16 @@
                 </div>
             </div>
 
+            <section class="taxonomies">
+                <div class="taxonomy">
+                    <a href="{{ site.url }}/guests">Guests</a>:
+                    {% for guest in page.guests %}
+                    <a href="{{ site.url }}/guests/{{ guest }}">
+                        {{ guest }}
+                        </a>{% if not loop.last %}, {% endif %}
+                    {% endfor %}
+                </div>
+            </section>
 
             {% include "share.html.twig" %}
             {% include "post_menu.html.twig" %}
