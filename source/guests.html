@@ -2,7 +2,9 @@
 layout: default
 use: [episodes_guests]
 ---
-<h1>Guests Page</h1>
+<h1>Guests</h1>
+<p>These are the amazing guests that we've had on the podcast! </p>
+<p>If you would like to be on the show or would like to recommend a guest then <a href="/contact">please get in touch</a>.</p>
 <div class="guests">
     {% for guest,episodes in data.episodes_guests %}
     {% set name = guest|split('-') %}

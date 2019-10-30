@@ -47,7 +47,6 @@ a.anchor::before{
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: space-around;
-
 }
 .guest-page{
   margin-top:5em;
@@ -58,8 +57,12 @@ a.anchor::before{
   color:#000;
 }
 .guest-card{
-  margin-bottom:2.5em;
   text-align: center;
+  margin:1em;
+}
+.guests::after {
+  content: '';
+  flex: auto;
 }
 .guest-image {
   width:100%;
