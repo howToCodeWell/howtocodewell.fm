@@ -13,7 +13,7 @@ guests_twitter: adamculp
 meta:
     description: "Adam Culp joins me on the How To Code Well podcast to talk about Beachcasts programming tutorial videos"
 ---
-Adam Culp joins me on the How To Code Well podcast to talk about Beachcast tutorial videos on Twitch and YouTube.
+Adam Culp joins me on the How To Code Well podcast to talk about Beachcasts tutorial videos on Twitch and YouTube.
 
 Adam and I both teach programming and web development on Twitch and YouTube. [Adam first came on the podcast in episode 5](https://howtocodewell.fm/episode/05-sunshine-php-conference-beach-casts-public-speaking-adam-culp-interview) and back then his Beachcasts channel was very new.  Since then his YouTube channel and live coding on Twitch has gained popularity.
 
