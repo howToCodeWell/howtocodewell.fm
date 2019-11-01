@@ -8,7 +8,6 @@ youtubeId: 'NiWa2I2HsrM'
 podcast_id: 11692328
 guest: Jenna Charlton
 guests_twitter: shewrestlestest
-profile_img: 7E_KIXO9_400x400.jpg
 meta:
     description: "Jenna Charlton joins me on the How To Code Well podcast to talk about software testing."
 ---

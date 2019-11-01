@@ -8,7 +8,6 @@ youtubeId: ayigDzQ0KKA
 podcast_id: 10499051
 guest: Ines Van Essen
 guests_twitter: motherofcode
-profile_img: t-MDnclS_400x400.jpg
 meta:
     description: "Ines Van Essen the founder of Donate WC talks about WordCamp conference donations and sponsorships on the How To Code Well Podcast"
 ---

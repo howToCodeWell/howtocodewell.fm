@@ -8,7 +8,6 @@ youtubeId: 0C9WmpIq3FU
 podcast_id: 11042168
 guest: David Darnes
 guests_twitter: DavidDarnes
-profile_img: sk9aTJWb_400x400.jpg
 meta:
     description: "David Darnes joins me on the How To Code Well podcast to talk about Ghost the professional publishing platform"
 ---

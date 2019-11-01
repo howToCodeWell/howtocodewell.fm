@@ -8,7 +8,6 @@ youtubeId: qbbQp138KOM
 podcast_id: 9460607
 guest: Matt Trask
 guests_twitter: matthewtrask
-profile_img: CYhzS7dJ_400x400.png
 meta:
     description: "Matt Trask joins me on today's podcast to talk about Open Sourcing Mental Illness (OSMI) and why mental health is important in Web Development"
 ---

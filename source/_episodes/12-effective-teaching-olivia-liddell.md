@@ -8,7 +8,6 @@ youtubeId: AlIe4LoRnKo
 podcast_id: 9105707
 guest: Olivia Liddell
 guests_twitter: oliravi
-profile_img: TSlMrGu0_400x400.jpg
 meta:
     description: "Olivia Liddell joins me to talk about effective teaching, communication and more"
 ---

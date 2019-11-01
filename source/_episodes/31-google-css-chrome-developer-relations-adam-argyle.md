@@ -8,7 +8,6 @@ youtubeId: cUFjFqw4a5k
 podcast_id: 10751729
 guest: Adam Argyle
 guests_twitter: argyleink
-profile_img: FBpNyCPZ_400x400.jpg
 meta:
     description: "Adam Argyle joins me to talk about working at Google and CSS Developer Relations in today's How To Code Well podcast"
 ---

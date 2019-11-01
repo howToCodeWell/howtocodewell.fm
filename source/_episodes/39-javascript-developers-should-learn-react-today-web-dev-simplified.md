@@ -8,7 +8,6 @@ youtubeId: yS8qR-XlrqE
 podcast_id: 11417078
 guest: Kyle Cook
 guests_twitter: devsimplified
-profile_img: XBSj69e5_400x400.jpg
 transcript: transcription-39-javascript-developers-should-learn-react-today-web-dev-simplified.md
 meta:
     description: "Kyle Cook from Web Dev Simplified joins me on the How To Code Well podcast to talk about React and his new course Learn React Today."

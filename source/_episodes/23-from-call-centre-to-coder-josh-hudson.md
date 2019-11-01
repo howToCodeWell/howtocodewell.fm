@@ -8,7 +8,6 @@ youtubeId: 7SULbU03PRY
 podcast_id: 10092038
 guest: Josh Hudson
 guests_twitter: joshyhud
-profile_img: YlM2119p_400x400.jpg
 meta:
     description: "Josh Hudson talks about how he went from working in a call centre for 10 years to being a full time junior web developer"
 ---

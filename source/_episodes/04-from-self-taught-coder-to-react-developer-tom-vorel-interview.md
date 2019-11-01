@@ -8,7 +8,6 @@ youtubeId: gXtwCIB_1k0
 podcast_id: 8233517
 guest: Tom Vorel
 guests_twitter: tomasvorel13
-profile_img: CMCNNCGx_400x400.jpg
 meta:
     description: "Tom Vorel joins me to talk about being a self taught react developer. He has just started his web development career and gives lot's of advice to developers learning to code"
 ---

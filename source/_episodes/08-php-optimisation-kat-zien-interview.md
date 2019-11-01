@@ -8,7 +8,6 @@ youtubeId: d2-dDXBZB6M
 podcast_id: 8663555
 guest: Kat Zieñ
 guests_twitter: kasiazien
-profile_img: xir0RfsZ_400x400.jpg
 meta:
     description: "Kat Zieñ joins me to talk about PHP optimisation after her fantastic conference talk at Sunshine PHP"
 ---

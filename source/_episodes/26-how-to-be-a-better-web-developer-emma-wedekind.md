@@ -8,7 +8,6 @@ youtubeId: j9oBzlfex6g
 podcast_id: 10325870
 guest: Emma Wedekind
 guests_twitter: emmawedekind
-profile_img: 91rCpayn_400x400.jpg
 meta:
     description: "Emma Wedekind talks about how to be a better web developer on the How To Code Well podcast"
 ---

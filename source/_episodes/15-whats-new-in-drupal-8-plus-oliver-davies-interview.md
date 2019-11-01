@@ -8,7 +8,6 @@ youtubeId: EnS99EdsFXs
 podcast_id: 9373289
 guest: Oliver Davies
 guests_twitter: opdavies
-profile_img: jGFURuvM_400x400.png
 meta:
     description: "Oliver Davies joins me on the How To Code Well podcast to discuss the Drupal PHP framework"
 ---

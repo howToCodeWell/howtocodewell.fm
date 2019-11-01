@@ -8,7 +8,6 @@ youtubeId: eevxWUgoxjU
 podcast_id: 10837238
 guest: Matt Brunt
 guests_twitter: Brunty
-profile_img: TjB9WT83_400x400.jpg
 meta:
     description: "Matt Brunt joins me to talk speaking at web developer conferences"
 ---

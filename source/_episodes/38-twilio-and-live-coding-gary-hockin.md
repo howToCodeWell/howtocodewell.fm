@@ -8,7 +8,6 @@ youtubeId: 5E7D_dJcyIY
 podcast_id: 11326676
 guest: Gary Hockin
 guests_twitter: GeeH
-profile_img: MLDDn1Uw_400x400.jpg
 meta:
     description: "Gary Hockin joins me on the How To Code Well podcast to talk about live coding on Twitch and working at Twilio"
 ---

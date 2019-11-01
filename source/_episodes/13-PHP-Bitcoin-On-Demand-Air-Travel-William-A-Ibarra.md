@@ -8,7 +8,6 @@ youtubeId: zAa7mkrvmQk
 podcast_id: 9195860
 guest: William A. Ibarra
 guests_twitter: aviatorservices
-profile_img: b7b-8Thn_400x400.jpg
 meta:
     description: "William A. Ibarra joins me to talk about on demand air services using PHP and Bitcoin"
 ---

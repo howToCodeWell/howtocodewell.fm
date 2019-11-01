@@ -8,7 +8,6 @@ youtubeId: 7KleHf4XIPc
 podcast_id: 10896967
 guest: Jeremy Onion
 guests_twitter: balther74
-profile_img: 8avDLD-t_400x400.jpg
 meta:
     description: "Jeremy Onion joins me on the How To Code Well podcast to discuss personal development"
 ---

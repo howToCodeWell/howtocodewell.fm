@@ -8,7 +8,6 @@ youtubeId: gH77f_s_tas
 podcast_id: 11043158
 guest: Jessica Smith
 guests_twitter: MintopiaUK
-profile_img: oBE-lX7w_400x400.jpg
 meta:
     description: "Jessica Smith joins me on the How To Code Well podcast to talk about web development side projects, working at epic.LAN and more"
 ---

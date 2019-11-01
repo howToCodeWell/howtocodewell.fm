@@ -8,7 +8,6 @@ youtubeId: 3A6xAG47svo
 podcast_id: 9737540
 guest: John Jacob
 guests_twitter: johnjacobdev
-profile_img: 7hw_saAP_400x400.jpg
 meta:
     description: "John Jacob from the Iteration podcast is today's guest on How To Code Well"
 ---

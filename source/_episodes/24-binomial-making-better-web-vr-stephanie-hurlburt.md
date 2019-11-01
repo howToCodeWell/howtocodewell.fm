@@ -8,7 +8,6 @@ youtubeId: QbZZ8ZaopQg
 podcast_id: 10152176
 guest: Stephanie Hurlburt
 guests_twitter: sehurlburt
-profile_img: JvTb_YVy_400x400.jpg
 meta:
     description: "Stephanie Hurlburt talks about how Binomial is improving image and texture rending on the web in this How To Code Well podcast"
 ---

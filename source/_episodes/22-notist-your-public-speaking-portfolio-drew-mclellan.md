@@ -8,7 +8,6 @@ youtubeId: dQK1frHIpkQ
 podcast_id: 10000337
 guest: Drew McLellan
 guests_twitter: drewm
-profile_img: xBrKM3Vg_400x400.jpg
 meta:
     description: "Drew McLellan talks about Notist. Your public speaking portfolio"
 ---

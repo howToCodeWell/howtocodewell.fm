@@ -8,7 +8,6 @@ youtubeId: h4Cd2tiCIxg
 podcast_id: 9824336
 guest: Rob Waller
 guests_twitter: RobDWaller
-profile_img: uCplUZ1P_400x400.jpg
 meta:
     description: "Rob Waller talks about the test to break principle on the How To Code Well podcast"
 ---

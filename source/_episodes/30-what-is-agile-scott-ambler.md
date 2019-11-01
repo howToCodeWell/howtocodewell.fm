@@ -8,7 +8,6 @@ youtubeId: ojOSJnMkOFg
 podcast_id: 10672058
 guest: Scott Ambler
 guests_twitter: scottwambler
-profile_img: 7WBAnFQz_400x400.jpeg
 meta:
     description: "Scott Ambler joins me to talk about Agile development in today's How To Code Well podcast"
 ---

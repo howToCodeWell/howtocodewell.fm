@@ -8,7 +8,6 @@ youtubeId: m4SsnGAwgSA
 podcast_id: 10418921
 guest: Jacques Woodcock
 guests_twitter: jacqueswoodcock
-profile_img: PROx6DC0_400x400.jpeg
 meta:
     description: "Jacques Woodcock talks about being a Software Development Manager at Amazon on the How To Code Well Podcast"
 ---

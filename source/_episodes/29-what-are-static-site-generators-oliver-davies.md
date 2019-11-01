@@ -8,7 +8,6 @@ youtubeId: XcFwZo_7Sng
 podcast_id: 10587986
 guest: Oliver Davies
 guests_twitter: opdavies
-profile_img: jGFURuvM_400x400.png
 meta:
     description: "Oliver Davies talks about static site generators on the How To Code Well podcast"
 ---

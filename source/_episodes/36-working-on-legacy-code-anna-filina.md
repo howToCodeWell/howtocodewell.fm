@@ -8,7 +8,6 @@ youtubeId: kn9_cJfASMY
 podcast_id: 11149400
 guest: Anna Filina
 guests_twitter: afilina
-profile_img: GWANUhbt_400x400.jpg
 meta:
     description: "Anna Filina joins me on the How To Code Well podcast to talk about working on legacy code"
 ---

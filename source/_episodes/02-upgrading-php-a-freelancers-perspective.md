@@ -8,7 +8,6 @@ youtubeId: Cv_KKuHpsx8
 podcast_id: 8226467
 guest: Peter Fisher
 guests_twitter: pfwd
-profile_img: vNR3QP0D_400x400.jpg
 meta:
     description: "PHP 5.6 is now EOL and as a freelancer I am dealing with a lot of legacy code at the moment.  This is how I go about upgrading PHP in freelance projects.  Sometimes it's not as straight forward as just upgrading the Linux packages"
 ---

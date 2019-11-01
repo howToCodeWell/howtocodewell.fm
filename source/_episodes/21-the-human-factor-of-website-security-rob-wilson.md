@@ -8,7 +8,6 @@ youtubeId: TWtkRdhxlkA
 podcast_id: 9913151
 guest: Rob Wilson
 guests_twitter: devtoolboxuk
-profile_img: eTL5nGaH_400x400.jpg
 meta:
     description: "Rob Wilson talks about the human factor of website security on the How To Code Well podcast"
 ---

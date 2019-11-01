@@ -8,7 +8,6 @@ youtubeId: qckZKmEXUj4
 podcast_id: 9636848
 guest: Tom Vorel
 guests_twitter: tomasvorel13
-profile_img: CMCNNCGx_400x400.jpg
 meta:
     description: "Tom Vorel joins me on today's podcast to talk about the best resources for self taught developers"
 ---

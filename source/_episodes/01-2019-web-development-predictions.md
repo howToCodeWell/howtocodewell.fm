@@ -9,7 +9,6 @@ youtubeId: 2VOB32dNUGo
 podcast_id: 8095223
 guest: Peter Fisher
 guests_twitter: pfwd
-profile_img: vNR3QP0D_400x400.jpg
 meta:
     description: "Here are my web development predictions for 2019"
 ---

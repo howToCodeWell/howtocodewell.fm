@@ -8,7 +8,6 @@ youtubeId: Q7ROMmE1RGU
 podcast_id: 8927141
 guest: Ash Furrow
 guests_twitter: ashfurrow
-profile_img: rwLvlp25_400x400.jpg
 meta:
     description: "Ash Furrow joins me to talk about compassionate coding in web development"
 ---

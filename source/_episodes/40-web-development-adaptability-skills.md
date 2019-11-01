@@ -8,7 +8,6 @@ youtubeId: N2KoNYg1j8o
 podcast_id: 11513147
 guest: Peter Fisher
 guests_twitter: pfwd
-profile_img: vNR3QP0D_400x400.jpg
 transcript: transcription-40-web-development-adaptability-skills.md
 meta:
     description: "Today I'm going to discuss having and improving web development adaptability skills."

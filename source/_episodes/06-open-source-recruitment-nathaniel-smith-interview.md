@@ -8,7 +8,6 @@ podcast_id: 8481542
 guests: [nathanielPhili4-nathaniel-smith]
 guest: Nathaniel Smith
 guests_twitter: nathanielPhili4
-profile_img: uLwpVqYf_400x400.jpg
 meta:
     description: "Nathaniel Smith from Socially Responsible Recruitment (SR2) joins me to talk about web development recruitment"
 ---

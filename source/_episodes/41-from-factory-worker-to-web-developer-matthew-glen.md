@@ -8,7 +8,6 @@ youtubeId: '-Bk_2XCZXMA'
 podcast_id: 11602976
 guest: Matthew Glen
 guests_twitter: Mattyggg1
-profile_img: 3A_ttBlz_400x400.jpg
 meta:
     description: "Matthew Glen joins me on the How To Code Well podcast to talk about changing careers from factory worker to web developer."
 ---

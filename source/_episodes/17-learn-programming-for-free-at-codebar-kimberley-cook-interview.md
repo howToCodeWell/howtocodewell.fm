@@ -8,7 +8,6 @@ youtubeId: V4tudla_euU
 podcast_id: 9544310
 guest: Kimberley Cook - codebar
 guests_twitter: codebar
-profile_img: NA5jYXmm_400x400.jpg
 meta:
     description: "Kimberley Cook joins me on today's podcast to talk about learning to code at codebar"
 ---

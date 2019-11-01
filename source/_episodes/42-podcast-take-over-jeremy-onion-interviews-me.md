@@ -8,7 +8,6 @@ youtubeId: 'pnI9xIK8d0Y'
 podcast_id: 11691893
 guest: Jeremy Onion
 guests_twitter: balther74
-profile_img: 8avDLD-t_400x400.jpg
 meta:
     description: "Today's podcast is going to be a bit different as Jeremy Onion interviews me."
 ---

@@ -8,7 +8,6 @@ youtubeId: ejDKauZZr7o
 podcast_id: 10239467
 guest: Stephen Doherty
 guests_twitter: thestemado
-profile_img: cLquJrfv_400x400.jpg
 meta:
     description: "Stephen Doherty talks about learning to code after 30 in this How To Code Well podcast"
 ---

@@ -8,7 +8,6 @@ youtubeId: 2kJ3KBZP_L4
 podcast_id: 9282866
 guest: Jeremy Onion
 guests_twitter: balther74
-profile_img: 8avDLD-t_400x400.jpg
 meta:
     description: "Jeremy Onion joins me on the How To Code Well podcast to discuss the web development recruitment process"
 ---

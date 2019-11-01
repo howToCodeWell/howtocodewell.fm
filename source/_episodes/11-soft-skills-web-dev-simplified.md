@@ -8,7 +8,6 @@ youtubeId: us1aBMEaLCU
 podcast_id: 9020213
 guest: Kyle Cook
 guests_twitter: devsimplified
-profile_img: XBSj69e5_400x400.jpg
 meta:
     description: "Kyle Cook from the YouTube channel Web Dev Simplified joins me to talk about soft skills in web development"
 ---

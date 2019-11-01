@@ -8,7 +8,6 @@ youtubeId: 2hq7mHSqz5o
 podcast_id: 10967018
 guest: Peter Fisher
 guests_twitter: pfwd
-profile_img: vNR3QP0D_400x400.jpg
 meta:
     description: "Today I talk about the 4 main areas of How To Code Well and announce a future AMA."
 ---
