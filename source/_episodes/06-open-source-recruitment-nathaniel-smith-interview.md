@@ -4,6 +4,7 @@ title:  "Open Source Recruitment"
 slug: 06-open-source-recruitment-nathaniel-smith-interview
 date:   2019-02-01
 season: 2
+episode: 6
 youtubeId: pQqd60NIjpk
 podcast_id: 8481542
 guests: [nathanielPhili4-nathaniel-smith]

@@ -4,6 +4,7 @@ title:  "How To Be A Better Web Developer"
 slug: 26-how-to-be-a-better-web-developer-emma-wedekind
 date:   2019-06-28
 season: 2
+episode: 26
 guests: [emmawedekind-emma-wedekind]
 youtubeId: j9oBzlfex6g
 podcast_id: 10325870

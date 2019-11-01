@@ -4,6 +4,7 @@ title:  "What's new in Drupal 8+"
 slug: 15-whats-new-in-drupal-8-plus-oliver-davies-interview
 date:   2019-04-12
 season: 2
+episode: 15
 guests: [opdavies-oliver-davies]
 youtubeId: EnS99EdsFXs
 podcast_id: 9373289

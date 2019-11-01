@@ -4,6 +4,7 @@ title:  "Web Development Side Projects"
 slug: 37-web-development-side-projects-jessica-smith
 date:   2019-09-13
 season: 2
+episode: 37
 guests: [MintopiaUK-jessica-smith]
 youtubeId: gH77f_s_tas
 podcast_id: 11043158

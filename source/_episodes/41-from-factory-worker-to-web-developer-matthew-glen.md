@@ -4,6 +4,7 @@ title:  "From Factory Worker To Web Developer"
 slug: 41-from-factory-worker-to-web-developer-matthew-glen
 date:   2019-10-11
 season: 2
+episode: 41
 guests: [Mattyggg1-matthew-glen]
 youtubeId: '-Bk_2XCZXMA'
 podcast_id: 11602976

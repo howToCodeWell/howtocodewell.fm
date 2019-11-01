@@ -4,6 +4,7 @@ title:  "Software Testing"
 slug: 43-software-testing-jenna-charlton
 date:   2019-10-25
 season: 2
+episode: 43
 guests: [shewrestlestest-jenna-charlton]
 youtubeId: 'NiWa2I2HsrM'
 podcast_id: 11692328

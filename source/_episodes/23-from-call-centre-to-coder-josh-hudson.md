@@ -4,6 +4,7 @@ title:  "From Call Centre To Coder"
 slug: 23-from-call-centre-to-coder-josh-hudson
 date:   2019-06-07
 season: 2
+episode: 23
 guests: [joshyhud-josh-hudson]
 youtubeId: 7SULbU03PRY
 podcast_id: 10092038

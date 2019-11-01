@@ -4,6 +4,7 @@ title:  "What is Agile development?"
 slug: 30-what-is-agile-scott-ambler
 date:   2019-07-26
 season: 2
+episode: 30
 guests: [scottwambler-scott-ambler]
 youtubeId: ojOSJnMkOFg
 podcast_id: 10672058

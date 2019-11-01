@@ -4,6 +4,7 @@ title:  "Personal Development"
 slug: 33-personal-development-jeremy-onion
 date:   2019-08-16
 season: 2
+episode: 33
 guests: [balther74-jeremy-onion]
 youtubeId: 7KleHf4XIPc
 podcast_id: 10896967

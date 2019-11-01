@@ -4,6 +4,7 @@ title:  "Iteration Podcast"
 slug: 19-iteration-podcast-john-jacob
 date:   2019-05-10
 season: 2
+episode: 19
 guests: [johnjacobdev-john-jacob]
 youtubeId: 3A6xAG47svo
 podcast_id: 9737540

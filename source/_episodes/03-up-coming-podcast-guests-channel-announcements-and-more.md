@@ -4,6 +4,7 @@ title:  "Up coming podcast guests, channel announcements and more"
 slug: 03-up-coming-podcast-guests-channel-announcements-and-more
 date:   2019-01-16
 season: 2
+episode: 3
 guests: [pfwd-peter-fisher]
 youtubeId: 1pa85KAPNIw
 podcast_id: 8283836

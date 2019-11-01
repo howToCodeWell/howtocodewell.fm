@@ -4,6 +4,7 @@ title:  "Binomial Making Better Web VR"
 slug: 24-binomial-making-better-web-vr-stephanie-hurlburt
 date:   2019-06-14
 season: 2
+episode: 24
 guests: [sehurlburt-stephanie-hurlburt]
 youtubeId: QbZZ8ZaopQg
 podcast_id: 10152176

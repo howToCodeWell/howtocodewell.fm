@@ -4,6 +4,7 @@ title:  "Notist Your Public Speaking Portfolio"
 slug: 22-notist-your-public-speaking-portfolio-drew-mclellan
 date:   2019-05-31
 season: 2
+episode: 22
 guests: [drewm-drew-mcLellan]
 youtubeId: dQK1frHIpkQ
 podcast_id: 10000337

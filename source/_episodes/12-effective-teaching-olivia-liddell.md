@@ -4,6 +4,7 @@ title:  "Effective Teaching"
 slug: 12-effective-teaching-olivia-liddell
 date:   2019-03-22
 season: 2
+episode: 12
 guests: [oliravi-olivia-liddell]
 youtubeId: AlIe4LoRnKo
 podcast_id: 9105707

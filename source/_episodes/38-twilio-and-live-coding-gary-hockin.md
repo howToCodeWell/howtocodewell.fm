@@ -4,6 +4,7 @@ title:  "Twilio and Live Coding"
 slug: 38-twilio-and-live-coding-gary-hockin
 date:   2019-09-20
 season: 2
+episode: 38
 guests: [GeeH-gary-hockin]
 youtubeId: 5E7D_dJcyIY
 podcast_id: 11326676

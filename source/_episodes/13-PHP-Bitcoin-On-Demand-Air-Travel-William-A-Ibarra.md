@@ -4,6 +4,7 @@ title:  "PHP + Bitcoin = On Demand Air Travel"
 slug: 13-PHP-Bitcoin-On-Demand-Air-Travel-William-A-Ibarra
 date:   2019-03-29
 season: 2
+episode: 13
 guests: [aviatorservices-william-a-barra]
 youtubeId: zAa7mkrvmQk
 podcast_id: 9195860

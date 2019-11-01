@@ -4,6 +4,7 @@ title:  "From Self Taught Coder to React Developer"
 slug: 04-from-self-taught-coder-to-react-developer-tom-vorel-interview
 date:   2019-01-18
 season: 2
+episode: 4
 guests: [tomasvorel13-tom-vorel]
 youtubeId: gXtwCIB_1k0
 podcast_id: 8233517

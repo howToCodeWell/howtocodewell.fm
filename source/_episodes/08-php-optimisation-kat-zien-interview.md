@@ -4,6 +4,7 @@ title:  "PHP Optimisation"
 slug: 08-php-optimisation-kat-zien-interview
 date:   2019-02-22
 season: 2
+episode: 8
 guests: [kasiazien-kat-zieñ]
 youtubeId: d2-dDXBZB6M
 podcast_id: 8663555

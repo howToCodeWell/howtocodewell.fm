@@ -4,6 +4,7 @@ title:  "The Human Factor Of Website Security"
 slug: 21-the-human-factor-of-website-security-rob-wilson
 date:   2019-05-24
 season: 2
+episode: 21
 guests: [devtoolboxuk-rob-wilson]
 youtubeId: TWtkRdhxlkA
 podcast_id: 9913151

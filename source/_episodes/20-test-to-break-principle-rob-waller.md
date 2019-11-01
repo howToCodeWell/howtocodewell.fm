@@ -4,6 +4,7 @@ title:  "Test To Break Principle"
 slug: 20-test-to-break-principle-rob-waller
 date:   2019-05-17
 season: 2
+episode: 20
 guests: [RobDWaller-rob-waller]
 youtubeId: h4Cd2tiCIxg
 podcast_id: 9824336

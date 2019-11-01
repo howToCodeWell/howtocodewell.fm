@@ -4,6 +4,7 @@ title:  "Speaking at Web Development Conferences"
 slug: 32-speaking-at-web-development-conferences-matt-brunt
 date:   2019-08-09
 season: 2
+episode: 32
 guests: [Brunty-matt-brunt]
 youtubeId: eevxWUgoxjU
 podcast_id: 10837238

@@ -4,6 +4,7 @@ title:  "Podcast Take Over - Jeremy Onion Interviews Me"
 slug: 42-podcast-take-over-jeremy-onion-interviews-me
 date:   2019-10-18
 season: 2
+episode: 42
 guests: [balther74-jeremy-onion]
 youtubeId: 'pnI9xIK8d0Y'
 podcast_id: 11691893

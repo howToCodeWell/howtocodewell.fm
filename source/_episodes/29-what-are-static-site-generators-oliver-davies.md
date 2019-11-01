@@ -4,6 +4,7 @@ title:  "What are static site generators"
 slug: 29-what-are-static-site-generators-oliver-davies
 date:   2019-07-19
 season: 2
+episode: 29
 guests: [opdavies-oliver-davies]
 youtubeId: XcFwZo_7Sng
 podcast_id: 10587986

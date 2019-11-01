@@ -4,6 +4,7 @@ title:  "JavaScript Developers Should Learn React Today"
 slug: 39-javascript-developers-should-learn-react-today-web-dev-simplified
 date:   2019-09-27
 season: 2
+episode: 39
 guests: [devsimplified-kyle-cook]
 youtubeId: yS8qR-XlrqE
 podcast_id: 11417078

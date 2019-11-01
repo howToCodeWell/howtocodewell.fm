@@ -4,6 +4,7 @@ title:  "Learning To Code After 30"
 slug: 25-learning-to-code-after-30-stephen-doherty
 date:   2019-06-21
 season: 2
+episode: 25
 guests: [thestemado-stephen-doherty]
 youtubeId: ejDKauZZr7o
 podcast_id: 10239467

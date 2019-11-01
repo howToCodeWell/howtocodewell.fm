@@ -4,6 +4,7 @@ title:  "Amazon Software Development Manager"
 slug: 27-software-development-manager-at-amazon-jacques-woodcock
 date:   2019-07-05
 season: 2
+episode: 27
 guests: [jacqueswoodcock-jacques-woodcock]
 youtubeId: m4SsnGAwgSA
 podcast_id: 10418921

@@ -4,6 +4,7 @@ title:  "Web Dev Simplified Web Development Soft Skills"
 slug: 11-soft-skills-web-dev-simplified
 date:   2019-03-15
 season: 2
+episode: 11
 guests: [devsimplified-kyle-cook]
 youtubeId: us1aBMEaLCU
 podcast_id: 9020213

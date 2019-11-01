@@ -4,6 +4,7 @@ title:  "2019 Web Development Predictions"
 slug: 01-2019-web-development-predictions
 date:   2019-01-01
 season: 2
+episode: 1
 guests: [pfwd-peter-fisher]
 youtubeId: 2VOB32dNUGo
 podcast_id: 8095223

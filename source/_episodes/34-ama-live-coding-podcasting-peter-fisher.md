@@ -4,6 +4,7 @@ title:  "AMA, Live Coding, Podcasting and more"
 slug: 34-ama-live-coding-podcasting-peter-fisher
 date:   2019-08-23
 season: 2
+episode: 34
 guests: [pfwd-peter-fisher]
 youtubeId: 2hq7mHSqz5o
 podcast_id: 10967018

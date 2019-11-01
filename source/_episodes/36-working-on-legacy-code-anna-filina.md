@@ -4,6 +4,7 @@ title:  "Working On Legacy Code"
 slug: 36-working-on-legacy-code-anna-filina
 date:   2019-09-06
 season: 2
+episode: 36
 guests: [afilina-anna-filina]
 youtubeId: kn9_cJfASMY
 podcast_id: 11149400

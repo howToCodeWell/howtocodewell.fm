@@ -4,6 +4,7 @@ title:  "Web Development Adaptability Skills"
 slug: 40-web-development-adaptability-skills
 date:   2019-10-04
 season: 2
+episode: 40
 guests: [pfwd-peter-fisher]
 youtubeId: N2KoNYg1j8o
 podcast_id: 11513147

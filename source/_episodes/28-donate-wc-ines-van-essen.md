@@ -4,6 +4,7 @@ title:  "Donate WC (WordPress WordCamp)"
 slug: 28-donate-wc-ines-van-essen
 date:   2019-07-12
 season: 2
+episode: 28
 guests: [motherofcode-ines-van-essen]
 youtubeId: ayigDzQ0KKA
 podcast_id: 10499051

@@ -4,6 +4,7 @@ title:  "Compassionate Software Development "
 slug: 10-compassionate-software-development-ash-furrow
 date:   2019-03-08
 season: 2
+episode: 10
 guests: [ashfurrow-ash-furrow]
 youtubeId: Q7ROMmE1RGU
 podcast_id: 8927141

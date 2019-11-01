@@ -4,6 +4,7 @@ title:  "Open Sourcing Mental Illness"
 slug: 16-osmi-matt-trask-interview
 date:   2019-04-19
 season: 2
+episode: 16
 guests: [matthewtrask-matt-trask]
 youtubeId: qbbQp138KOM
 podcast_id: 9460607

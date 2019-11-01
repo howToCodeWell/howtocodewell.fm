@@ -4,6 +4,7 @@ title:  "Ghost The Professional Publishing Platform"
 slug: 35-ghost-professional-publishing-platform-david-darnes
 date:   2019-08-30
 season: 2
+episode: 35
 guests: [DavidDarnes-david-darnes]
 youtubeId: 0C9WmpIq3FU
 podcast_id: 11042168
