@@ -39,7 +39,7 @@
 <div class="episode-list">
       <div class="episode-profile-image">
           {% set twitter_img = 'twitter/' ~ episode.guests_twitter ~ '.jpg' %}
-         {% include 'twitter_profile_img.html' with { handle: episode.twitter_handle, alt_text: episode.guest, profile_img: twitter_img }%}
+         {% include 'twitter_profile_img.html' with { link: episode.guests[0], alt_text: episode.guest, profile_img: twitter_img }%}
        </div>
    <div class="episode-title"><a href="{{episode.url}}">EP {{ episode.episode }} - <strong>{{ episode.guest }}</strong>: {{ episode.title}}</a></div>
 
