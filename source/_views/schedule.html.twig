@@ -36,7 +36,8 @@
     {% for event in site.schedule %}
       <div class="episode-list">
           <div class="episode-profile-image">
-            {% include 'twitter_profile_img.html' with { handle: event.twitter_handle, alt_text: event.guest, profile_img: event.profile_img }%}
+            {% set twitter_img = 'twitter/' ~ event.twitter_handle ~ '.jpg' %}
+            {% include 'twitter_profile_img.html' with { handle: event.twitter_handle, alt_text: event.guest, profile_img: twitter_img }%}
            </div>
           <div class="episode-title">
               <div class="guest-name">
