@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Notist Your Public Speaking Portfolio"
+slug: 22-notist-your-public-speaking-portfolio-drew-mclellan
 date:   2019-05-31
 season: 2
 guests: [drewm-drew-mcLellan]

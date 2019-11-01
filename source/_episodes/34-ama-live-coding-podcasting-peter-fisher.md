@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "AMA, Live Coding, Podcasting and more"
+slug: 34-ama-live-coding-podcasting-peter-fisher
 date:   2019-08-23
 season: 2
 guests: [pfwd-peter-fisher]

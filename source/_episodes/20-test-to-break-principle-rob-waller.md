@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Test To Break Principle"
+slug: 20-test-to-break-principle-rob-waller
 date:   2019-05-17
 season: 2
 guests: [RobDWaller-rob-waller]

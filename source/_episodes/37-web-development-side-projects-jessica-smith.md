@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Web Development Side Projects"
+slug: 37-web-development-side-projects-jessica-smith
 date:   2019-09-13
 season: 2
 guests: [MintopiaUK-jessica-smith]

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Effective Teaching"
+slug: 12-effective-teaching-olivia-liddell
 date:   2019-03-22
 season: 2
 guests: [oliravi-olivia-liddell]

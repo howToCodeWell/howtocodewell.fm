@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Podcast Take Over - Jeremy Onion Interviews Me"
+slug: 42-podcast-take-over-jeremy-onion-interviews-me
 date:   2019-10-18
 season: 2
 guests: [balther74-jeremy-onion]

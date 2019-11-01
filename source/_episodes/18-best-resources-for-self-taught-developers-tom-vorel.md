@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Best Resources For Self Taught Web Developers"
+slug: 18-best-resources-for-self-taught-developers-tom-vorel
 date:   2019-05-03
 season: 2
 guests: [tomasvorel13-tom-vorel]

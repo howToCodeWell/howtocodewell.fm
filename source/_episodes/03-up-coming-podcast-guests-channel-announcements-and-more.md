@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Up coming podcast guests, channel announcements and more"
+slug: 03-up-coming-podcast-guests-channel-announcements-and-more
 date:   2019-01-16
 season: 2
 guests: [pfwd-peter-fisher]

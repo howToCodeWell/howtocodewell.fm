@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Donate WC (WordPress WordCamp)"
+slug: 28-donate-wc-ines-van-essen
 date:   2019-07-12
 season: 2
 guests: [motherofcode-ines-van-essen]

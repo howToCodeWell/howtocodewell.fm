@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Working On Legacy Code"
+slug: 36-working-on-legacy-code-anna-filina
 date:   2019-09-06
 season: 2
 guests: [afilina-anna-filina]

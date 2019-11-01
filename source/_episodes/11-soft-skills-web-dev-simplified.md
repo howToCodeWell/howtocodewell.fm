@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Web Dev Simplified Web Development Soft Skills"
+slug: 11-soft-skills-web-dev-simplified
 date:   2019-03-15
 season: 2
 guests: [devsimplified-kyle-cook]

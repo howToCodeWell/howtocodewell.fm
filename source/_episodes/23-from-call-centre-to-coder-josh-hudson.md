@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "From Call Centre To Coder"
+slug: 23-from-call-centre-to-coder-josh-hudson
 date:   2019-06-07
 season: 2
 guests: [joshyhud-josh-hudson]

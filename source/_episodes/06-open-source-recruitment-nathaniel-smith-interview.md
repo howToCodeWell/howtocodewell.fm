@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Open Source Recruitment"
+slug: 06-open-source-recruitment-nathaniel-smith-interview
 date:   2019-02-01
 season: 2
 youtubeId: pQqd60NIjpk

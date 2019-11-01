@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "What is Agile development?"
+slug: 30-what-is-agile-scott-ambler
 date:   2019-07-26
 season: 2
 guests: [scottwambler-scott-ambler]

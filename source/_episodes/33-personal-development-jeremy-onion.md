@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Personal Development"
+slug: 33-personal-development-jeremy-onion
 date:   2019-08-16
 season: 2
 guests: [balther74-jeremy-onion]

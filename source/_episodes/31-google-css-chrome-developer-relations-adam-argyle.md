@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Google CSS Developer Relations"
+slug: 31-google-css-chrome-developer-relations-adam-argyle
 date:   2019-08-02
 season: 2
 guests: [argyleink-adam-argyle]

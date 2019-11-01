@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Iteration Podcast"
+slug: 19-iteration-podcast-john-jacob
 date:   2019-05-10
 season: 2
 guests: [johnjacobdev-john-jacob]

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Software Testing"
+slug: 43-software-testing-jenna-charlton
 date:   2019-10-25
 season: 2
 guests: [shewrestlestest-jenna-charlton]

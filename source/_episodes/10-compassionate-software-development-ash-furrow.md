@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Compassionate Software Development "
+slug: 10-compassionate-software-development-ash-furrow
 date:   2019-03-08
 season: 2
 guests: [ashfurrow-ash-furrow]

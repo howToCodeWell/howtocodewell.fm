@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "How To Write The Best CV - Get Hired In Web Development"
+slug: 14-how-to-write-the-best-cv-get-hired-in-web-development-jeremy-onion
 date:   2019-04-05
 season: 2
 guests: [balther74-jeremy-onion]

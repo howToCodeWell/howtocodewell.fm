@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Web Development Adaptability Skills"
+slug: 40-web-development-adaptability-skills
 date:   2019-10-04
 season: 2
 guests: [pfwd-peter-fisher]

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Sunshine PHP Conference - Beachcasts - Public Speaking"
+slug: 05-sunshine-php-conference-beach-casts-public-speaking-adam-culp-interview
 date:   2019-01-25
 season: 2
 guests: [adamculp-adam-culp]

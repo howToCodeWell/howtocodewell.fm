@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Upgrading PHP - A Freelancers Perspective"
+slug: 02-upgrading-php-a-freelancers-perspective
 date:   2019-01-11
 season: 2
 guests: [pfwd-peter-fisher]

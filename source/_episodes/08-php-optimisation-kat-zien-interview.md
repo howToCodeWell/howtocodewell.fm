@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "PHP Optimisation"
+slug: 08-php-optimisation-kat-zien-interview
 date:   2019-02-22
 season: 2
 guests: [kasiazien-kat-zieñ]

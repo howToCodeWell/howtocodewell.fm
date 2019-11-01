@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Twilio and Live Coding"
+slug: 38-twilio-and-live-coding-gary-hockin
 date:   2019-09-20
 season: 2
 guests: [GeeH-gary-hockin]

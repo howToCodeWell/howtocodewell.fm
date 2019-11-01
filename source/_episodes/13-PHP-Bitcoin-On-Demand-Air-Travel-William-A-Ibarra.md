@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "PHP + Bitcoin = On Demand Air Travel"
+slug: 13-PHP-Bitcoin-On-Demand-Air-Travel-William-A-Ibarra
 date:   2019-03-29
 season: 2
 guests: [aviatorservices-william-a-barra]

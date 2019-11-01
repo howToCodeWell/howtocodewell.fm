@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "The Human Factor Of Website Security"
+slug: 21-the-human-factor-of-website-security-rob-wilson
 date:   2019-05-24
 season: 2
 guests: [devtoolboxuk-rob-wilson]

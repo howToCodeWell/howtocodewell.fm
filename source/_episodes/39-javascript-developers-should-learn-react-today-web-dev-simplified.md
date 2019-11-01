@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "JavaScript Developers Should Learn React Today"
+slug: 39-javascript-developers-should-learn-react-today-web-dev-simplified
 date:   2019-09-27
 season: 2
 guests: [devsimplified-kyle-cook]

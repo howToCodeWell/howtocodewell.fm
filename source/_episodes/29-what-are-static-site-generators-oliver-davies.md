@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "What are static site generators"
+slug: 29-what-are-static-site-generators-oliver-davies
 date:   2019-07-19
 season: 2
 guests: [opdavies-oliver-davies]

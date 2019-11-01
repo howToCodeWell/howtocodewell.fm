@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "From Self Taught Coder to React Developer"
+slug: 04-from-self-taught-coder-to-react-developer-tom-vorel-interview
 date:   2019-01-18
 season: 2
 guests: [tomasvorel13-tom-vorel]

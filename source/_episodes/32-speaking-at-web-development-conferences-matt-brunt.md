@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Speaking at Web Development Conferences"
+slug: 32-speaking-at-web-development-conferences-matt-brunt
 date:   2019-08-09
 season: 2
 guests: [Brunty-matt-brunt]

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Learning Programming for Free at codebar"
+slug: 17-learn-programming-for-free-at-codebar-kimberley-cook-interview
 date:   2019-04-26
 season: 2
 guests: [codebar-kimberley-cook]

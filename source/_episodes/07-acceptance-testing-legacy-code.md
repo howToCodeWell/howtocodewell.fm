@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Acceptance Testing Legacy Code"
+slug: 07-acceptance-testing-legacy-code
 date:   2019-02-09
 season: 2
 guests: [pfwd-peter-fisher]

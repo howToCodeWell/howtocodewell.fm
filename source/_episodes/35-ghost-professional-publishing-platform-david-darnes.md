@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Ghost The Professional Publishing Platform"
+slug: 35-ghost-professional-publishing-platform-david-darnes
 date:   2019-08-30
 season: 2
 guests: [DavidDarnes-david-darnes]

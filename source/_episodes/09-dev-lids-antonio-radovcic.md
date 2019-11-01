@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Web Development Laptop Stickers"
+slug: 09-dev-lids-antonio-radovcic
 date:   2019-03-01
 season: 2
 guests: [devlids-antonio-radovcic]
