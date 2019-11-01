@@ -1,7 +1,6 @@
 /bin/*
 !/bin/deploy.sh
 !/bin/imageDownloader
-source/assets/images/profile/twitter/*
 .idea
 /.sculpin/
 /app/cache/*
