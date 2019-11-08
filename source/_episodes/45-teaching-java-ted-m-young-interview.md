@@ -2,7 +2,7 @@
 layout: post
 title:  "Teaching Java Programming"
 slug: 45-teaching-java-programming-ted-m-young-interview
-date:   2019-11-01
+date:   2019-11-08
 season: 2
 episode: 45
 guests: [jitterted-ted-m-young]
