@@ -6,16 +6,22 @@ meta:
     description: Weekly web development podcast with discussions from developers and industry leaders from within the industry
 
 featured:
-    youtubeId: Jf-Vyqw9HAA
-    podcast_id: 12048929
-    guest: Jonan Scheffler
-    guests_twitter: thejonanshow
+    youtubeId: SXtawcN841I
+    podcast_id: 12140816
+    guest: Peter Fisher
+    guests_twitter: pfwd
 
 schedule:
   -
-    "guest": "Susanna D. Kline"
+    "guest": "Matt Stauffer"
+    "date": "29-11-12"
+    "twitter_handle": "stauffermatt"
+    "topic": "What Makes Laravel So Good"
+    "patreon_link": ""
+  -
+    "guest": "Lynn Dang"
     "date": ""
-    "twitter_handle": "sdk_irl"
+    "twitter_handle": "LynnDangAU"
     "topic": "TBD"
     "patreon_link": ""
   -
@@ -25,8 +31,15 @@ schedule:
     "topic": "TBD"
     "patreon_link": ""
   -
-    "guest": "Lynn Dang"
+    "guest": "Beau Simensen"
     "date": ""
-    "twitter_handle": "LynnDangAU"
+    "twitter_handle": "beausimensen"
     "topic": "TBD"
     "patreon_link": ""
+  -
+    "guest": "Susanna D. Kline"
+    "date": ""
+    "twitter_handle": "sdk_irl"
+    "topic": "TBD"
+    "patreon_link": ""
+
