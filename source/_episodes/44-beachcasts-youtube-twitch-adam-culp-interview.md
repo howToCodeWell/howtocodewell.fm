@@ -34,4 +34,4 @@ Adam is also the organiser of Sunshine PHP a conference in Florida and we talk a
 
 -------------------------------
 
-[Support the channel](https://www.patreon.com/howToCodeWell) and get early access to episodes
+[Support the channel](https://www.patreon.com/howToCodeWell) and get early access to episodes and Pro user access to our [Discord Server](https://howtocodewell.net/discord)

@@ -38,4 +38,4 @@ Jeremy Onion is a technical director at the [Torpedo Group](https://torpedogroup
 
 -------------------------------
 
-[Support the channel](https://www.patreon.com/howToCodeWell) and get early access to episodes
+[Support the channel](https://www.patreon.com/howToCodeWell) and get early access to episodes and Pro user access to our [Discord Server](https://howtocodewell.net/discord)

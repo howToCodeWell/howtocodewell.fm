@@ -26,4 +26,4 @@ Jenna is also a speaker and conference organiser. Jenna will be speaking at [Tes
 
 -------------------------------
 
-[Support the channel](https://www.patreon.com/howToCodeWell) and get early access to episodes
+[Support the channel](https://www.patreon.com/howToCodeWell) and get early access to episodes and Pro user access to our [Discord Server](https://howtocodewell.net/discord)

@@ -51,4 +51,4 @@ This may change in the future. Please [visit How To Code Well channel](twitch.tv
 
 -------------------------------
 
-[Support the channel](https://www.patreon.com/howToCodeWell) and get early access to episodes
+[Support the channel](https://www.patreon.com/howToCodeWell) and get early access to episodes and Pro user access to our [Discord Server](https://howtocodewell.net/discord)

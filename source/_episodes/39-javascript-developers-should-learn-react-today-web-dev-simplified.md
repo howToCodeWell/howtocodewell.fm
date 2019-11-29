@@ -36,4 +36,4 @@ If you want to hear more about Kyle and his background in web development then c
 
 -------------------------------
 
-[Support the channel](https://www.patreon.com/howToCodeWell) and get early access to episodes
+[Support the channel](https://www.patreon.com/howToCodeWell) and get early access to episodes and Pro user access to our [Discord Server](https://howtocodewell.net/discord)
