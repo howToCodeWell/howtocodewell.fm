@@ -6,18 +6,13 @@ meta:
     description: Weekly web development podcast with discussions from developers and industry leaders from within the industry
 
 featured:
-    youtubeId: SXtawcN841I
-    podcast_id: 12140816
-    guest: Peter Fisher
-    guests_twitter: pfwd
+    youtubeId: h9setNdFbnhc
+    podcast_id: 12220910
+    guest: Matt Stauffer
+    guests_twitter: stauffermatt
 
 schedule:
-  -
-    "guest": "Matt Stauffer"
-    "date": "29-11-12"
-    "twitter_handle": "stauffermatt"
-    "topic": "What Makes Laravel So Good"
-    "patreon_link": ""
+
   -
     "guest": "Lynn Dang"
     "date": ""
