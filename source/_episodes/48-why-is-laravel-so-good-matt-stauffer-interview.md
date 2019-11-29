@@ -6,7 +6,7 @@ date:   2019-11-29
 season: 2
 episode: 48
 guests: [stauffermatt-matt-stauffer]
-youtubeId: h9setNdFbnhc
+youtubeId: 9setNdFbnhc
 podcast_id: 12220910
 guest: Matt Stauffer
 guests_twitter: stauffermatt
@@ -21,12 +21,12 @@ We talk about the difference between Laravel and other frameworks such as Zend a
 
 ### Follow Matt Stauffer
 - [Twitter: stauffermatt](https://twitter.com/stauffermatt) 
-- [Web:](http://mattstauffer.com) 
-- [Twitch:](https://www.twitch.tv/mattstauffer) 
-- [YouTube:](https://www.youtube.com/channel/UChByJR-sX8CooIAc5nkV7Mg) 
+- [Web](http://mattstauffer.com) 
+- [Twitch](https://www.twitch.tv/mattstauffer) 
+- [YouTube](https://www.youtube.com/channel/UChByJR-sX8CooIAc5nkV7Mg) 
 
 ### Follow Tighten:
-- [Web:](https://tighten.co) 
+- [Web](https://tighten.co) 
 - [Twitter: TightenCo](https://twitter.com/TightenCo)
 
 -------------------------------
