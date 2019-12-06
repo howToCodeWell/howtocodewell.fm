@@ -6,13 +6,25 @@ meta:
     description: Weekly web development podcast with discussions from developers and industry leaders from within the industry
 
 featured:
-    youtubeId: h9setNdFbnhc
-    podcast_id: 12220910
-    guest: Matt Stauffer
-    guests_twitter: stauffermatt
+    youtubeId: htl1dIvQRUM
+    podcast_id: 12305363
+    guest: Peter Fisher
+    guests_twitter: pfwd
 
 schedule:
 
+  -
+    "guest": "Jeremy Onion"
+    "date": ""
+    "twitter_handle": "balther74"
+    "topic": "TBD"
+    "patreon_link": ""
+  -
+    "guest": "Beau Simensen"
+    "date": ""
+    "twitter_handle": "beausimensen"
+    "topic": "TBD"
+    "patreon_link": ""
   -
     "guest": "Lynn Dang"
     "date": ""
@@ -25,12 +37,7 @@ schedule:
     "twitter_handle": "drewm"
     "topic": "TBD"
     "patreon_link": ""
-  -
-    "guest": "Beau Simensen"
-    "date": ""
-    "twitter_handle": "beausimensen"
-    "topic": "TBD"
-    "patreon_link": ""
+
   -
     "guest": "Susanna D. Kline"
     "date": ""
