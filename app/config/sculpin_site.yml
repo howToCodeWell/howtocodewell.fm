@@ -6,8 +6,8 @@ meta:
     description: Weekly web development podcast with discussions from developers and industry leaders from within the industry
 
 featured:
-    youtubeId: gSnfINs8y7Q
-    podcast_id: 12480335
+    youtubeId: F9luIjGMamo
+    podcast_id: 12535895
     guest: Peter Fisher
     guests_twitter: pfwd
 
@@ -15,9 +15,9 @@ schedule:
 
   -
     "guest": "Jeremy Onion"
-    "date": ""
+    "date": "03-01-2020"
     "twitter_handle": "balther74"
-    "topic": "TBD"
+    "topic": "What are the first things you should learn in web development"
     "patreon_link": ""
   -
     "guest": "Beau Simensen"
