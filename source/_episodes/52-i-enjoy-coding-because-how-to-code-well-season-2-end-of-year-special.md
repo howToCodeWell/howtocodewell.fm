@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "I Enjoy Coding Because ......  How To Code Well Season 2 End Of Year Special"
+title:  "I Enjoy Coding Because ......  How To Code Well Season 2 Finale"
 slug: 52-i-enjoy-coding-because-how-to-code-well-season-2-end-of-year-special
 date:   2019-12-27
 season: 2
