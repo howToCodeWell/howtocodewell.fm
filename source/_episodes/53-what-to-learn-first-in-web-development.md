@@ -18,6 +18,8 @@ We discuss the difference between backend and frontend technologies, what to loo
 ## Follow Jeremy Onion
 - [Twitter: balther74](https://twitter.com/balther74) 
 
+### Sponsors 
+- [Web Hosting With Hostinger](http://hostinger.co.uk/peterfisher) - Up to 90% off
 -------------------------------
 
 [Support the channel](https://www.patreon.com/howToCodeWell) and get early access to episodes and Pro user access to our [Discord Server](https://howtocodewell.net/discord)
