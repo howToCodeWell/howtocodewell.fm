@@ -21,6 +21,7 @@ We discuss the difference between backend and frontend technologies, what to loo
 ## Sponsors 
 
 - [Hostinger](http://hostinger.co.uk/peterfisher) - Up to 90% off web hosting
+
 -------------------------------
 
 [Support the channel](https://www.patreon.com/howToCodeWell) and get early access to episodes and Pro user access to our [Discord Server](https://howtocodewell.net/discord)
