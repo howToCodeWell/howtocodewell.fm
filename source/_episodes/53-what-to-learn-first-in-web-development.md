@@ -2,7 +2,7 @@
 layout: post
 title:  "What To Learn First In Web Development"
 slug: 53-what-to-learn-first-in-web-development
-date:   2020-12-03
+date:   2019-12-03
 season: 3
 episode: 53
 guests: [balther74-jeremy-onion]

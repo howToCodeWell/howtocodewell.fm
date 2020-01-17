@@ -6,29 +6,23 @@ meta:
     description: Weekly web development podcast with discussions from developers and industry leaders from within the industry
 
 featured:
-    youtubeId: 2hprdHATuxQ
-    podcast_id: 12599093
-    guest: Jeremy Onion
-    guests_twitter: balther74
+    youtubeId: j6yHztcUA5s
+    podcast_id: 12781166
+    guest: Sam Foot
+    guests_twitter: samfootdev
 
 schedule:
 
   -
-    "guest": "Peter Fisher"
+    "guest": "Richard Bell"
     "date": ""
-    "twitter_handle": "pfwd"
+    "twitter_handle": "richard_bell"
     "topic": "TBD"
     "patreon_link": ""
   -
     "guest": "Matt Brunt"
     "date": ""
     "twitter_handle": "Brunty"
-    "topic": "TBD"
-    "patreon_link": ""
-  -
-    "guest": "Richard Bell"
-    "date": ""
-    "twitter_handle": "richard_bell"
     "topic": "TBD"
     "patreon_link": ""
   -

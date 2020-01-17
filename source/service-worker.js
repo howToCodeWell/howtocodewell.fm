@@ -1,5 +1,5 @@
 const OFFLINE_URL = '/offline/';
-const CACHE_VERSION = 96;
+const CACHE_VERSION = 98;
 const CACHE_NAME = 'howtocodewell-' + CACHE_VERSION;
 
 const URLS_TO_CACHE = [];
