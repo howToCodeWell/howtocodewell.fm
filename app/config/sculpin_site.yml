@@ -6,19 +6,13 @@ meta:
     description: Weekly web development podcast with discussions from developers and industry leaders from within the industry
 
 featured:
-    youtubeId: j6yHztcUA5s
-    podcast_id: 12781166
-    guest: Sam Foot
-    guests_twitter: samfootdev
+    youtubeId: 4PBtSJcyKts
+    podcast_id: 12871709
+    guest: Richard Bell
+    guests_twitter: richard_bell
 
 schedule:
 
-  -
-    "guest": "Richard Bell"
-    "date": ""
-    "twitter_handle": "richard_bell"
-    "topic": "TBD"
-    "patreon_link": ""
   -
     "guest": "Matt Brunt"
     "date": ""
