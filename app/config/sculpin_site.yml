@@ -6,23 +6,9 @@ meta:
     description: Weekly web development podcast with discussions from developers and industry leaders from within the industry
 
 featured:
-    youtubeId: y-k2a-b850I
-    podcast_id: 12871709
-    guest: Ben Orenstein
-    guests_twitter: r00k
+    youtubeId: W3TwTY6AZIg
+    podcast_id: 13442516
+    guest: Peter Fisher
+    guests_twitter: pfwd
 
 schedule:
-
-  -
-    "guest": "Matt Brunt"
-    "date": ""
-    "twitter_handle": "Brunty"
-    "topic": "TBD"
-    "patreon_link": ""
-  -
-    "guest": "Susanna D. Kline"
-    "date": ""
-    "twitter_handle": "sdk_irl"
-    "topic": "TBD"
-    "patreon_link": ""
-
