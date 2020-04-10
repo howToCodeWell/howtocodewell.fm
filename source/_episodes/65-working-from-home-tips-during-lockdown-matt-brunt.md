@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Working From home Tips During Lockdown"
+title:  "Working From Home Tips During Lockdown"
 slug: 65-working-from-home-tips-during-lockdown-matt-brunt
 date:   2020-04-10
 season: 3
