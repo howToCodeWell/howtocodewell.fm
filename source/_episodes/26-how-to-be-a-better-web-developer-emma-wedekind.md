@@ -5,11 +5,11 @@ slug: 26-how-to-be-a-better-web-developer-emma-wedekind
 date:   2019-06-28
 season: 2
 episode: 26
-guests: [emmawedekind-emma-wedekind]
+guests: [EmmaBostian-emma-wedekind]
 youtubeId: j9oBzlfex6g
 podcast_id: 10325870
-guest: Emma Wedekind
-guests_twitter: emmawedekind
+guest: Emma Bostian
+guests_twitter: EmmaBostian
 meta:
     description: "Emma Wedekind talks about how to be a better web developer on the How To Code Well podcast"
 ---
@@ -23,7 +23,7 @@ Emma Wedekind is the founder of Coding Coach which is a mentoring initiative tha
 
 
 ### Follow Emma Wedekind
-- [Twitter: EmmaWedekind](https://twitter.com/EmmaWedekind)
+- [Twitter: EmmaBostian](https://twitter.com/EmmaBostian)
 
 ### Get mentorship at Coding Coach
 - [Web: mentors.codingcoach.io](mentors.codingcoach.io)
