@@ -18,7 +18,7 @@ In today's podcast I am joined by Emily Wallace Price who talks about her develo
 Emily was a care worker for 10 years but due to reasons beyond her control she needed to change careers. Emily taught herself web development and coding, after completing a series of Udemy courses and building up her portfolio Emily applied for jobs in web development. Emily is now a Junior web developer specialising in Laravel.
 
 During this podcast Emily talks about her career change, the medical issues she was facing and gives some great advice for those looking to switch career into web development.
-Follow Matt Brunt
+Follow Emily Wallace Price
 
 - Twitter: [@EmilyWallacePr2](https://twitter.com/EmilyWallacePr2)
 - Website: [emilywallace-price](https://www.emilywallace-price.co.uk)
