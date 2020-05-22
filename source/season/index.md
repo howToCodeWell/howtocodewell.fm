@@ -12,5 +12,6 @@ meta:
     title: How to Code Well Podcast - Podcast seasons
 ---
 # Episodes
-
+<a class="btn" href="/season/1">Season 1</a>
 <a class="btn" href="/season/2">Season 2</a>
+<a class="btn" href="/season/3">Season 3</a>
