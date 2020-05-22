@@ -19,7 +19,6 @@ I am frequently asked how I keep I high level of productivity with How To Code W
 
 In today's show I mentioned:
 
-In todays show I mentioned:
 - My [AWS S3 command line Udemy course](https://bit.ly/3bV2Mzt)
 - Patrons and [how to support How To Code Well](https://www.patreon.com/howToCodeWell)
 - The [Not Over Thinking](http://notoverthinking.com) podcast 
