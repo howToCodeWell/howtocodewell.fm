@@ -15,17 +15,18 @@ meta:
 ---
 Docker is a fantastic tool to have in your web development tool box. 
 
-Here are 19 Docker tips and techniques that I wish I knew when I started using Docker.
+Here are some of the 19 Docker tips and techniques that I wish I knew when I started using Docker.
 
-1) Use Docker Compose even if you have one container
-2) Learn the difference between a bind mount and a data volume
-3) Use the —rm flag for creating one off scripts in a container
-4) Use a Docker ignore file
-5) Use multi stage builds
-6) Use Docker system prune to remove dead and unused Docker objects
-7) Use Dive to see what can be removed
-8) Don’t carry build tools in production
-9) Learn the difference between ARG and ENV
+- Use Docker Compose even if you have one container
+- Learn the difference between a bind mount and a data volume
+- Use the —rm flag for creating one off scripts in a container
+- Use a Docker ignore file
+- Use multi stage builds
+- Use Docker system prune to remove dead and unused Docker objects
+- Use Dive to see what can be removed
+- Don’t carry build tools in production
+- Learn the difference between ARG and ENV
+
 My current live coding schedule http://twitch.tv/howtocodewell
 
 Get my newsletter 
