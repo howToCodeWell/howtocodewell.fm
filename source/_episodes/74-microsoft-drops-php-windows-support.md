@@ -1,21 +1,25 @@
 ---
 layout: post
-title:  "My Web Development Tools And Work Flow"
-slug: 72-my-web-development-tools-and-work-flow
-date:   2020-06-26
+title:  "Microsoft Drops PHP Windows Support"
+slug: 74-microsoft-drops-php-windows-support
+date:   2020-07-10
 season: 3
-episode: 72
+episode: 74
 guests: [pfwd-Peter-Fisher]
-youtubeId: ahjDwNyiIMI
-podcast_id: 14980049
+youtubeId: EoLcxT6YcAY
+podcast_id: 15155936
 guest: Peter Fisher
 guests_twitter: pfwd
 meta:
-    description: "These are the web development tools that I use on daily basis"
+    description: "Big software news as Microsoft drops PHP windows support. In this episode I talk about what this could mean for Windows based PHP developers"
 ---
-Whilst live coding on Twitch I was asked about my web development work flow, the different types of tools that I use and what to expect when progressing in a career in web development.
+In a message to the PHP externals, Microsoft has announced that it is dropping Windows support for PHP 8 and beyond.
 
-In this episode I am going to answer all of this and more.  We are going to cover why I use Jira more than Trello to record tasks. What frameworks I have mostly been using and what to expect as you advance in web development.
+In this episode I am going to discuss what this means for Windows based PHP developers.
+
+I will also be asking questions, highlighting developer concerns and making recommendations to those learning PHP on Windows development environments.
+
+Get my [newsletter](https://email.howtocodewell.net/signup) 
 
 My current [live coding schedule](http://twitch.tv/howtocodewell)
 
@@ -28,6 +32,7 @@ In todays show I mentioned:
 
 - My [AWS S3 command line Udemy course](https://bit.ly/3bV2Mzt)
 - Patrons and [how to support How To Code Well](https://www.patreon.com/howToCodeWell)
+- The [Not Over Thinking](http://notoverthinking.com) podcast 
 
 # Folding At Home
 We have our own Folding At Home Team that is currently working to fight Covid-19 and other diseases. 

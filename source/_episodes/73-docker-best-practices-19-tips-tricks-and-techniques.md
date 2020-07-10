@@ -42,7 +42,6 @@ In todays show I mentioned:
 
 - My [AWS S3 command line Udemy course](https://bit.ly/3bV2Mzt)
 - Patrons and [how to support How To Code Well](https://www.patreon.com/howToCodeWell)
-- The [Not Over Thinking](http://notoverthinking.com) podcast 
 
 # Folding At Home
 We have our own Folding At Home Team that is currently working to fight Covid-19 and other diseases. 
