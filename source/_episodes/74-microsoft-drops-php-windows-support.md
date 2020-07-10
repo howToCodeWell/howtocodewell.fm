@@ -19,6 +19,8 @@ In this episode I am going to discuss what this means for Windows based PHP deve
 
 I will also be asking questions, highlighting developer concerns and making recommendations to those learning PHP on Windows development environments.
 
+You can [read the announcement here](https://externals.io/message/110907) 
+
 Get my [newsletter](https://email.howtocodewell.net/signup) 
 
 My current [live coding schedule](http://twitch.tv/howtocodewell)
