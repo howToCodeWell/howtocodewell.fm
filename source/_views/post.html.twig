@@ -42,7 +42,11 @@
                     <h4>{{ page.guest }}</h4>
                 </div>
                 <div class="podcast-player-container">
-                    {% include "podcastPlayer.html.twig" with { id: page.podcast_id } %}
+                    {% if page.embed_src %}
+                        {% include "podcastPlayer.html.twig" with { embed_src: page.embed_src } %}
+                    {% else %}
+                        {% include "podcastPlayerOLD.html.twig" with { id: page.podcast_id } %}
+                    {% endif %}
                 </div>
             </div>
 

@@ -31,7 +31,7 @@
 </nav>
     <div class="main-contents">
 <main class="main">
-    {% include "podcastPlayer.html.twig" with { id: site.featured.podcast_id } %}
+    {% include "podcastPlayer.html.twig" with { embed_src: site.featured.embed_src } %}
 
 <h1>Latest Episodes</h1>
 {% for episode in page.pagination.items %}
