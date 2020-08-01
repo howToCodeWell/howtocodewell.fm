@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to make a JavaScript API Client"
-slug: 76-how-to-make-a-javascript-api-client.md
+slug: 76-how-to-make-a-javascript-api-client
 date:   2020-08-01
 season: 3
 episode: 76

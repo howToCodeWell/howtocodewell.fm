@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "New Courses and PHP 8"
-slug: 75-new-courses-and-php-8.md
+slug: 75-new-courses-and-php-8
 date:   2020-07-10
 season: 3
 episode: 75
