@@ -6,8 +6,8 @@ meta:
     description: Weekly web development podcast with discussions from developers and industry leaders from within the industry
 
 featured:
-    youtubeId: EoLcxT6YcAY
-    embed_src: https://anchor.fm/howtocodewell/embed/episodes/S3-EP-76-How-to-make-a-JavaScript-API-Client---How-To-Code-Well-Podcast-ehh7hh
+    youtubeId: v0VYr10HKAQ
+    embed_src: https://anchor.fm/howtocodewell/embed/episodes/S3-EP-77-How-Im-upgrading-a-headless-CMS-and-API-to-Symfony-5-and-PHP-8-ej52e7
     guest: Peter Fisher
     guests_twitter: pfwd
 
