@@ -31,7 +31,7 @@
 </nav>
      <div class="main-contents">
 <main class="main">
-    {% include "podcastPlayer.html.twig" with { id: site.featured.podcast_id } %}
+    {% include "podcastPlayer.html.twig" with { embed_src: site.featured.embed_src } %}
     <h1>Schedule</h1>
     <p>Get in touch if you would like to be a guest on the podcast.  Send us <a href="http://twitter.com/howtocodewell">direct message on Twitter</a></p>
     {% if site.schedule | length == 0 %}

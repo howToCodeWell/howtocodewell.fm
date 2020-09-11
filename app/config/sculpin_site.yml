@@ -6,9 +6,9 @@ meta:
     description: Weekly web development podcast with discussions from developers and industry leaders from within the industry
 
 featured:
-    youtubeId: v0VYr10HKAQ
-    embed_src: https://anchor.fm/howtocodewell/embed/episodes/S3-EP-77-How-Im-upgrading-a-headless-CMS-and-API-to-Symfony-5-and-PHP-8-ej52e7
-    guest: Peter Fisher
-    guests_twitter: pfwd
+    youtubeId: bcWVO88UAUE
+    embed_src: https://anchor.fm/howtocodewell/embed/episodes/S3-EP78-From-Database-Administrator-To-Agile-Delivery-Lead---Chris-Ginn-Interview---HTCW-Podcast-ejff64
+    guest: Chris Ginn
+    guests_twitter: chris_ginn.jpg
 
 schedule:
