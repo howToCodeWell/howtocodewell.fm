@@ -3,6 +3,7 @@
 ## Requirements
 - Docker Machine
 - Docker Compose
+- Make
 
 ### Install
 
@@ -22,9 +23,9 @@ $ eval $(docker-machine env howtocodewell-fm.local)
 ```
 5) Create a local .env
 
-6) Spin up the webserver container
+6) Spin up the containers
 ```bash
-$ docker-compose up -d
+$ make install
 ```
 
 ### Run
@@ -46,3 +47,29 @@ Add the following entry.  Change `<IP>` with the IP from ` docker-machine ip how
 $ sudo killall -HUP mDNSResponder
 ```
 5) Access the local site [http://howtocodewell-fm.local](http://howtocodewell-fm.local)
+
+## Useful Commands
+Build
+```bash
+$ make build
+```
+Install and run
+```bash
+$ make install
+```
+Stop the containers
+```bash
+$ make stop
+```
+Remove the containers and network
+```bash
+$ make down
+```
+Uninstall (Removes the images, network, volumes, containers, etc...)
+```bash
+$ make uninstall
+```
+Enter the webserver container in a Bash shell
+```bash
+$ make enter
+```
