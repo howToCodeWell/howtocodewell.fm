@@ -14,3 +14,6 @@ destroy:
 uninstall: stop destroy
 update-feed:
 	docker-compose exec webserver bin/console app:rss-feed-importer
+
+phpstan:
+	docker-compose exec webserver ./vendor/bin/phpstan analyse

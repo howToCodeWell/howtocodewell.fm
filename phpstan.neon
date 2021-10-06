@@ -1,0 +1,7 @@
+parameters:
+    level: 8
+    paths:
+        -  %currentWorkingDirectory%/src
+    inferPrivatePropertyTypeFromConstructor: true
+    checkMissingIterableValueType: false
+    checkGenericClassInNonGenericObjectType: false

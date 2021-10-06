@@ -6,6 +6,7 @@
     "require": {
         "php": ">=8.0",
         "ext-ctype": "*",
+        "ext-dom": "*",
         "ext-iconv": "*",
         "composer/package-versions-deprecated": "1.11.99.4",
         "doctrine/annotations": "^1.0",
@@ -51,7 +52,8 @@
         "symfony/maker-bundle": "^1.0",
         "symfony/phpunit-bridge": "^5.3",
         "symfony/stopwatch": "5.3.*",
-        "symfony/web-profiler-bundle": "5.3.*"
+        "symfony/web-profiler-bundle": "5.3.*",
+        "phpstan/phpstan": "^0.12.99"
     },
     "config": {
         "optimize-autoloader": true,
