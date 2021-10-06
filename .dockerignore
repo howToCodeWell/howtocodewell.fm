@@ -1,7 +1,3 @@
 .git
 docker-compose.*
-/output_prod/
-/output_dev/
-/vendor/
-/bin/
 .env*
