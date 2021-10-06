@@ -73,3 +73,8 @@ Enter the webserver container in a Bash shell
 ```bash
 $ make enter
 ```
+
+Update site from podcast feed
+```bash
+$ make update-feed
+```

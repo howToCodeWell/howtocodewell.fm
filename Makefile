@@ -12,3 +12,5 @@ remove:
 destroy:
 	docker-compose down --rmi='all' -v
 uninstall: stop destroy
+update-feed:
+	docker-compose exec webserver bin/console app:rss-feed-importer
