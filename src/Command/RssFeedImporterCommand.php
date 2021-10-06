@@ -4,6 +4,7 @@ namespace App\Command;
 
 use DateTime;
 use DOMDocument;
+use DOMElement;
 use DOMNode;
 use Exception;
 use Symfony\Component\Console\Attribute\AsCommand;
@@ -43,6 +44,7 @@ class RssFeedImporterCommand extends Command
         if ($channelNodes instanceof DOMNode) {
             $posts = $channelNodes->getElementsByTagName('item');
         }
+        /* @var $post DOMElement */
         foreach ($posts as $post) {
             try {
                 $title = $post->getElementsByTagName('title')->item(0)->firstChild->nodeValue;
@@ -50,7 +52,9 @@ class RssFeedImporterCommand extends Command
                 $pubDate = $post->getElementsByTagName('pubDate')->item(0)->firstChild->nodeValue;
                 $guid = $post->getElementsByTagName('guid')->item(0)->firstChild->nodeValue;
                 $fileURL = $post->getElementsByTagName('enclosure')->item(0)->getAttribute('url');
-
+                $episode = $post->getElementsByTagNameNS('*', 'episode')->item(0)->nodeValue;
+                $season = $post->getElementsByTagNameNS('*', 'season')->item(0)->nodeValue;
+                $duration = $post->getElementsByTagNameNS('*', 'duration')->item(0)->nodeValue;
                 $dateTime = DateTime::createFromFormat(DATE_RSS, $pubDate);
                 if (false === $dateTime instanceof DateTime) {
                     throw new Exception('Cannot create date from string '.$pubDate);
@@ -59,6 +63,9 @@ class RssFeedImporterCommand extends Command
                 $io->info(
                     [
                         'Processing '.$guid,
+                        'Episode: '.$episode,
+                        'Season: '.$season,
+                        'Duration: '.$duration,
                         'Title: '.$title,
                         'Published Date: '.$dateTime->format('d/m/Y H:m:s'),
                         'File URL: '.$fileURL,
@@ -66,6 +73,7 @@ class RssFeedImporterCommand extends Command
                 );
             } catch (Exception $exception) {
                 $io->error($exception->getMessage());
+                $io->error('SKIPPING');
             }
         }
 
