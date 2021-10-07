@@ -1,7 +1,12 @@
 version: '3.4'
+
+networks:
+  howtocodewell:
+
 volumes:
   webserver_cache:
   webserver_logs:
+
 services:
 
   webserver:
@@ -17,6 +22,23 @@ services:
         - webserver_logs:/var/www/html/var/log:Z
         - ./infra/docker/dev/apache/config/vhost.conf:/etc/apache2/sites-available/000-default.conf
         - ./infra/docker/dev/php/config/php.ini:/usr/local/etc/php/php.ini
+    networks:
+      - howtocodewell
     environment:
         - APACHE_DOCUMENT_ROOT=/var/www/html/public
         - APP_ENV=dev
+
+  node:
+    image: node:16
+    volumes:
+      - .:/app
+    networks:
+      - howtocodewell
+
+  composer:
+    image: howtocodewell/composer:php-8
+    working_dir: /var/www/html
+    networks:
+      - howtocodewell
+    volumes:
+      - .:/var/www/html

@@ -38,7 +38,7 @@ WORKDIR /var/www/html
 COPY composer.json .
 COPY composer.lock .
 
-RUN composer update --no-dev --optimize-autoloader
+RUN composer install --no-dev --optimize-autoloader --no-scripts
 
 FROM dev-builder as webserver-dev
 COPY --from=composer /usr/bin/composer /usr/bin/composer
