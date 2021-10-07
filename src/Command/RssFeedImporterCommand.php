@@ -2,7 +2,9 @@
 
 namespace App\Command;
 
+use App\Entity\Episode;
 use DateTime;
+use Doctrine\ORM\EntityManagerInterface;
 use DOMDocument;
 use DOMElement;
 use DOMNode;
@@ -20,10 +22,12 @@ use Symfony\Component\Console\Style\SymfonyStyle;
 class RssFeedImporterCommand extends Command
 {
     private string $podcastRSSFeedURL;
+    private EntityManagerInterface $entityManager;
 
-    public function __construct(string $podcastRSSFeedURL)
+    public function __construct(string $podcastRSSFeedURL, EntityManagerInterface $entityManager)
     {
         $this->podcastRSSFeedURL = $podcastRSSFeedURL;
+        $this->entityManager = $entityManager;
         parent::__construct('app:rss-feed-importer');
     }
 
@@ -52,7 +56,7 @@ class RssFeedImporterCommand extends Command
                 $pubDate = $post->getElementsByTagName('pubDate')->item(0)->firstChild->nodeValue;
                 $guid = $post->getElementsByTagName('guid')->item(0)->firstChild->nodeValue;
                 $fileURL = $post->getElementsByTagName('enclosure')->item(0)->getAttribute('url');
-                $episode = $post->getElementsByTagNameNS('*', 'episode')->item(0)->nodeValue;
+                $showNumber = $post->getElementsByTagNameNS('*', 'episode')->item(0)->nodeValue;
                 $season = $post->getElementsByTagNameNS('*', 'season')->item(0)->nodeValue;
                 $duration = $post->getElementsByTagNameNS('*', 'duration')->item(0)->nodeValue;
                 $dateTime = DateTime::createFromFormat(DATE_RSS, $pubDate);
@@ -63,7 +67,7 @@ class RssFeedImporterCommand extends Command
                 $io->info(
                     [
                         'Processing '.$guid,
-                        'Episode: '.$episode,
+                        'Episode: '.$showNumber,
                         'Season: '.$season,
                         'Duration: '.$duration,
                         'Title: '.$title,
@@ -71,6 +75,16 @@ class RssFeedImporterCommand extends Command
                         'File URL: '.$fileURL,
                     ]
                 );
+
+                $episode = new Episode();
+                $episode->setExternalId($guid);
+                $episode->setSeason($season);
+                $episode->setShowNumber($showNumber);
+                $episode->setTitle($title);
+                $episode->setContent($description);
+
+                $this->entityManager->persist($episode);
+                $this->entityManager->flush();
             } catch (Exception $exception) {
                 $io->error($exception->getMessage());
                 $io->error('SKIPPING');

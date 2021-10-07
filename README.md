@@ -21,11 +21,20 @@ $ docker-machine env howtocodewell-fm.local
 ```bash
 $ eval $(docker-machine env howtocodewell-fm.local)
 ```
-5) Create a local .env
+5) Create a .env.local in the root directory with the following variables
+```bash
+PODCAST_FEED_URL='https://anchor.fm/s/2d0cded8/podcast/rss'
+DATABASE_URL="sqlite:///%kernel.project_dir%/var/app.db"
+```
 
-6) Spin up the containers
+6) Install all the things
 ```bash
 $ make install
+```
+
+67) Test the code
+```bash
+$ make test
 ```
 
 ### Run
@@ -33,8 +42,7 @@ $ make install
 ```bash
 $ docker-machine ip howtocodewell-fm.local
 ```
-3) Update the host file
-On mac run the following
+3) Update the host file. On mac run the following
 ```bash
  sudo nano /etc/hosts
 ```
@@ -73,8 +81,11 @@ Enter the webserver container in a Bash shell
 ```bash
 $ make enter
 ```
-
-Update site from podcast feed
+Runs the tests
 ```bash
-$ make update-feed
+$ make test
+```
+Imports the RSS feed
+```bash
+$ make import-feed
 ```
