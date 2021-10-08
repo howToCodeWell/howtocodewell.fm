@@ -41,4 +41,4 @@ services:
     networks:
       - howtocodewell
     volumes:
-      - .:/var/www/html
+      - .:/app

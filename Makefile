@@ -13,6 +13,13 @@ ui-purge:
 composer-purge:
 	rm -Rf vendor/*
 
+composer-install:
+	docker-compose run --rm -w /app --no-deps composer bash -ci 'composer install'
+composer-check:
+	docker-compose run --rm -w /app --no-deps composer bash -ci 'composer update --dry-run'
+composer-update:
+	docker-compose run --rm -w /app --no-deps composer bash -ci 'composer update'
+
 enter:
 	docker-compose exec webserver bash
 build:
@@ -29,7 +36,7 @@ db-drop:
 cache-clear:
 	docker-compose exec webserver php bin/console cache:clear
 
-install: build up db-create cache-clear ui-build ui-install ui-dev db-migrate import-feed
+install: build up composer-install db-create cache-clear ui-build ui-install ui-dev db-migrate import-feed
 
 stop:
 	docker-compose stop webserver
