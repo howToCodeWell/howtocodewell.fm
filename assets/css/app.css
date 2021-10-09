@@ -1,0 +1,195 @@
+body {
+    display: grid;
+    grid-template-areas:
+    "header"
+    "article"
+    "footer";
+    grid-template-rows: 80px 1fr 70px;
+    grid-template-columns: none;
+    grid-row-gap: 0;
+    height: 100vh;
+    margin: 0;
+    background: #4a5568;
+    font-family: system-ui,
+    -apple-system, /* Firefox supports this but not yet `system-ui` */ 'Segoe UI',
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif,
+    'Apple Color Emoji',
+    'Segoe UI Emoji';
+}
+
+header, footer, article {
+    padding: 1.2em;
+    background: #14252C;
+    color: #FFF;
+}
+
+article {
+    background: #FFF;
+    color: #000;
+}
+
+#pageHeader {
+    grid-area: header;
+}
+
+#pageFooter {
+    grid-area: footer;
+}
+
+#mainArticle {
+    grid-area: article;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header a {
+    background: transparent;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+
+header nav {
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 24px;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+header ul {
+    display: -webkit-flex;
+    display: flex;
+    list-style: none;
+}
+
+header ul li a {
+    color: #fff;
+    margin: 0px 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.nav__icon,
+.nav__icon span {
+    display: none;
+}
+
+.nav__icon {
+    width: 36px;
+    height: 28px;
+    margin-right: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.nav__icon span {
+    background: rgba(255, 255, 255, 1);
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+}
+
+.nav__icon span:nth-of-type(1) {
+    top: 0;
+}
+
+.nav__icon span:nth-of-type(2) {
+    top: 12px;
+}
+
+.nav__icon span:nth-of-type(3) {
+    bottom: 0;
+}
+
+.nav__icon.active span:nth-of-type(1) {
+    -webkit-transform: translateY(12px) rotate(-45deg);
+    transform: translateY(12px) rotate(-45deg);
+}
+
+.nav__icon.active span:nth-of-type(2) {
+    display: none;
+}
+
+.nav__icon.active span:nth-of-type(3) {
+    -webkit-transform: translateY(-12px) rotate(45deg);
+    transform: translateY(-12px) rotate(45deg);
+}
+
+/* Stack the layout on small devices/viewports. */
+@media all and (max-width: 575px) {
+    body {
+        grid-template-areas:
+      "header"
+      "article"
+      "footer";
+        grid-template-rows: 80px 1fr 70px 1fr 70px;
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@media only screen and (max-width: 700px) {
+    header {
+        position: relative;
+        z-index: 999;
+    }
+
+    header h1 {
+        margin: 0 auto;
+    }
+
+    header ul {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        -webkit-justify-content: center;
+        justify-content: center;
+        background: rgba(0, 0, 0, .8);
+        position: absolute;
+        top: 80px;
+        left: 0px;
+        width: 100%;
+        z-index: 980;
+    }
+
+    header ul li {
+        padding: 10px;
+        text-align: center;
+    }
+
+    header ul li a {
+        display: block;
+        background: transparent;
+        margin: 0px;
+        padding: 20px;
+    }
+
+    header ul li a:hover {
+        color: #000;
+        background: #fff;
+    }
+
+    header .nav__icon,
+    header .nav__icon span {
+        display: inline-block;
+        transition: all .4s;
+        box-sizing: border-box;
+        z-index: 999;
+    }
+}
