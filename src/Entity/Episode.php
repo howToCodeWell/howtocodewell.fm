@@ -3,6 +3,7 @@
 namespace App\Entity;
 
 use App\Repository\EpisodeRepository;
+use DateTime;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
@@ -41,6 +42,36 @@ class Episode
      * @ORM\Column(type="text")
      */
     private string $content = '';
+
+    /**
+     * @ORM\Column(type="text")
+     */
+    private string $fileURL = '';
+
+    /**
+     * @ORM\Column(type="text")
+     */
+    private string $link = '';
+
+    /**
+     * @ORM\Column(type="integer")
+     */
+    private int $duration = 0;
+
+    /**
+     * @ORM\Column(type="datetime")
+     */
+    private DateTime $publishedDate;
+
+    /**
+     * @ORM\Column(type="datetime")
+     */
+    private DateTime $createdDate;
+
+    /**
+     * @ORM\Column(type="datetime", nullable="true")
+     */
+    private ?DateTime $updatedDate = null;
 
     public function getId(): int
     {
@@ -134,5 +165,120 @@ class Episode
 
         return $this;
     }
+
+    /**
+     * @return string
+     */
+    public function getFileURL(): string
+    {
+        return $this->fileURL;
+    }
+
+    /**
+     * @param string $fileURL
+     * @return Episode
+     */
+    public function setFileURL(string $fileURL): self
+    {
+        $this->fileURL = $fileURL;
+
+        return $this;
+    }
+
+    /**
+     * @return int
+     */
+    public function getDuration(): int
+    {
+        return $this->duration;
+    }
+
+    /**
+     * @param int $duration
+     * @return Episode
+     */
+    public function setDuration(int $duration): self
+    {
+        $this->duration = $duration;
+
+        return $this;
+    }
+
+    /**
+     * @return string
+     */
+    public function getLink(): string
+    {
+        return $this->link;
+    }
+
+    /**
+     * @param string $link
+     * @return Episode
+     */
+    public function setLink(string $link): self
+    {
+        $this->link = $link;
+
+        return $this;
+    }
+
+    /**
+     * @return DateTime
+     */
+    public function getPublishedDate(): DateTime
+    {
+        return $this->publishedDate;
+    }
+
+    /**
+     * @param DateTime $publishedDate
+     * @return Episode
+     */
+    public function setPublishedDate(DateTime $publishedDate): self
+    {
+        $this->publishedDate = $publishedDate;
+
+        return $this;
+    }
+
+    /**
+     * @return DateTime
+     */
+    public function getCreatedDate(): DateTime
+    {
+        return $this->createdDate;
+    }
+
+    /**
+     * @param DateTime $createdDate
+     * @return Episode
+     */
+    public function setCreatedDate(DateTime $createdDate): self
+    {
+        $this->createdDate = $createdDate;
+
+        return $this;
+    }
+
+    /**
+     * @return ?DateTime
+     */
+    public function getUpdatedDate(): ?DateTime
+    {
+        return $this->updatedDate;
+    }
+
+    /**
+     * @param ?DateTime $updatedDate
+     * @return Episode
+     */
+    public function setUpdatedDate(?DateTime $updatedDate = null): self
+    {
+        $this->updatedDate = $updatedDate;
+
+        return $this;
+    }
+
 
 }

@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Archive{% endblock %}
+
+{% block body %}
+
+    <div class="list">
+        <h1>Episodes</h1>
+        {% for show in pagination %}
+            <div class="list-item">
+                <h3><a href="{{ path('show', { show: show.showNumber }) }}">{{ show.showNumber }}: {{ show.title }}</a>
+                </h3>
+                <p>{{ show.publishedDate | date('F jS, Y') }} | {{ show.duration |date('H:i:s', '+00:00 GMT') }}</p>
+            </div>
+        {% endfor %}
+    </div>
+    <div class="pagination-container">
+        {{ knp_pagination_render(pagination) }}
+    </div>
+{% endblock %}

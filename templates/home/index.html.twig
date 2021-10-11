@@ -4,13 +4,16 @@
 
 {% block body %}
 
-<div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
-
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code><a href="{{ '/var/www/html/src/Controller/HomeController.php'|file_link(0) }}">src/Controller/HomeController.php</a></code></li>
-        <li>Your template at <code><a href="{{ '/var/www/html/templates/home/index.html.twig'|file_link(0) }}">templates/home/index.html.twig</a></code></li>
-    </ul>
-</div>
+    <div class="example-wrapper">
+        <h1>Episodes</h1>
+        {% for show in shows %}
+            <div class="list">
+                <div class="list-item">
+                    <h3><a href="{{ path('show', { show: show.showNumber }) }}">{{ show.showNumber }}
+                            : {{ show.title }}</a></h3>
+                    <p>{{ show.publishedDate | date('F jS, Y') }} | {{ show.duration |date('H:i:s', '+00:00 GMT') }}</p>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
 {% endblock %}

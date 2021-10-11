@@ -55,6 +55,7 @@ header a {
     font-size: 100%;
     vertical-align: baseline;
     text-decoration: none;
+    color: #FFF;
 }
 
 header nav {
@@ -192,4 +193,87 @@ header ul li a {
         box-sizing: border-box;
         z-index: 999;
     }
+}
+
+.pagination {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.pagination span {
+    margin-right: 5px;
+}
+
+.pagination a, .pagination .current {
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+    background: #CCC;
+}
+
+.pagination .current {
+    color: #FFF;
+    background: palevioletred;
+}
+
+.pagination a:hover {
+    text-decoration: none;
+    color: #FFF;
+    background: palevioletred;
+}
+
+.list-item a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.list-item a:hover {
+    color: palevioletred;
+}
+
+.list .list-item h3 {
+    margin-top: 0;
+}
+
+.list .list-item {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #CCC;
+    box-shadow: 2px 4px;
+}
+.form-group {
+    width:100%;
+}
+.form-group{
+    margin-bottom: 10px;
+}
+input[type=text], input[type=email], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+textarea{
+    height:300px;
+}
+button[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+.radio-container{
+    margin-top:10px;
+}
+.radio-label, .radio-control{
+    display:inline-block;
+}
+.radio-label{
+    margin-left:5px;
 }

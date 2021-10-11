@@ -59,6 +59,7 @@ class RssFeedImporterCommand extends Command
                 $showNumber = $post->getElementsByTagNameNS('*', 'episode')->item(0)->nodeValue;
                 $season = $post->getElementsByTagNameNS('*', 'season')->item(0)->nodeValue;
                 $duration = $post->getElementsByTagNameNS('*', 'duration')->item(0)->nodeValue;
+                $link = $post->getElementsByTagName('link')->item(0)->firstChild->nodeValue;
                 $dateTime = DateTime::createFromFormat(DATE_RSS, $pubDate);
                 if (false === $dateTime instanceof DateTime) {
                     throw new Exception('Cannot create date from string '.$pubDate);
@@ -73,6 +74,7 @@ class RssFeedImporterCommand extends Command
                         'Title: '.$title,
                         'Published Date: '.$dateTime->format('d/m/Y H:m:s'),
                         'File URL: '.$fileURL,
+                        'Link: '. $link,
                     ]
                 );
 
@@ -82,6 +84,10 @@ class RssFeedImporterCommand extends Command
                 $episode->setShowNumber($showNumber);
                 $episode->setTitle($title);
                 $episode->setContent($description);
+                $episode->setLink($link);
+                $episode->setPublishedDate($dateTime);
+                $episode->setCreatedDate(new DateTime());
+                $episode->setDuration($duration);
 
                 $this->entityManager->persist($episode);
                 $this->entityManager->flush();

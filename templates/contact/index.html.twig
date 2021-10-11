@@ -1,0 +1,67 @@
+{% extends 'base.html.twig' %}
+{% form_theme form _self %}
+{%- block choice_widget_expanded -%}
+    <div {{ block('widget_container_attributes') }}>
+    {% set i=1 %}
+    {%- for child in form %}
+        <div class="radio-{{i}} flex radio-container">
+            <div class="radio-control">
+                {{- form_widget(child) -}}
+            </div>
+            <div class="radio-label">
+                {{- form_label(child, null, {translation_domain: choice_translation_domain}) -}}
+            </div>
+        </div>
+        {% set i=i+1 %}
+    {% endfor -%}
+    </div>
+{%- endblock choice_widget_expanded -%}
+{% block title %}Send us your feedback{% endblock %}
+
+{% block body %}
+
+    <div class="example-wrapper">
+        <h1>Contact</h1>
+        <form action="" method="post">
+            <div class="form-group">
+                <label>Name</label>
+                <div class="form-control">
+                    {{ form_widget(form.name) }}
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Email</label>
+                <div class="form-control">
+                    {{ form_widget(form.email) }}
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Topic</label>
+                <div class="form-control">
+                    {{ form_widget(form.topic) }}
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Subject</label>
+                <div class="form-control">
+                    {{ form_widget(form.subject) }}
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Message</label>
+                <div class="form-control">
+                    {{ form_widget(form.message) }}
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Permission</label>
+                <div class="form-control form-control-checkbox">
+                    {{ form_widget(form.private) }}
+                </div>
+            </div>
+            <div class="form-group">
+                <button type="submit">Send</button>
+            </div>
+            {{ form_rest(form) }}
+    </div>
+{% endblock %}
