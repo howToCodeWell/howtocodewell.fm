@@ -35,4 +35,14 @@ class EpisodeRepository extends ServiceEntityRepository
         return $this->paginator->paginate($query, $page);
 
     }
+
+    public function findLatest(): ?Episode
+    {
+        return $this->findOneBy([
+
+        ], [
+            'showNumber' => 'DESC'
+        ]);
+
+    }
 }

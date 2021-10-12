@@ -5,6 +5,12 @@
 {% block body %}
 
     <div class="example-wrapper">
+        {% if latestShow %}
+            <div class="latest-episode-container">
+                <iframe src="{{ latestShow.link | replace({'https://anchor.fm/howtocodewell/episodes/': 'https://anchor.fm/howtocodewell/embed/episodes/'}) }}"
+                        height="110px" width="750px" frameborder="0" scrolling="no"></iframe>
+            </div>
+        {% endif %}
         <h1>Episodes</h1>
         {% for show in shows %}
             <div class="list">

@@ -13,9 +13,11 @@ class HomeController extends AbstractController
     public function index(EpisodeRepository $episodeRepository): Response
     {
         $shows = $episodeRepository->findAllOrderedByShowNumber();
+        $latestShow = $episodeRepository->findLatest();
 
         return $this->render('home/index.html.twig', [
             'shows' => $shows,
+            'latestShow' => $latestShow
         ]);
     }
 }
