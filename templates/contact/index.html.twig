@@ -2,24 +2,37 @@
 {% form_theme form _self %}
 {%- block choice_widget_expanded -%}
     <div {{ block('widget_container_attributes') }}>
-    {% set i=1 %}
-    {%- for child in form %}
-        <div class="radio-{{i}} flex radio-container">
-            <div class="radio-control">
-                {{- form_widget(child) -}}
+        {% set i=1 %}
+        {%- for child in form %}
+            <div class="radio-{{ i }} flex radio-container">
+                <div class="radio-control">
+                    {{- form_widget(child) -}}
+                </div>
+                <div class="radio-label">
+                    {{- form_label(child, null, {translation_domain: choice_translation_domain}) -}}
+                </div>
             </div>
-            <div class="radio-label">
-                {{- form_label(child, null, {translation_domain: choice_translation_domain}) -}}
-            </div>
-        </div>
-        {% set i=i+1 %}
-    {% endfor -%}
+            {% set i=i+1 %}
+        {% endfor -%}
     </div>
 {%- endblock choice_widget_expanded -%}
 {% block title %}Send us your feedback{% endblock %}
 
 {% block body %}
 
+    {% for label, messages in app.flashes(['error', 'success']) %}
+        {% for message in messages %}
+            <div class="alert alert-{{ label }}">
+                {{ message }}
+            </div>
+        {% endfor %}
+    {% endfor %}
+    {% if form.vars.errors|length %}
+        <div class="text-red-700 bg-red-300 p-2 border border-2 border-red-800 ">
+            {{ form_errors(form) }}
+        </div>
+    {% endif %}
+    
     <div class="example-wrapper">
         <h1>Contact</h1>
         <form action="" method="post">

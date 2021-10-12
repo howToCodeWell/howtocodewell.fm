@@ -5,6 +5,7 @@
 # https://symfony.com/doc/current/best_practices.html#use-parameters-for-application-configuration
 parameters:
     podcast_feed_url: '%env(PODCAST_FEED_URL)%'
+    email_to: '%env(EMAIL_TO)%'
 services:
     # default configuration for services in *this* file
     _defaults:
