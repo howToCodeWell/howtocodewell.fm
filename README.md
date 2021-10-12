@@ -25,6 +25,8 @@ $ eval $(docker-machine env howtocodewell-fm.local)
 ```bash
 PODCAST_FEED_URL='https://anchor.fm/s/2d0cded8/podcast/rss'
 DATABASE_URL="sqlite:///%kernel.project_dir%/var/app.db"
+EMAIL_TO="please@change.me"
+SITE_TITLE="Your Site Title"
 ```
 
 6) Install all the things
