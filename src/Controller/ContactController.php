@@ -31,7 +31,13 @@ class ContactController extends AbstractController
             if ($form->isValid()) {
 
                 try {
-                    $emailTo = (string) $parameterBag->get('email_to');
+                    $emailTo = $parameterBag->get('email_to');
+                    if(!is_string($emailTo)){
+                        throw new Exception('Parameter email_to must be a string');
+                    }
+                    if(empty($emailTo)){
+                        throw new Exception('Parameter email_to must not be empty');
+                    }
                     $this->addFlash('success', 'Thank you, your feedback has been submitted');
 
                     $email = (new TemplatedEmail())
@@ -42,7 +48,6 @@ class ContactController extends AbstractController
                         ->context([
                             'feedback' => $feedback
                         ]);
-
 
                     $mailer->send($email);
                 } catch (Exception $exception) {
