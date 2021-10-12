@@ -65,6 +65,18 @@ class RssFeedImporterCommand extends Command
                     throw new Exception('Cannot create date from string '.$pubDate);
                 }
 
+                $knownEpisode = $this->entityManager->getRepository(Episode::class)->findOneBy([
+                    'externalId' => $guid
+                ]);
+
+                if($knownEpisode instanceof Episode){
+                    $io->info('Updating episode: '. $showNumber);
+                    $episode = $knownEpisode;
+                } else {
+                    $io->info('Creating new episode: '. $showNumber);
+                    $episode = new Episode();
+                }
+
                 $io->info(
                     [
                         'Processing '.$guid,
@@ -78,7 +90,6 @@ class RssFeedImporterCommand extends Command
                     ]
                 );
 
-                $episode = new Episode();
                 $episode->setExternalId($guid);
                 $episode->setSeason($season);
                 $episode->setShowNumber($showNumber);
