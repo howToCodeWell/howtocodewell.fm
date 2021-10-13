@@ -50,7 +50,7 @@ jobs:
           path: ~/.composer/cache/files
           key: dependencies-composer-${{ hashFiles('composer.json') }}
       - run: composer install --prefer-dist --no-interaction
-      - run: ./vendor/bin/phpunit analyse
+      - run: ./vendor/bin/phpunit
 
   build:
     name: Build and push
