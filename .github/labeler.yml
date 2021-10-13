@@ -1,0 +1,8 @@
+tests:
+  - tests/**/*
+upgrades:
+  - any: ['composer.json', 'composer.lock']
+deployment:
+  - any: ['.circleci/**/*','amplify/**/*']
+plugins:
+  - any: ['plugins/**/*']
