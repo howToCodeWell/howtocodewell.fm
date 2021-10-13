@@ -37,7 +37,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: "finnp/create-file-action@master"
         env:
-          FILE_NAME: "/home/runner/work/website/website/.env.local"
+          FILE_NAME: "/home/runner/work/howtocodewell.fm/howtocodewell.fm/.env.local"
           FILE_DATA: ""
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
