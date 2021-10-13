@@ -27,8 +27,7 @@ jobs:
           path: ~/.composer/cache/files
           key: dependencies-composer-${{ hashFiles('composer.json') }}
       - run: composer install --prefer-dist --no-interaction
-      - run: bin/phpcbf src
-      - run: bin/phpstan analyse
+      - run: ./vendor/bin/phpstan analyse
 
   unit_tests:
     name: Unit Test
@@ -51,7 +50,7 @@ jobs:
           path: ~/.composer/cache/files
           key: dependencies-composer-${{ hashFiles('composer.json') }}
       - run: composer install --prefer-dist --no-interaction
-      - run: bin/codecept run unit
+      - run: ./vendor/bin/phpunit analyse
 
   build:
     name: Build and push
@@ -70,8 +69,7 @@ jobs:
         with:
           node-version: '16'
       - run: yarn install
-      - run: yarn run prod-frontend
-      - run: yarn run prod-cms
+      - run: yarn run build
       - uses: docker/setup-qemu-action@v1
       - uses: docker/setup-buildx-action@v1
       -
