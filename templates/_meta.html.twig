@@ -1,0 +1,23 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="{{ meta.description | default('Learn How To Code Well') }}">
+
+<meta property="og:type" content="{{ meta.social.type | default('article') }}"/>
+<meta property="og:title" content="{{ meta.social.title | default('How To Code Well') }}"/>
+<meta property="og:description" content="{{ meta.social.description | default('Learn How To Code Well') }}"/>
+{% if meta.social.image | default('') is not empty %}
+    <meta property="og:image" content="{{ meta.social.image }}"/>
+{% endif %}
+{% if meta.social.url | default('')  is not empty %}
+    <meta property="og:url" content="{{ meta.social.url }}"/>
+{% endif %}
+
+<meta property="og:site_name" content="How To Code Well"/>
+
+<meta name="twitter:title" content="{{ meta.social.title | default('How To Code Well') }}">
+<meta name="twitter:description" content="{{ meta.social.description | default('Learn How To Code Well') }}">
+{% if meta.social.image | default('') is not empty %}
+    <meta name="twitter:image" content="{{ meta.social.image }}">
+{% endif %}
+<meta name="twitter:site" content="@howtocodewell">
+<meta name="twitter:creator" content="@howtocodewell">

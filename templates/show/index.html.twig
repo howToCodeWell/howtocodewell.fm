@@ -5,7 +5,7 @@
 {% block body %}
     <iframe src="{{ show.link | replace({'https://anchor.fm/howtocodewell/episodes/': 'https://anchor.fm/howtocodewell/embed/episodes/'}) }}" height="110px" width="750px" frameborder="0" scrolling="no"></iframe>
     <div class="example-wrapper">
-        <h1>{{ show.showNumber }} | {{ show.title }}</h1>
+        <h1>{{ show.title }}</h1>
         {{ show.content  | raw }}
     </div>
 {% endblock %}

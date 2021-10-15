@@ -17,6 +17,7 @@ services:
     ports:
       - 80:80
     volumes:
+        - ./temp:/var/www/html/public/.well-known/acme-challenge
         - .:/var/www/html
         - webserver_cache:/var/www/html/var/cache:Z
         - webserver_logs:/var/www/html/var/log:Z

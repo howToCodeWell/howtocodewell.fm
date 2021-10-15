@@ -283,5 +283,8 @@ button[type=submit] {
     flex-direction: column;
     align-items: center;
     width:100%;
+}
 
+ol li, ul li{
+    padding:5px;
 }

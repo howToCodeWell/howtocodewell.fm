@@ -15,8 +15,7 @@
         {% for show in shows %}
             <div class="list">
                 <div class="list-item">
-                    <h3><a href="{{ path('show', { show: show.showNumber }) }}">{{ show.showNumber }}
-                            : {{ show.title }}</a></h3>
+                    <h3><a href="{{ path('show', { show: show.showNumber }) }}">{{ show.title }}</a></h3>
                     <p>{{ show.publishedDate | date('F jS, Y') }} | {{ show.duration |date('H:i:s', '+00:00 GMT') }}</p>
                 </div>
             </div>
