@@ -20,6 +20,14 @@ body {
     'Segoe UI Emoji';
 }
 
+a{
+    color:#000;
+}
+a:hover{
+    text-decoration: none;
+    color:#EC4899;
+}
+
 header, footer, article {
     padding: 1.2em;
     background: #14252C;
@@ -213,13 +221,13 @@ header ul li a {
 
 .pagination .current {
     color: #FFF;
-    background: palevioletred;
+    background: #EC4899;
 }
 
 .pagination a:hover {
     text-decoration: none;
     color: #FFF;
-    background: palevioletred;
+    background: #EC4899;
 }
 
 .list-item a {
@@ -228,7 +236,7 @@ header ul li a {
 }
 
 .list-item a:hover {
-    color: palevioletred;
+    color: #EC4899;
 }
 
 .list .list-item h3 {
@@ -287,4 +295,63 @@ button[type=submit] {
 
 ol li, ul li{
     padding:5px;
+}
+
+nav.icons {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.subscribe-icons {
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    justify-content: center;
+}
+.subscribe-icons div {
+    margin: 5px;
+    font-size: 1.0rem;
+    border-radius: 5px;
+    flex: 0 0 auto;
+}
+
+.subscribe-icon-itunes a:before {
+    background-image: url(/assets/images/icons/itunes.svg);
+}
+.subscribe-icon-spotify a:before {
+    background-image: url(/assets/images/icons/spotify.svg);
+}
+.subscribe-icon-google-podcast a:before {
+    background-image: url(/assets/images/icons/google-podcasts.svg);
+}
+.subscribe-icon-overcast a:before {
+    background-image: url(/assets/images/icons/overcast.svg);
+}
+.subscribe-icon-stitcher a:before {
+    background-image: url(/assets/images/icons/stitcher.svg);
+}
+.subscribe-icon-pocketcasts a:before {
+    background-image: url(/assets/images/icons/pocketcasts.svg);
+}
+.subscribe-icon-rss a:before {
+    background-image: url(/assets/images/icons/rss.svg);
+}
+.subscribe-icon-youtube a:before {
+    background-image: url(/assets/images/icons/youtube.svg);
+}
+.subscribe-icons div a {
+    display: flex;
+    padding: 7px;
+    text-decoration: none;
+    align-items: center;
+}
+
+.subscribe-icon a:before {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    content: '';
+    margin-right: 0.5rem;
+    background-size: cover;
 }
