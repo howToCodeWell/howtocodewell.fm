@@ -155,14 +155,14 @@ header ul li a {
 
 
 @media only screen and (max-width: 700px) {
+    header nav{
+        display: none;
+    }
     header {
         position: relative;
         z-index: 999;
     }
 
-    header h1 {
-        margin: 0 auto;
-    }
 
     header ul {
         -webkit-flex-direction: column;

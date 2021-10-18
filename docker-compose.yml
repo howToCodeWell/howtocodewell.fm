@@ -18,6 +18,8 @@ services:
     restart: always
     volumes:
       - ${SSL_STORE}:/var/lib/https-portal
+    networks:
+      - howtocodewell
     environment:
       DOMAINS: ${DOMAINS}
       STAGE: ${SSL_STAGE}
@@ -28,8 +30,6 @@ services:
       context: .
     restart: always
     container_name: webserver
-    ports:
-      - 80:80
     volumes:
       - ./temp:/var/www/html/public/.well-known/acme-challenge
       - .:/var/www/html
