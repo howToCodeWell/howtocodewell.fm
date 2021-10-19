@@ -50,6 +50,9 @@ class ContactController extends AbstractController
                         ]);
 
                     $mailer->send($email);
+                    unset($form, $feedback);
+                    $feedback = new Feedback();
+                    $form = $this->createForm(FeedbackType::class, $feedback);
                 } catch (Exception $exception) {
                     var_dump($exception->getMessage());
                 } catch (TransportExceptionInterface $exception) {
