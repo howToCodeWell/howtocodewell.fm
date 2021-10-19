@@ -28,7 +28,7 @@
         {% endfor %}
     {% endfor %}
     {% if form.vars.errors|length %}
-        <div class="text-red-700 bg-red-300 p-2 border border-2 border-red-800 ">
+        <div class="alert alert-error">
             {{ form_errors(form) }}
         </div>
     {% endif %}

@@ -355,3 +355,17 @@ nav.icons {
     margin-right: 0.5rem;
     background-size: cover;
 }
+
+.alert{
+    color: #FFF;
+    padding:5px;
+    border-width: 1px;
+}
+.alert-success{
+    background-color: #0BAB77FF;
+    border-color: #0bab77;
+}
+.alert-error{
+    background-color:#B91010FF;
+    border-color: #620A0AFF;
+}
