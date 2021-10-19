@@ -35,57 +35,57 @@
 
 
     {% if not form.vars.valid %}
-            <div class="alert alert-error">
-                {{ form_errors(form) }}
+        <div class="alert alert-error">
+            {{ form_errors(form) }}
 
-        {% for children in form.children %}
-            {% if not children.vars.valid %}
+            {% for children in form.children %}
+                {% if not children.vars.valid %}
 
-                <ul>
-                    {% for error in children.vars.errors %}
-                        <li><b>{{ children.vars.label }}</b>: {{ error.message }}</li>
-                    {% endfor %}
-                </ul>
+                    <ul>
+                        {% for error in children.vars.errors %}
+                            <li><b>{{ children.vars.label }}</b>: {{ error.message }}</li>
+                        {% endfor %}
+                    </ul>
 
-            {% endif %}
-        {% endfor %}
-            </div>
+                {% endif %}
+            {% endfor %}
+        </div>
     {% endif %}
-    
+
     <div class="example-wrapper">
         <h1>Contact</h1>
         <form action="" method="post">
-            <div class="form-group">
+            <div class="form-group {% if not form.name.vars.valid %}has-error{% endif %}">
                 <label>Name</label>
                 <div class="form-control">
                     {{ form_widget(form.name) }}
                 </div>
             </div>
-            <div class="form-group">
+            <div class="form-group {% if not form.email.vars.valid %}has-error{% endif %}">
                 <label>Email</label>
                 <div class="form-control">
                     {{ form_widget(form.email) }}
                 </div>
             </div>
-            <div class="form-group">
+            <div class="form-group {% if not form.topic.vars.valid %}has-error{% endif %}">
                 <label>Topic</label>
                 <div class="form-control">
                     {{ form_widget(form.topic) }}
                 </div>
             </div>
-            <div class="form-group">
+            <div class="form-group {% if not form.subject.vars.valid %}has-error{% endif %}">
                 <label>Subject</label>
                 <div class="form-control">
                     {{ form_widget(form.subject) }}
                 </div>
             </div>
-            <div class="form-group">
+            <div class="form-group {% if not form.message.vars.valid %}has-error{% endif %}">
                 <label>Message</label>
                 <div class="form-control">
                     {{ form_widget(form.message) }}
                 </div>
             </div>
-            <div class="form-group">
+            <div class="form-group {% if not form.private.vars.valid %}has-error{% endif %}">
                 <label>Permission</label>
                 <div class="form-control form-control-checkbox">
                     {{ form_widget(form.private) }}
