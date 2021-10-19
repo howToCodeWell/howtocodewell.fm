@@ -28,3 +28,5 @@
 npm-debug.log
 yarn-error.log
 ###< symfony/webpack-encore-bundle ###
+/infra/docker/dev/ssl_certs/*
+!/infra/docker/dev/ssl_certs/.gitkeep
