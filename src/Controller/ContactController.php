@@ -40,7 +40,7 @@ class ContactController extends AbstractController
             if ($form->isSubmitted()) {
 
                 if (!$form->isValid()) {
-                    $this->addFlash('error', 'Please try again - form is not valid');
+                    $this->addFlash('error', 'Please try again');
                     return $this->render(
                         'contact/index.html.twig',
                         [

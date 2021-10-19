@@ -24,6 +24,7 @@ class FeedbackType extends AbstractType
                 child: 'email',
                 type: EmailType::class,
                 options: [
+                    'label' => 'Email',
                     'required' => true,
                 ]
             )
@@ -31,6 +32,7 @@ class FeedbackType extends AbstractType
                 child: 'topic',
                 type: ChoiceType::class,
                 options: [
+                    'label' => 'Topic',
                     'required' => true,
                     'choices' => [
                         'Question for the podcast' => 1,
@@ -45,6 +47,7 @@ class FeedbackType extends AbstractType
                 child: 'subject',
                 type: TextType::class,
                 options: [
+                    'label' => 'Subject',
                     'required' => false,
                 ]
             )
@@ -52,6 +55,7 @@ class FeedbackType extends AbstractType
                 child: 'message',
                 type: TextareaType::class,
                 options: [
+                    'label' => 'Message',
                     'required' => true,
                 ]
             )

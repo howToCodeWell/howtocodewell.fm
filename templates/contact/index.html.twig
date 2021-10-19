@@ -32,6 +32,25 @@
             {{ form_errors(form) }}
         </div>
     {% endif %}
+
+
+    {% if not form.vars.valid %}
+            <div class="alert alert-error">
+                {{ form_errors(form) }}
+
+        {% for children in form.children %}
+            {% if not children.vars.valid %}
+
+                <ul>
+                    {% for error in children.vars.errors %}
+                        <li><b>{{ children.vars.label }}</b>: {{ error.message }}</li>
+                    {% endfor %}
+                </ul>
+
+            {% endif %}
+        {% endfor %}
+            </div>
+    {% endif %}
     
     <div class="example-wrapper">
         <h1>Contact</h1>
