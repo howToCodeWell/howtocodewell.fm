@@ -5,6 +5,7 @@ namespace App\Controller;
 use App\Form\FeedbackType;
 use App\Model\Feedback;
 use Exception;
+use Psr\Log\LoggerInterface;
 use Symfony\Bridge\Twig\Mime\TemplatedEmail;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\DependencyInjection\ParameterBag\ParameterBagInterface;
@@ -18,49 +19,54 @@ class ContactController extends AbstractController
 {
     #[Route('/contact', name: 'contact')]
     public function index(
-        Request $request,
-        MailerInterface $mailer,
-        ParameterBagInterface $parameterBag
-    ): Response {
-        $feedback = new Feedback();
-        $form = $this->createForm(FeedbackType::class, $feedback);
-        $form->handleRequest($request);
-
-        if ($form->isSubmitted()) {
-
-            if ($form->isValid()) {
-
-                try {
-                    $emailTo = $parameterBag->get('email_to');
-                    if(!is_string($emailTo)){
-                        throw new Exception('Parameter email_to must be a string');
-                    }
-                    if(empty($emailTo)){
-                        throw new Exception('Parameter email_to must not be empty');
-                    }
-                    $this->addFlash('success', 'Thank you, your feedback has been submitted');
-
-                    $email = (new TemplatedEmail())
-                        ->from($feedback->getEmail())
-                        ->to($emailTo)
-                        ->subject('New feedback')
-                        ->textTemplate('emails/feedback.txt.twig')
-                        ->context([
-                            'feedback' => $feedback
-                        ]);
-
-                    $mailer->send($email);
-                    unset($form, $feedback);
-                    $feedback = new Feedback();
-                    $form = $this->createForm(FeedbackType::class, $feedback);
-                } catch (Exception $exception) {
-                    var_dump($exception->getMessage());
-                } catch (TransportExceptionInterface $exception) {
-                    var_dump($exception->getMessage());
-                }
-            } else {
-                $this->addFlash('error', 'Please try again');
+        Request               $request,
+        MailerInterface       $mailer,
+        ParameterBagInterface $parameterBag,
+        LoggerInterface       $logger
+    ): Response
+    {
+        try {
+            $feedback = new Feedback();
+            $form = $this->createForm(FeedbackType::class, $feedback);
+            $form->handleRequest($request);
+            $emailTo = $parameterBag->get('email_to');
+            if (!is_string($emailTo)) {
+                throw new Exception('Parameter email_to must be a string');
             }
+            if (empty($emailTo)) {
+                throw new Exception('Parameter email_to must not be empty');
+            }
+
+            if ($form->isSubmitted()) {
+
+                if (!$form->isValid()) {
+                    $this->addFlash('error', 'Please try again - form is not valid');
+                    return $this->render(
+                        'contact/index.html.twig',
+                        [
+                            'form' => $form->createView(),
+                        ]
+                    );
+                }
+
+                $email = (new TemplatedEmail())
+                    ->from($feedback->getEmail())
+                    ->to($emailTo)
+                    ->subject('New feedback')
+                    ->textTemplate('emails/feedback.txt.twig')
+                    ->context([
+                        'feedback' => $feedback
+                    ]);
+
+                $mailer->send($email);
+                $feedback = new Feedback();
+                $this->addFlash('success', 'Thank you, your feedback has been submitted');
+                $form = $this->createForm(FeedbackType::class, $feedback);
+            }
+        } catch (Exception | TransportExceptionInterface $exception) {
+            $this->addFlash('error', 'Please try again');
+            $logger->alert('Error thrown during contact form submission', ['contact_form']);
+            $logger->alert($exception->getMessage(), ['contact_form']);
         }
 
         return $this->render(

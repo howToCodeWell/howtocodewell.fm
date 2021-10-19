@@ -3,14 +3,32 @@ declare(strict_types=1);
 
 namespace App\Model;
 
+use Symfony\Component\Validator\Constraints as Assert;
+
 class Feedback
 {
+    /**
+     * @var string
+     * @Assert\NotBlank()
+     */
     private string $name;
     private int $topic;
+    /**
+     * @var string
+     * @Assert\Email()
+     */
     private string $email;
+    /**
+     * @var string
+     * @Assert\NotBlank()
+     */
     private string $message;
+    /**
+     * @var string
+     * @Assert\NotBlank()
+     */
     private string $subject;
-    private bool $private;
+    private bool $private = false;
 
     /**
      * @return string
