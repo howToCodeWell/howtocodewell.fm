@@ -19,22 +19,29 @@ body {
     'Apple Color Emoji',
     'Segoe UI Emoji';
 }
-iframe{
-    width:750px;
-    height:100px;
+
+iframe {
+    width: 750px;
+    height: 100px;
 }
-a{
-    color:#000;
+
+a {
+    color: #000;
 }
-a:hover{
+
+a:hover, #pageFooter nav ul li a:hover {
     text-decoration: none;
-    color:#EC4899;
+    color: #EC4899;
 }
 
 header, footer, article {
     padding: 1.2em;
     background: #14252C;
     color: #FFF;
+}
+
+footer {
+    padding: 20px 0 20px 0;
 }
 
 article {
@@ -83,17 +90,22 @@ header h1 {
     margin: 0;
 }
 
-header ul {
+header ul, #pageFooter nav ul {
     display: -webkit-flex;
     display: flex;
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-header ul li a {
+#pageFooter nav ul {
+    justify-content: center;
+}
+
+header ul li a, #pageFooter nav ul li a {
     color: #fff;
-    margin: 0px 10px;
     padding: 10px;
-    border-radius: 5px;
+    text-decoration: none;
 }
 
 .nav__icon,
@@ -154,17 +166,19 @@ header ul li a {
         grid-template-rows: 80px 1fr 70px 1fr 70px;
         grid-template-columns: 1fr;
     }
-    iframe{
-        width:100%;
-        height:100px;
+
+    iframe {
+        width: 100%;
+        height: 100px;
     }
 }
 
 
 @media only screen and (max-width: 700px) {
-    header nav{
+    header nav {
         display: none;
     }
+
     header {
         position: relative;
         z-index: 999;
@@ -260,51 +274,59 @@ header ul li a {
     border: 1px solid #CCC;
     box-shadow: 2px 4px;
 }
+
 .form-group {
-    width:100%;
-}
-.form-group{
-    margin-bottom: 10px;
-}
-input[type=text], input[type=email], select, textarea{
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  resize: vertical;
-}
-textarea{
-    height:300px;
-}
-button[type=submit] {
-  background-color: #04AA6D;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  float: right;
-}
-.radio-container{
-    margin-top:10px;
-}
-.radio-label, .radio-control{
-    display:inline-block;
-}
-.radio-label{
-    margin-left:5px;
+    width: 100%;
 }
 
-.latest-episode-container{
+.form-group {
+    margin-bottom: 10px;
+}
+
+input[type=text], input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+textarea {
+    height: 300px;
+}
+
+button[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+.radio-container {
+    margin-top: 10px;
+}
+
+.radio-label, .radio-control {
+    display: inline-block;
+}
+
+.radio-label {
+    margin-left: 5px;
+}
+
+.latest-episode-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width:100%;
+    width: 100%;
 }
 
-ol li, ul li{
-    padding:5px;
+ol li, ul li {
+    padding: 5px;
 }
 
 nav.icons {
@@ -319,6 +341,7 @@ nav.icons {
     flex-flow: wrap;
     justify-content: center;
 }
+
 .subscribe-icons div {
     margin: 5px;
     font-size: 1.0rem;
@@ -329,27 +352,35 @@ nav.icons {
 .subscribe-icon-itunes a:before {
     background-image: url(/assets/images/icons/itunes.svg);
 }
+
 .subscribe-icon-spotify a:before {
     background-image: url(/assets/images/icons/spotify.svg);
 }
+
 .subscribe-icon-google-podcast a:before {
     background-image: url(/assets/images/icons/google-podcasts.svg);
 }
+
 .subscribe-icon-overcast a:before {
     background-image: url(/assets/images/icons/overcast.svg);
 }
+
 .subscribe-icon-stitcher a:before {
     background-image: url(/assets/images/icons/stitcher.svg);
 }
+
 .subscribe-icon-pocketcasts a:before {
     background-image: url(/assets/images/icons/pocketcasts.svg);
 }
+
 .subscribe-icon-rss a:before {
     background-image: url(/assets/images/icons/rss.svg);
 }
+
 .subscribe-icon-youtube a:before {
     background-image: url(/assets/images/icons/youtube.svg);
 }
+
 .subscribe-icons div a {
     display: flex;
     padding: 7px;
@@ -366,21 +397,23 @@ nav.icons {
     background-size: cover;
 }
 
-.alert{
+.alert {
     color: #FFF;
-    padding:10px;
+    padding: 10px;
     border-width: 1px;
 }
-.alert-success{
+
+.alert-success {
     background-color: #0BAB77FF;
     border-color: #0bab77;
 }
-.alert-error{
-    background-color:#B91010FF;
+
+.alert-error {
+    background-color: #B91010FF;
     border-color: #620A0AFF;
 }
 
-.has-error input{
-    border:1px solid #620A0AFF;
+.has-error input {
+    border: 1px solid #620A0AFF;
     background-color: #EAA2A0FF;
 }

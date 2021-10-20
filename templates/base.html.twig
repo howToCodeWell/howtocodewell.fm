@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     {% include '_meta.html.twig' %}
-    <title>{% block title %}Welcome!{% endblock %}</title>
+    <title>{% block title %}How To Code Well Podcast{% endblock %}</title>
     {% block stylesheets %}
         {{ encore_entry_link_tags('app') }}
     {% endblock %}
@@ -27,7 +27,24 @@
     </nav>
 </header>
 <article id="mainArticle">{% block body %}{% endblock %}</article>
-<footer id="pageFooter"></footer>
+<footer id="pageFooter">
+    <nav>
+        <ul>
+            <li>
+                <a href="{{ path('archive') }}">Archive</a>
+            </li>
+            <li>
+                <a href="{{ path('contact') }}">Contact</a>
+            </li>
+            <li>
+                <a href="{{ path('sponsor') }}">Sponsor</a>
+            </li>
+            <li>
+                <a href="{{ path('rss') }}" target="_blank">RSS</a>
+            </li>
+        </ul>
+    </nav>
+</footer>
 
 </body>
 </html>
