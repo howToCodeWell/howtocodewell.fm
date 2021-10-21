@@ -26,6 +26,7 @@ class ContactController extends AbstractController
     ): Response
     {
         try {
+            $logger->info('Loading contact form');
             $feedback = new Feedback();
             $form = $this->createForm(FeedbackType::class, $feedback);
             $form->handleRequest($request);
@@ -38,7 +39,7 @@ class ContactController extends AbstractController
             }
 
             if ($form->isSubmitted()) {
-
+                $logger->info('Loading contact form has been submitted');
                 if (!$form->isValid()) {
                     $this->addFlash('error', 'Please try again');
                     return $this->render(
@@ -59,6 +60,7 @@ class ContactController extends AbstractController
                     ]);
 
                 $mailer->send($email);
+                $logger->info('Email has been sent');
                 $feedback = new Feedback();
                 $this->addFlash('success', 'Thank you, your feedback has been submitted');
                 $form = $this->createForm(FeedbackType::class, $feedback);

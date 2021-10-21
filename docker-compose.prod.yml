@@ -17,13 +17,13 @@ services:
       - howtocodewell_fm
     restart: always
     volumes:
-      - ${SSL_STORE}:/var/lib/https-portal
+      - /data/ssl_certs:/var/lib/https-portal
     networks:
       - howtocodewell
     environment:
-      DOMAINS: ${DOMAINS}
-      STAGE: ${SSL_STAGE}
-      FORCE_RENEW: ${FORCE_RENEW}
+      DOMAINS: "howtocodewell.fm -> http://howtocodewell_fm"
+      STAGE: production
+      FORCE_RENEW: 'false'
 
   howtocodewell_fm:
     image: howtocodewell/howtocodewell-fm:latest
@@ -34,8 +34,8 @@ services:
       - .:/var/www/html
       - webserver_cache:/var/www/html/var/cache:Z
       - webserver_logs:/var/www/html/var/log:Z
-      - ./infra/docker/dev/apache/config/vhost.conf:/etc/apache2/sites-available/000-default.conf
-      - ./infra/docker/dev/php/config/php.ini:/usr/local/etc/php/php.ini
+      - ./infra/docker/prod/apache/config/vhost.conf:/etc/apache2/sites-available/000-default.conf
+      - ./infra/docker/prod/php/config/php.ini:/usr/local/etc/php/php.ini
     networks:
       - howtocodewell
     environment:
