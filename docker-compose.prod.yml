@@ -26,7 +26,7 @@ services:
       FORCE_RENEW: ${FORCE_RENEW}
 
   webserver:
-    image: howtocodewell/howtocodewell-fm:lastest
+    image: howtocodewell/howtocodewell-fm:latest
     restart: always
     container_name: webserver
     volumes:
