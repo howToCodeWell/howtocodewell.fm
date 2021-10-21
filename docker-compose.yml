@@ -9,7 +9,7 @@ volumes:
 
 services:
   https-portal:
-    image: steveltn/https-portal:latest
+    image: steveltn/https-portal:1
     ports:
       - '80:80'
       - '443:443'
