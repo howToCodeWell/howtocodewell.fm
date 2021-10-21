@@ -28,7 +28,7 @@ services:
   howtocodewell_fm:
     image: howtocodewell/howtocodewell-fm:latest
     restart: always
-    container_name: webserver
+    container_name: howtocodewell_fm
     volumes:
       - ./temp:/var/www/html/public/.well-known/acme-challenge
       - .:/var/www/html
