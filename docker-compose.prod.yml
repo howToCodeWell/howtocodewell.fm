@@ -14,7 +14,7 @@ services:
       - '80:80'
       - '443:443'
     links:
-      - webserver
+      - howtocodewell_fm
     restart: always
     volumes:
       - ${SSL_STORE}:/var/lib/https-portal
@@ -25,7 +25,7 @@ services:
       STAGE: ${SSL_STAGE}
       FORCE_RENEW: ${FORCE_RENEW}
 
-  webserver:
+  howtocodewell_fm:
     image: howtocodewell/howtocodewell-fm:latest
     restart: always
     container_name: webserver
