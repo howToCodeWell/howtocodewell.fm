@@ -18,13 +18,22 @@ use Symfony\Component\Routing\Annotation\Route;
 class FeedsController extends AbstractController
 {
     #[Route('/rss', name: 'rss')]
-    public function index(string $podcastRSSFeedURL): Response
-    {
+    public function index(
+        string $podcastRSSFeedURL,
+        LoggerInterface $logger
+    ): Response {
         $rssFeed = file_get_contents($podcastRSSFeedURL);
 
-        return new Response($rssFeed, headers:[
-            'Content-Type' => 'text/xml'
-        ]);
+        if ($rssFeed === false) {
+            $logger->error('Cannot read RSS feed: '.$podcastRSSFeedURL, ['FeedsController::rss']);
+            $rssFeed = '';
+        }
+
+        return new Response(
+            $rssFeed, headers: [
+                'Content-Type' => 'text/xml',
+            ]
+        );
     }
 
 }
