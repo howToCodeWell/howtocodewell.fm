@@ -1,5 +1,5 @@
 # Webserver Base
-FROM php:8.0.11-apache-buster as webserver-base
+FROM php:8.0.12-apache-buster as webserver-base
 
 LABEL maintainer="Peter Fisher"
 
@@ -31,7 +31,7 @@ RUN apt-get install -y --no-install-recommends  \
     && docker-php-ext-configure zip \
     && docker-php-ext-install zip
 
-RUN pecl install xdebug-3.0.0 && docker-php-ext-enable xdebug http
+RUN pecl install xdebug-3.1.0 && docker-php-ext-enable xdebug http
 
 FROM howtocodewell/composer:php-8 as composer
 WORKDIR /var/www/html

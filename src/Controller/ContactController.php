@@ -3,7 +3,6 @@
 namespace App\Controller;
 
 use App\Form\FeedbackType;
-use App\Model\Feedback;
 use Exception;
 use Psr\Log\LoggerInterface;
 use Symfony\Bridge\Twig\Mime\TemplatedEmail;
@@ -19,16 +18,14 @@ class ContactController extends AbstractController
 {
     #[Route('/contact', name: 'contact')]
     public function index(
-        Request               $request,
-        MailerInterface       $mailer,
+        Request $request,
+        MailerInterface $mailer,
         ParameterBagInterface $parameterBag,
-        LoggerInterface       $logger
-    ): Response
-    {
+        LoggerInterface $logger
+    ): Response {
+        $form = $this->createForm(FeedbackType::class);
         try {
-            $logger->info('Loading contact form');
-            $feedback = new Feedback();
-            $form = $this->createForm(FeedbackType::class, $feedback);
+
             $form->handleRequest($request);
             $emailTo = $parameterBag->get('email_to');
             if (!is_string($emailTo)) {
@@ -42,6 +39,7 @@ class ContactController extends AbstractController
                 $logger->info('Loading contact form has been submitted');
                 if (!$form->isValid()) {
                     $this->addFlash('error', 'Please try again');
+
                     return $this->render(
                         'contact/index.html.twig',
                         [
@@ -50,25 +48,26 @@ class ContactController extends AbstractController
                     );
                 }
 
+                $data = $form->getData();
                 $email = (new TemplatedEmail())
-                    ->from($feedback->getEmail())
+                    ->from($data['email'])
                     ->to($emailTo)
                     ->subject('New feedback')
                     ->textTemplate('emails/feedback.txt.twig')
-                    ->context([
-                        'feedback' => $feedback
-                    ]);
+                    ->context(
+                        [
+                            'feedback' => $data,
+                        ]
+                    );
 
                 $mailer->send($email);
-                $logger->info('Email has been sent');
-                $feedback = new Feedback();
                 $this->addFlash('success', 'Thank you, your feedback has been submitted');
-                $form = $this->createForm(FeedbackType::class, $feedback);
+                $form = $this->createForm(FeedbackType::class);
             }
         } catch (Exception | TransportExceptionInterface $exception) {
             $this->addFlash('error', 'Please try again');
-            $logger->alert('Error thrown during contact form submission', ['contact_form']);
-            $logger->alert($exception->getMessage(), ['contact_form']);
+            $logger->error('Error thrown during contact form submission', ['contact_form']);
+            $logger->error($exception->getMessage(), ['contact_form']);
         }
 
         return $this->render(
