@@ -27,6 +27,14 @@ PODCAST_FEED_URL='https://anchor.fm/s/2d0cded8/podcast/rss'
 DATABASE_URL="sqlite:///%kernel.project_dir%/var/app.db"
 EMAIL_TO="please@change.me"
 SITE_TITLE="Your Site Title"
+# Change to your mailer config
+MAILER_DSN=null://null
+# This can be local | staging | production
+SSL_STAGE=local 
+SSL_STORE=./infra/docker/dev/ssl_certs
+# Change my-site-name.com to what ever domain you have set in your host file
+DOMAINS="my-site-name.com -> http://webserver"
+FORCE_RENEW='false'
 ```
 
 6) Install all the things
@@ -56,7 +64,7 @@ Add the following entry.  Change `<IP>` with the IP from ` docker-machine ip how
 ```bash
 $ sudo killall -HUP mDNSResponder
 ```
-5) Access the local site [http://howtocodewell-fm.local](http://howtocodewell-fm.local)
+5) Access the local site [https://howtocodewell-fm.local](https://howtocodewell-fm.local) Or use whatever custom domain you have given it
 
 ## Useful Commands
 Build

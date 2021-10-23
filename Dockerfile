@@ -13,6 +13,7 @@ RUN apt-get update --fix-missing \
     && docker-php-ext-configure intl \
     && docker-php-ext-install pdo_mysql intl \
     && a2enmod rewrite \
+    && a2enmod ssl \
     && a2enmod headers
 
 RUN pecl install redis raphf \
