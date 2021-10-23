@@ -3,7 +3,6 @@
 namespace App\Controller;
 
 use App\Form\FeedbackType;
-use App\Model\Feedback;
 use Exception;
 use Psr\Log\LoggerInterface;
 use Symfony\Bridge\Twig\Mime\TemplatedEmail;
@@ -62,8 +61,8 @@ class ContactController extends AbstractController
                     );
 
                 $mailer->send($email);
-                $logger->error('Email has been sent');
                 $this->addFlash('success', 'Thank you, your feedback has been submitted');
+                $form = $this->createForm(FeedbackType::class);
             }
         } catch (Exception | TransportExceptionInterface $exception) {
             $this->addFlash('error', 'Please try again');
