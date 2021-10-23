@@ -16,6 +16,7 @@ services:
     links:
       - webserver
     restart: always
+    container_name: https_portal
     volumes:
       - ${SSL_STORE}:/var/lib/https-portal
     networks:
@@ -40,7 +41,7 @@ services:
       - howtocodewell
     environment:
       - APACHE_DOCUMENT_ROOT=/var/www/html/public
-      - APP_ENV=dev
+      - APP_ENV=prod
 
   node:
     image: node:16
