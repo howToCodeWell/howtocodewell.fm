@@ -26,7 +26,7 @@ jobs:
         with:
           path: ~/.composer/cache/files
           key: dependencies-composer-${{ hashFiles('composer.json') }}
-      - run: composer install --prefer-dist --no-interaction
+      - run: composer install --prefer-dist --no-interaction --optimize-autoloader
       - run: ./vendor/bin/phpstan analyse
 
   unit_tests:
