@@ -16,19 +16,14 @@
     {% endblock %}
 </head>
 <body>
-<header id="pageHeader">
+<header id="pageHeader" class="header">
     <h1 class="logo"><a href="{{ path('home') }}">How To Code Well Podcast</a></h1>
-    <nav>
-        <ul>
-            <li><a href="{{ path('archive', {'page': 1}) }}">Episodes</a></li>
-            <li><a href="{{ path('contact') }}">Contact</a></li>
-        </ul>
-        <div class="nav__icon">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-    </nav>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+        <li><a href="{{ path('archive', {'page': 1}) }}">Episodes</a></li>
+        <li><a href="{{ path('contact') }}">Contact</a></li>
+    </ul>
 </header>
 <article id="mainArticle">{% block body %}{% endblock %}</article>
 <footer id="pageFooter">
