@@ -41,7 +41,7 @@ services:
       - howtocodewell
     environment:
       - APACHE_DOCUMENT_ROOT=/var/www/html/public
-      - APP_ENV=prod
+      - APP_ENV=dev
 
   node:
     image: node:16

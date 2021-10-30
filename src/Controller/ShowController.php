@@ -29,7 +29,7 @@ class ShowController extends AbstractController
     {
         $page = $request->get('page', 1);
         $limit = 10;
-        $pagination = $episodeRepository->findAllOrderedByShowNumber($page, $limit);
+        $pagination = $episodeRepository->paginateAllOrderedByShowNumber($page, $limit);
         return $this->render(
             'show/archive.html.twig',
             [
