@@ -23,7 +23,7 @@ class EpisodeRepository extends ServiceEntityRepository
         parent::__construct($registry, Episode::class);
     }
 
-    public function findAllOrderedByShowNumber(int $page = 1, int $maxResults = 10): Pager
+    public function paginateAllOrderedByShowNumber(int $page = 1, int $maxResults = 10): Pager
     {
         $query = $this->createQueryBuilder('e')
             ->andWhere('e.showNumber IS NOT NULL')
@@ -36,6 +36,16 @@ class EpisodeRepository extends ServiceEntityRepository
 
     }
 
+    public function findAllOrderedByShowNumber():array
+    {
+        return $this->findBy([
+
+        ], [
+            'showNumber' => 'DESC'
+        ]);
+
+    }
+
     public function findLatest(): ?Episode
     {
         return $this->findOneBy([
@@ -43,6 +53,5 @@ class EpisodeRepository extends ServiceEntityRepository
         ], [
             'showNumber' => 'DESC'
         ]);
-
     }
 }
