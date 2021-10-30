@@ -2,7 +2,7 @@
 
 namespace App\Controller;
 
-use App\Sitemap\Generator;
+use App\SiteMap\Generator;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
