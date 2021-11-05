@@ -3,7 +3,7 @@
 {% block title %}{{ show.showNumber }} | {{ show.title }}{% endblock %}
 
 {% block body %}
-    <iframe src="{{ show.link | replace({'https://anchor.fm/howtocodewell/episodes/': 'https://anchor.fm/howtocodewell/embed/episodes/'}) }}" frameborder="0" scrolling="no"></iframe>
+    <iframe src="{{ show.link | replace({'https://anchor.fm/howtocodewell/episodes/': 'https://anchor.fm/howtocodewell/embed/episodes/'}) }}"   height="110px" width="750px" frameborder="0" scrolling="no" class="player"></iframe>
     <div class="example-wrapper">
         <h1>{{ show.title }}</h1>
         {{ show.content  | raw }}
