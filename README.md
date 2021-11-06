@@ -1,27 +1,13 @@
 # How To Code Well Podcast
 
 ## Requirements
-- Docker Machine
+- Docker
 - Docker Compose
 - Make
 
 ### Install
 
-1) Create the Docker machine
-```bash
-$ docker-machine create howtocodewell-fm.local
-```
-
-2) Get the env vars
-```bash
-$ docker-machine env howtocodewell-fm.local
-```
-
-3) Evaluate the env vars to the shell
-```bash
-$ eval $(docker-machine env howtocodewell-fm.local)
-```
-5) Create a .env.local in the root directory with the following variables
+1) Create a .env.local in the root directory with the following variables
 ```bash
 PODCAST_FEED_URL='https://anchor.fm/s/2d0cded8/podcast/rss'
 DATABASE_URL="sqlite:///%kernel.project_dir%/var/app.db"
@@ -32,39 +18,36 @@ MAILER_DSN=null://null
 # This can be local | staging | production
 SSL_STAGE=local 
 SSL_STORE=./infra/docker/dev/ssl_certs
-# Change my-site-name.com to what ever domain you have set in your host file
-DOMAINS="my-site-name.com -> http://webserver"
+# Change howtocodewell-local.fm to what ever domain you have set in your host file
+DOMAINS="howtocodewell-local.fm -> http://webserver"
 FORCE_RENEW='false'
 ```
 
-6) Install all the things
+2) Install all the things
 ```bash
 $ make install
 ```
 
-67) Test the code
+3) Test the code
 ```bash
 $ make test
 ```
 
 ### Run
-1) Get the Docker machine IP
-```bash
-$ docker-machine ip howtocodewell-fm.local
-```
-3) Update the host file. On mac run the following
+
+1) Update the host file. On mac run the following
 ```bash
  sudo nano /etc/hosts
 ```
-Add the following entry.  Change `<IP>` with the IP from ` docker-machine ip howtocodewell-fm.local`
+Add the following entry.
 ```bash
-<IP> howtocodewell-fm.local
+127.0.0.1 howtocodewell-local.fm
 ```
-4) Save the host file.  On mac run the following
+2) Save the host file.  On mac run the following
 ```bash
 $ sudo killall -HUP mDNSResponder
 ```
-5) Access the local site [https://howtocodewell-fm.local](https://howtocodewell-fm.local) Or use whatever custom domain you have given it
+3) Access the local site [https://howtocodewell-local.fm](https://howtocodewell-local.fm) Or use whatever custom domain you have given it
 
 ## Useful Commands
 Build
