@@ -38,7 +38,7 @@ class RssFeedImporterCommand extends Command
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
         $io = new SymfonyStyle($input, $output);
-        $io->info('Getting feed from '.$this->podcastRSSFeedURL);
+        $io->info('Getting feed from ' . $this->podcastRSSFeedURL);
 
         $feed = new DOMDocument();
         $feed->load($this->podcastRSSFeedURL);
@@ -49,7 +49,10 @@ class RssFeedImporterCommand extends Command
             $posts = $channelNodes->getElementsByTagName('item');
         }
         /* @var $post DOMElement */
-        foreach ($posts as $post) {
+        $totalCount = count($posts);
+        foreach ($posts as $key => $post) {
+            $counter = $key + 1;
+            $prefix = '[' . $counter . '/' . $totalCount . '] ';
             try {
                 $title = $post->getElementsByTagName('title')->item(0)->firstChild->nodeValue;
                 $description = $post->getElementsByTagName('description')->item(0)->firstChild->nodeValue;
@@ -61,34 +64,27 @@ class RssFeedImporterCommand extends Command
                 $duration = $post->getElementsByTagNameNS('*', 'duration')->item(0)->nodeValue;
                 $link = $post->getElementsByTagName('link')->item(0)->firstChild->nodeValue;
                 $dateTime = DateTime::createFromFormat(DATE_RSS, $pubDate);
+
+                if ($season === null) {
+                    continue;
+                }
                 if (false === $dateTime instanceof DateTime) {
-                    throw new Exception('Cannot create date from string '.$pubDate);
+                    throw new Exception('Cannot create date from string ' . $pubDate);
                 }
 
                 $knownEpisode = $this->entityManager->getRepository(Episode::class)->findOneBy([
                     'externalId' => $guid
                 ]);
 
-                if($knownEpisode instanceof Episode){
-                    $io->info('Updating episode: '. $showNumber);
+                if ($knownEpisode instanceof Episode) {
+                    $io->info($prefix . 'Updating episode: ' . $showNumber);
                     $episode = $knownEpisode;
                 } else {
-                    $io->info('Creating new episode: '. $showNumber);
+                    $io->info($prefix . 'Creating new episode: ' . $showNumber);
                     $episode = new Episode();
                 }
 
-                $io->info(
-                    [
-                        'Processing '.$guid,
-                        'Episode: '.$showNumber,
-                        'Season: '.$season,
-                        'Duration: '.$duration,
-                        'Title: '.$title,
-                        'Published Date: '.$dateTime->format('d/m/Y H:m:s'),
-                        'File URL: '.$fileURL,
-                        'Link: '. $link,
-                    ]
-                );
+                $io->info($prefix . 'Processing ' . $showNumber . ' ' . $title);
 
                 $episode->setExternalId($guid);
                 $episode->setSeason($season);
@@ -102,9 +98,16 @@ class RssFeedImporterCommand extends Command
 
                 $this->entityManager->persist($episode);
                 $this->entityManager->flush();
+                $io->info($prefix . 'Done');
             } catch (Exception $exception) {
-                $io->error($exception->getMessage());
-                $io->error('SKIPPING');
+                $errorShowNumber = (!empty($showNumber)) ? $showNumber : '';
+                $errorTitle = (!empty($title)) ? $title : '';
+
+                $io->error([
+                    $prefix . $exception->getMessage(),
+                    $prefix . 'Show Number: ' . $errorShowNumber,
+                    $prefix . 'Title: ' . $errorTitle
+                ]);
             }
         }
 
