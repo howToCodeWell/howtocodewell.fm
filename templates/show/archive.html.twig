@@ -6,15 +6,22 @@
 
     <div class="list">
         <h1>Episodes</h1>
-        {% for show in pagination %}
-            <div class="list-item">
-                <h3><a href="{{ path('show', { show: show.showNumber }) }}">{{ show.title }}</a>
-                </h3>
-                <p>{{ show.publishedDate | date('F jS, Y') }} | {{ show.duration |date('H:i:s', '+00:00 GMT') }}</p>
-            </div>
-        {% endfor %}
+        {% if pagination.count > 0 %}
+            {% for show in pagination %}
+                <div class="list-item">
+                    <h3><a href="{{ path('show', { show: show.showNumber }) }}">{{ show.title }}</a>
+                    </h3>
+                    <p>{{ show.publishedDate | date('F jS, Y') }} | {{ show.duration |date('H:i:s', '+00:00 GMT') }}</p>
+                </div>
+            {% endfor %}
+        {% else %}
+            <p>No episodes found that match your query.</p>
+            <p>Please check the <a href="{{ path('archive') }}">episodes archive</a></p>
+        {% endif %}
     </div>
-    <div class="pagination-container">
-        {{ knp_pagination_render(pagination) }}
-    </div>
+    {% if pagination.count > 0 %}
+        <div class="pagination-container">
+            {{ knp_pagination_render(pagination) }}
+        </div>
+    {% endif %}
 {% endblock %}
